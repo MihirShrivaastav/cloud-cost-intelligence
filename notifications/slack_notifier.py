@@ -8,17 +8,7 @@ load_dotenv()
 
 
 def format_slack_message(report: dict) -> dict:
-    """
-    Format the report dict into a Slack Block Kit message.
 
-    Why Block Kit (not plain text)?
-    Block Kit is Slack's structured message format — it produces
-    clean, readable cards with bold headers, dividers, and emoji.
-    Plain text messages look unprofessional and are harder to scan.
-    This is exactly what real alerting tools like PagerDuty send.
-
-    Returns a dict ready to POST to the Slack webhook.
-    """
     total = report["total_spend_usd"]
     spike_count = report["daily_spike_count"]
     generated = report["generated_at"][:10]
@@ -62,8 +52,7 @@ def format_slack_message(report: dict) -> dict:
     })
 
     # ── Top 3 cost drivers ────────────────────────────────────
-    # Why show top 3? Because 80% of AWS bills come from 2-3 services.
-    # Knowing which ones helps engineers prioritize optimization work.
+
     top3_lines = "\n".join(
         [f"• *{svc}*: ${cost:,.2f}" for svc, cost in report["top_3_cost_drivers"]]
     )
@@ -110,9 +99,7 @@ def format_slack_message(report: dict) -> dict:
     blocks.append({"type": "divider"})
 
     # ── Savings recommendations ───────────────────────────────
-    # Simple rule-based suggestions based on top cost drivers.
-    # In a real system these would be more sophisticated (Reserved
-    # Instance recommendations, Savings Plans analysis, etc.)
+
     recommendations = _generate_recommendations(report["top_3_cost_drivers"])
     rec_lines = "\n".join([f"💡 {r}" for r in recommendations])
 
@@ -140,15 +127,7 @@ def format_slack_message(report: dict) -> dict:
 
 
 def _generate_recommendations(top3: list) -> list:
-    """
-    Generate simple savings recommendations based on top cost drivers.
 
-    Why hardcoded rules?
-    For a portfolio project, rule-based recommendations demonstrate
-    domain knowledge (FinOps) without needing ML. In interviews you
-    can say 'I kept it rule-based for v1 and planned to add ML-based
-    rightsizing recommendations in v2' — shows product thinking.
-    """
     recommendations = []
     service_tips = {
         "Amazon EC2": "Review EC2 instance sizes — consider Reserved Instances "
@@ -181,14 +160,7 @@ def _generate_recommendations(top3: list) -> list:
 
 
 def send_slack_notification(report: dict) -> bool:
-    """
-    Send the formatted report to Slack via webhook.
 
-    Returns True on success, False on failure.
-    Why return a bool? The Lambda handler checks this return value
-    to decide whether to retry. Raising exceptions in Lambda
-    triggers automatic retries which can spam Slack.
-    """
     webhook_url = os.getenv("SLACK_WEBHOOK_URL")
 
     if not webhook_url:

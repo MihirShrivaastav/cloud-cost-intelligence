@@ -1,14 +1,11 @@
 import sys
 import os
-# Auto-generate mock data if it doesn't exist.
-# Why? On Streamlit Cloud the data/ folder doesn't exist
-# (it's in .gitignore). This ensures the app always has
-# data to display regardless of environment.
 
-if not os.path.exists("data/raw_costs.json"):
+
+if not os.path.exists("data/raw_costs.json"):           # Auto-generate mock data if it doesn't exist.
     from ingestion.mock_data import save_mock_data
     save_mock_data()
-    
+
 sys.path.append(os.path.join(os.path.dirname(__file__), ".."))
 
 import streamlit as st
@@ -18,9 +15,7 @@ import pandas as pd
 from analysis.analyzer import generate_report
 
 # ── Page config ───────────────────────────────────────────────
-# This must be the FIRST Streamlit call in the script.
-# Sets the browser tab title, icon, and layout width.
-# "wide" layout uses full browser width — better for dashboards.
+
 st.set_page_config(
     page_title="Cloud Cost Intelligence",
     page_icon="☁️",
@@ -29,11 +24,7 @@ st.set_page_config(
 )
 
 # ── Custom CSS ────────────────────────────────────────────────
-# Why custom CSS?
-# Streamlit's default styling is functional but plain.
-# A few targeted overrides make it look like a real product —
-# this is the difference between a "student project" and a
-# "portfolio piece" in a recruiter's eyes.
+
 st.markdown("""
 <style>
     .main { background-color: #0e1117; }
@@ -101,12 +92,7 @@ st.markdown("""
 
 
 # ── Data loading with caching ─────────────────────────────────
-# @st.cache_data tells Streamlit to cache this function's output.
-# Why? Without caching, the full analysis pipeline re-runs on
-# EVERY user interaction (every click, every filter change).
-# With caching, it runs once and reuses the result — making the
-# dashboard feel instant instead of slow.
-# ttl=300 means cache expires after 5 minutes (refreshes data).
+
 @st.cache_data(ttl=300)
 def load_report():
     return generate_report()
@@ -131,10 +117,7 @@ all_services = sorted(weekly_df["service"].unique().tolist())
 
 
 # ── Sidebar ───────────────────────────────────────────────────
-# Why a sidebar?
-# Filters in a sidebar keep the main content area clean.
-# It also shows Streamlit UI competency — sidebars are a
-# standard dashboard pattern used in Tableau, PowerBI, etc.
+
 with st.sidebar:
     st.markdown("## ☁️ Cloud Cost Intelligence")
     st.markdown("---")
@@ -183,8 +166,7 @@ st.markdown("---")
 
 
 # ── KPI metric row ────────────────────────────────────────────
-# Four key numbers at the top — standard dashboard pattern.
-# Recruiters immediately see the "so what" of the project.
+
 col1, col2, col3, col4 = st.columns(4)
 
 with col1:
@@ -222,10 +204,7 @@ filtered_df = weekly_df[weekly_df["service"].isin(selected_services)]
 
 
 # ── Chart 1: Total spend trend over time ─────────────────────
-# Why this chart first?
-# It answers the first question anyone asks: "is my bill going
-# up or down over time?" A line chart makes the trend immediately
-# obvious. This is the most executive-friendly visualization.
+
 st.markdown('<p class="section-header">📈 Weekly Spend Trend</p>',
             unsafe_allow_html=True)
 
@@ -261,10 +240,7 @@ st.plotly_chart(fig_trend, use_container_width=True)
 
 
 # ── Chart 2: Per-service breakdown ───────────────────────────
-# Why a stacked bar chart?
-# It shows both the total bill AND the contribution of each service
-# in the same view. A recruiter can instantly see "EC2 dominates
-# the bill" — which is true for most real AWS accounts.
+
 st.markdown('<p class="section-header">📊 Spend by Service (Weekly)</p>',
             unsafe_allow_html=True)
 
@@ -299,10 +275,7 @@ col_left, col_right = st.columns([1.2, 0.8])
 
 with col_left:
     # ── Chart 3: Anomaly timeline ─────────────────────────────
-    # Why a scatter plot with daily data?
-    # It shows exactly WHEN spikes happened — engineers need the
-    # date to pull logs, check deployments, correlate with incidents.
-    # Color by severity makes P1s immediately stand out in red.
+
     st.markdown('<p class="section-header">🔍 Anomaly Timeline</p>',
                 unsafe_allow_html=True)
 
@@ -338,10 +311,7 @@ with col_left:
 
 with col_right:
     # ── Chart 4: Service cost share pie ──────────────────────
-    # Why a pie chart here?
-    # Pie charts are controversial in data viz, but for showing
-    # cost share / proportion they are the clearest format.
-    # It immediately answers "what % of my bill is EC2?"
+
     st.markdown('<p class="section-header">🥧 Cost Distribution</p>',
                 unsafe_allow_html=True)
 
@@ -380,10 +350,7 @@ st.markdown("---")
 
 
 # ── Anomaly detail cards ──────────────────────────────────────
-# Why render anomalies as HTML cards and not a table?
-# Color-coded cards with severity borders are much faster to scan
-# than a plain dataframe — the human eye immediately goes to red.
-# This is how PagerDuty, Datadog, and Grafana render alerts.
+
 st.markdown('<p class="section-header">🚨 Anomaly Detail</p>',
             unsafe_allow_html=True)
 

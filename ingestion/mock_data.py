@@ -4,10 +4,6 @@ from datetime import datetime, timedelta
 import json
 import os
 
-# These are the AWS services we simulate costs for.
-# Chosen because they are the most common cost drivers
-# in real AWS accounts — EC2 and S3 alone typically
-# account for 60-70% of a typical bill.
 AWS_SERVICES = [
     "Amazon EC2",
     "Amazon S3",
@@ -18,9 +14,6 @@ AWS_SERVICES = [
     "AWS Data Transfer",
 ]
 
-# Realistic baseline daily costs (USD) per service.
-# These reflect what a small-to-medium workload
-# actually costs — not too high, not zero.
 BASELINE_COSTS = {
     "Amazon EC2":        18.0,
     "Amazon S3":          3.5,
@@ -34,12 +27,7 @@ BASELINE_COSTS = {
 
 def generate_mock_cost_data(days: int = 90) -> pd.DataFrame:
     """
-    Generate 90 days of realistic daily AWS cost data per service.
-
-    Why 90 days?
-    The anomaly detector needs enough historical data to calculate
-    a reliable rolling average and standard deviation. Less than
-    30 days gives noisy baselines; 90 days gives stable ones.
+    Generate 90 days of realistic daily AWS cost data per service
 
     Returns a DataFrame with columns:
         date       - the calendar date
@@ -101,14 +89,6 @@ def save_mock_data(output_path: str = "data/raw_costs.json"):
     """
     Save the mock data to a local JSON file.
 
-    Why JSON? Because the real AWS Cost Explorer API also returns
-    JSON. By saving mock data in the same format, the rest of the
-    pipeline doesn't need to change when we switch to real data.
-
-    Why save to disk at all? So the analysis module can read it
-    independently without re-generating every time. This mirrors
-    how the real Lambda function would write to S3 and the
-    analysis Lambda would read from S3.
     """
     os.makedirs(os.path.dirname(output_path), exist_ok=True)
     df = generate_mock_cost_data()
@@ -131,7 +111,6 @@ def save_mock_data(output_path: str = "data/raw_costs.json"):
 
 if __name__ == "__main__":
     # Running this file directly generates and saves the mock data.
-    # You'll run this once at the start of each dev session.
     df = save_mock_data()
     print("\nSample data (last 5 rows):")
     print(df.tail())
