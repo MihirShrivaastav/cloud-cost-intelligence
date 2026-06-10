@@ -4,10 +4,6 @@ import requests
 from datetime import datetime
 from dotenv import load_dotenv
 
-# Load .env so SLACK_WEBHOOK_URL is available as an environment variable.
-# Why .env and not hardcoding? Security — webhook URLs are secrets.
-# If you hardcode and push to GitHub, anyone can spam your Slack.
-# .env is in .gitignore so it never gets committed.
 load_dotenv()
 
 
