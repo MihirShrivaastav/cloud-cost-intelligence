@@ -1,5 +1,14 @@
 import sys
 import os
+# Auto-generate mock data if it doesn't exist.
+# Why? On Streamlit Cloud the data/ folder doesn't exist
+# (it's in .gitignore). This ensures the app always has
+# data to display regardless of environment.
+
+if not os.path.exists("data/raw_costs.json"):
+    from ingestion.mock_data import save_mock_data
+    save_mock_data()
+    
 sys.path.append(os.path.join(os.path.dirname(__file__), ".."))
 
 import streamlit as st
