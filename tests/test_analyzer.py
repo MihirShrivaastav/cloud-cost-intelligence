@@ -16,11 +16,6 @@ from analysis.analyzer import (
 
 
 # ── Fixtures ──────────────────────────────────────────────────
-# Why fixtures?
-# Fixtures are reusable test data setup. Instead of regenerating
-# the DataFrame in every test, pytest runs the fixture once and
-# passes it in. This keeps tests fast and DRY (Don't Repeat Yourself).
-# This is standard practice in production Python test suites.
 
 @pytest.fixture
 def raw_df():
@@ -43,15 +38,6 @@ def full_report():
 # ── Ingestion tests ───────────────────────────────────────────
 
 class TestMockDataGeneration:
-    """
-    Tests for ingestion/mock_data.py
-
-    Why test mock data?
-    Every downstream module depends on this data having the right
-    shape and values. If this breaks silently, every other module
-    produces wrong results with no obvious error. These tests act
-    as a contract — "this is the shape the rest of the system expects."
-    """
 
     def test_returns_dataframe(self, raw_df):
         assert isinstance(raw_df, pd.DataFrame)
@@ -99,14 +85,6 @@ class TestMockDataGeneration:
 # ── Analysis tests ────────────────────────────────────────────
 
 class TestWeeklyAggregation:
-    """
-    Tests for compute_weekly_totals()
-
-    Why test aggregation separately?
-    If weekly totals are wrong, every downstream analysis is wrong.
-    Isolating this test means when something breaks we know exactly
-    which layer failed — a core principle of unit testing.
-    """
 
     def test_returns_dataframe(self, weekly_df):
         assert isinstance(weekly_df, pd.DataFrame)
@@ -122,20 +100,13 @@ class TestWeeklyAggregation:
         assert weekly_df["service"].nunique() == 7
 
     def test_incomplete_week_is_dropped(self, weekly_df):
-        """
-        The current (incomplete) week must be excluded.
-        We verify by checking that all weeks have reasonable cost
-        totals — an incomplete week would show unusually low cost.
-        """
+
         min_weekly = weekly_df["weekly_cost"].min()
         # Minimum weekly cost should be > 0 for any service
         assert min_weekly > 0
 
     def test_weekly_cost_greater_than_daily_average(self, raw_df, weekly_df):
-        """
-        Weekly total per service should be roughly 7x daily average.
-        This catches off-by-one errors in the aggregation window.
-        """
+
         daily_avg = raw_df.groupby("service")["cost_usd"].mean()
         weekly_avg = weekly_df.groupby("service")["weekly_cost"].mean()
 
@@ -148,24 +119,14 @@ class TestWeeklyAggregation:
 
 
 class TestDailySpikeDetection:
-    """
-    Tests for detect_daily_spikes()
-
-    The most important tests in the suite — they verify the core
-    value proposition of the entire project. If anomaly detection
-    doesn't catch real spikes, the project has no business value.
-    """
+    
 
     def test_returns_dataframe(self, raw_df):
         result = detect_daily_spikes(raw_df)
         assert isinstance(result, pd.DataFrame)
 
     def test_detects_all_three_planted_spikes(self, raw_df):
-        """
-        This is the ground truth test — we KNOW there are 3 planted
-        spikes, so the detector must find all 3. If this fails,
-        the detection algorithm has a bug.
-        """
+
         spikes = detect_daily_spikes(raw_df)
         # Check that all 3 planted anomaly rows were caught
         caught_planted = spikes[spikes["is_anomaly"] == True]
@@ -245,15 +206,7 @@ class TestWeeklyAnomalyDetection:
 # ── Report generation tests ───────────────────────────────────
 
 class TestGenerateReport:
-    """
-    Integration tests for generate_report()
 
-    Why integration tests on top of unit tests?
-    Unit tests verify each function in isolation. Integration tests
-    verify the full pipeline works end-to-end — that all modules
-    connect correctly and the output contract is correct.
-    The Slack notifier and dashboard both depend on this contract.
-    """
 
     def test_returns_dict(self, full_report):
         assert isinstance(full_report, dict)
@@ -291,9 +244,5 @@ class TestGenerateReport:
         assert isinstance(full_report["generated_at"], str)
 
     def test_total_spend_reasonable_range(self, full_report):
-        """
-        90 days of simulated spend should be between $2,000 and $6,000.
-        This catches baseline cost constant changes that would silently
-        break the savings recommendation calculations.
-        """
+
         assert 2000 <= full_report["total_spend_usd"] <= 6000
