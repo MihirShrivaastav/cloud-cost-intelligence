@@ -218,10 +218,16 @@ def generate_report(filepath: str = "data/raw_costs.json") -> dict:
         "top_3_cost_drivers": list(spend_by_service.items())[:3],
         "weekly_anomaly_count": len(weekly_anomalies),
         "daily_spike_count": len(daily_spikes),
-        "weekly_anomalies": weekly_anomalies.to_dict(orient="records")
-            if not weekly_anomalies.empty else [],
-        "daily_spikes": daily_spikes.to_dict(orient="records")
-            if not daily_spikes.empty else [],
+        "weekly_anomalies": (
+            weekly_anomalies.to_dict(orient="records")
+            if not weekly_anomalies.empty
+            else []
+        ),
+        "daily_spikes": (
+            daily_spikes.to_dict(orient="records")
+            if not daily_spikes.empty
+            else []
+        ),
         "weekly_data": weekly.to_dict(orient="records"),
     }
 

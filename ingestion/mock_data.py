@@ -103,7 +103,8 @@ def save_mock_data(output_path: str = "data/raw_costs.json"):
 
     print(f"Mock data saved to {output_path}")
     print(f"Total records: {len(records)}")
-    print(f"Date range: {df['date'].min().date()} to {df['date'].max().date()}")
+    print(f"Date range: {
+        df['date'].min().date()} to {df['date'].max().date()}")
     print(f"Services: {df['service'].nunique()}")
     print(f"Planted anomalies: {df['is_anomaly'].sum()}")
     return df

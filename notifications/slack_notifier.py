@@ -1,7 +1,7 @@
 import os
 import json
 import requests
-from datetime import datetime
+# from datetime import datetime
 from dotenv import load_dotenv
 
 load_dotenv()
@@ -54,7 +54,8 @@ def format_slack_message(report: dict) -> dict:
     # ── Top 3 cost drivers ────────────────────────────────────
 
     top3_lines = "\n".join(
-        [f"• *{svc}*: ${cost:,.2f}" for svc, cost in report["top_3_cost_drivers"]]
+        [f"• *{svc}*: ${cost:,.2f}" for svc, cost in report[
+            "top_3_cost_drivers"]]
     )
     blocks.append({
         "type": "section",
@@ -130,20 +131,34 @@ def _generate_recommendations(top3: list) -> list:
 
     recommendations = []
     service_tips = {
-        "Amazon EC2": "Review EC2 instance sizes — consider Reserved Instances "
-                      "for steady workloads (up to 72% savings).",
-        "Amazon RDS": "Check RDS instance class and consider Aurora Serverless "
-                      "for variable workloads.",
-        "Amazon S3":  "Enable S3 Intelligent-Tiering for infrequently accessed "
-                      "data (up to 40% storage savings).",
-        "AWS Data Transfer": "Review cross-region data transfer — "
-                             "use VPC endpoints to reduce egress costs.",
-        "Amazon CloudFront": "Audit CloudFront distributions — "
-                             "remove unused distributions and optimize cache TTLs.",
-        "Amazon DynamoDB": "Switch to DynamoDB on-demand pricing if traffic "
-                           "is unpredictable.",
-        "AWS Lambda":  "Review Lambda memory allocation — "
-                       "right-sizing memory often reduces both cost and duration.",
+        "Amazon EC2": (
+            "Review EC2 instance sizes — consider Reserved "
+            "Instances for steady workloads (up to 72% savings)."
+        ),
+        "Amazon RDS": (
+            "Check RDS instance class and consider Aurora "
+            "Serverless for variable workloads."
+        ),
+        "Amazon S3": (
+            "Enable S3 Intelligent-Tiering for infrequently "
+            "accessed data (up to 40% storage savings)."
+        ),
+        "AWS Data Transfer": (
+            "Review cross-region data transfer — use VPC "
+            "endpoints to reduce egress costs."
+        ),
+        "Amazon CloudFront": (
+            "Audit CloudFront distributions — remove unused "
+            "distributions and optimize cache TTLs."
+        ),
+        "Amazon DynamoDB": (
+            "Switch to DynamoDB on-demand pricing if traffic "
+            "is unpredictable."
+        ),
+        "AWS Lambda": (
+            "Review Lambda memory allocation — right-sizing "
+            "memory often reduces both cost and duration."
+        ),
     }
 
     for svc, _ in top3:
@@ -181,7 +196,8 @@ def send_slack_notification(report: dict) -> bool:
             print("✅ Slack notification sent successfully")
             return True
         else:
-            print(f"❌ Slack returned status {response.status_code}: {response.text}")
+            print(f"❌ Slack returned status {
+                response.status_code}: {response.text}")
             return False
 
     except requests.exceptions.RequestException as e:

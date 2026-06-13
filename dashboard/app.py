@@ -2,17 +2,19 @@ import sys
 import os
 
 
-if not os.path.exists("data/raw_costs.json"):           # Auto-generate mock data if it doesn't exist.
-    from ingestion.mock_data import save_mock_data
-    save_mock_data()
-
-sys.path.append(os.path.join(os.path.dirname(__file__), ".."))
-
 import streamlit as st
 import plotly.express as px
-import plotly.graph_objects as go
 import pandas as pd
+
 from analysis.analyzer import generate_report
+from ingestion.mock_data import save_mock_data
+
+
+sys.path.append(
+    os.path.join(os.path.dirname(__file__), "..")
+)
+if not os.path.exists("data/raw_costs.json"):
+    save_mock_data()
 
 # ── Page config ───────────────────────────────────────────────
 
@@ -249,7 +251,9 @@ fig_bar = px.bar(
     x="week_start",
     y="weekly_cost",
     color="service",
-    labels={"week_start": "Week", "weekly_cost": "Cost (USD)", "service": "Service"},
+    labels={
+        "week_start": "Week", "weekly_cost": "Cost (USD)", "service": "Service"
+        },
     template="plotly_dark",
     color_discrete_sequence=px.colors.qualitative.Set2,
 )
@@ -365,17 +369,20 @@ if all_anomalies:
 
     for anomaly in p1:
         st.markdown(
-            f'<div class="anomaly-p1">🔴 <strong>P1</strong> — {anomaly["summary"]}</div>',
+            f'<div class="anomaly-p1">🔴 <strong>P1</strong> — {
+                anomaly["summary"]}</div>',
             unsafe_allow_html=True,
         )
     for anomaly in p2:
         st.markdown(
-            f'<div class="anomaly-p2">🟡 <strong>P2</strong> — {anomaly["summary"]}</div>',
+            f'<div class="anomaly-p2">🟡 <strong>P2</strong> — {
+                anomaly["summary"]}</div>',
             unsafe_allow_html=True,
         )
     for anomaly in p3:
         st.markdown(
-            f'<div class="anomaly-p3">🟢 <strong>P3</strong> — {anomaly["summary"]}</div>',
+            f'<div class="anomaly-p3">🟢 <strong>P3</strong> — {
+                anomaly["summary"]}</div>',
             unsafe_allow_html=True,
         )
 else:
@@ -395,7 +402,8 @@ service_tips = {
          "workloads save up to 72%.", "$200–400/mo potential saving"),
     "Amazon RDS":
         ("Consider Aurora Serverless for variable workloads or "
-         "right-size your RDS instance class.", "$100–250/mo potential saving"),
+         "right-size your RDS instance class.",
+         "$100–250/mo potential saving"),
     "Amazon S3":
         ("Enable S3 Intelligent-Tiering for infrequently accessed "
          "data.", "$20–80/mo potential saving"),
@@ -410,7 +418,8 @@ service_tips = {
          "$15–60/mo potential saving"),
     "AWS Lambda":
         ("Right-size Lambda memory allocation — less memory often "
-         "means lower cost and similar duration.", "$5–30/mo potential saving"),
+         "means lower cost and similar duration.",
+         "$5–30/mo potential saving"),
 }
 
 rec_cols = st.columns(3)
