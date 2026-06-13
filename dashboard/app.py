@@ -374,14 +374,14 @@ if all_anomalies:
         )
     for anomaly in p2:
         st.markdown(
-            f'<div class="anomaly-p2">🟡 <strong>P2</strong> — {
-                anomaly["summary"]}</div>',
+            f'<div class="anomaly-p2">🟡 <strong>P2</strong> — '
+            f'{anomaly["summary"]}</div>',
             unsafe_allow_html=True,
         )
     for anomaly in p3:
         st.markdown(
-            f'<div class="anomaly-p3">🟢 <strong>P3</strong> — {
-                anomaly["summary"]}</div>',
+            f'<div class="anomaly-p3">🟢 <strong>P3</strong> — '
+            f'{anomaly["summary"]}</div>',
             unsafe_allow_html=True,
         )
 else:
