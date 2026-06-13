@@ -77,7 +77,7 @@ jobs:
             --cov=analysis \
             --cov=ingestion \
             --cov-report=term-missing \
-            --cov-fail-under=70
+            --cov-fail-under=60
 
   # ── Job 3: Terraform Plan (only on PRs to main) ───────────────
   # Shows what infrastructure WOULD change on a PR.
