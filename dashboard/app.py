@@ -366,11 +366,10 @@ if all_anomalies:
           and a["service"] in selected_services]
     p3 = [a for a in all_anomalies if a["severity"] == "P3"
           and a["service"] in selected_services]
-
     for anomaly in p1:
         st.markdown(
-            f'<div class="anomaly-p1">🔴 <strong>P1</strong> — {
-                anomaly["summary"]}</div>',
+            f'<div class="anomaly-p1">🔴 <strong>P1</strong> — '
+            f'{anomaly["summary"]}</div>',
             unsafe_allow_html=True,
         )
     for anomaly in p2:

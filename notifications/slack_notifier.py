@@ -196,8 +196,10 @@ def send_slack_notification(report: dict) -> bool:
             print("✅ Slack notification sent successfully")
             return True
         else:
-            print(f"❌ Slack returned status {
-                response.status_code}: {response.text}")
+            print(
+                f"❌ Slack returned status "
+                f"{response.status_code}: {response.text}"
+            )
             return False
 
     except requests.exceptions.RequestException as e:
