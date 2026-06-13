@@ -108,7 +108,7 @@ def detect_weekly_anomalies(weekly: pd.DataFrame) -> pd.DataFrame:
         summaries.append(
             f"{row['service']}: ${row['weekly_cost']:.2f} week of "
             f"{str(row['week_start'])[:10]} "
-            f"(+{row['wow_delta_pct']*100:.1f}% WoW) "
+            f"( + {row['wow_delta_pct'] * 100:.1f} % WoW) "
             f"[{row['severity']}]"
         )
     anomalies["summary"] = summaries

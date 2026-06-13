@@ -15,13 +15,13 @@ AWS_SERVICES = [
 ]
 
 BASELINE_COSTS = {
-    "Amazon EC2":        18.0,
-    "Amazon S3":          3.5,
-    "Amazon RDS":        12.0,
-    "AWS Lambda":         0.8,
-    "Amazon CloudFront":  2.2,
-    "Amazon DynamoDB":    1.5,
-    "AWS Data Transfer":  4.0,
+    "Amazon EC2": 18.0,
+    "Amazon S3": 3.5,
+    "Amazon RDS": 12.0,
+    "AWS Lambda": 0.8,
+    "Amazon CloudFront": 2.2,
+    "Amazon DynamoDB": 1.5,
+    "AWS Data Transfer": 4.0,
 }
 
 
