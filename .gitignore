@@ -4,3 +4,9 @@ __pycache__/
 *.pyc
 .vscode/
 data/
+infra/terraform.tfvars
+infra/lambda.zip
+infra/lambda_package/
+infra/.terraform/
+infra/*.tfstate
+infra/*.tfstate.backup
