@@ -1,6 +1,8 @@
 import sys
 import os
-
+sys.path.append(
+    os.path.join(os.path.dirname(__file__), "..")
+)
 
 import streamlit as st
 import plotly.express as px
@@ -10,9 +12,7 @@ from analysis.analyzer import generate_report
 from ingestion.mock_data import save_mock_data
 
 
-sys.path.append(
-    os.path.join(os.path.dirname(__file__), "..")
-)
+
 if not os.path.exists("data/raw_costs.json"):
     save_mock_data()
 
@@ -386,7 +386,6 @@ if all_anomalies:
         )
 else:
     st.success("✅ No anomalies detected.")
-
 
 st.markdown("---")
 

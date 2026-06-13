@@ -1,3782 +1,3782 @@
 [
   {
-    "date": "2026-03-11",
+    "date": "2026-03-16",
     "service": "AWS Data Transfer",
     "cost_usd": 4.2674,
     "is_anomaly": false
   },
   {
-    "date": "2026-03-11",
+    "date": "2026-03-16",
     "service": "AWS Lambda",
     "cost_usd": 0.8922,
     "is_anomaly": false
   },
   {
-    "date": "2026-03-11",
+    "date": "2026-03-16",
     "service": "Amazon CloudFront",
     "cost_usd": 2.2914,
     "is_anomaly": false
   },
   {
-    "date": "2026-03-11",
+    "date": "2026-03-16",
     "service": "Amazon DynamoDB",
     "cost_usd": 1.4925,
     "is_anomaly": false
   },
   {
-    "date": "2026-03-11",
+    "date": "2026-03-16",
     "service": "Amazon EC2",
     "cost_usd": 18.7153,
     "is_anomaly": false
   },
   {
-    "date": "2026-03-11",
+    "date": "2026-03-16",
     "service": "Amazon RDS",
     "cost_usd": 12.6006,
     "is_anomaly": false
   },
   {
-    "date": "2026-03-11",
+    "date": "2026-03-16",
     "service": "Amazon S3",
     "cost_usd": 3.5272,
     "is_anomaly": false
   },
   {
-    "date": "2026-03-12",
+    "date": "2026-03-17",
     "service": "AWS Data Transfer",
     "cost_usd": 3.6385,
     "is_anomaly": false
   },
   {
-    "date": "2026-03-12",
+    "date": "2026-03-17",
     "service": "AWS Lambda",
     "cost_usd": 0.7081,
     "is_anomaly": false
   },
   {
-    "date": "2026-03-12",
+    "date": "2026-03-17",
     "service": "Amazon CloudFront",
     "cost_usd": 2.4698,
     "is_anomaly": false
   },
   {
-    "date": "2026-03-12",
+    "date": "2026-03-17",
     "service": "Amazon DynamoDB",
     "cost_usd": 1.6146,
     "is_anomaly": false
   },
   {
-    "date": "2026-03-12",
+    "date": "2026-03-17",
     "service": "Amazon EC2",
     "cost_usd": 17.8009,
     "is_anomaly": false
   },
   {
-    "date": "2026-03-12",
+    "date": "2026-03-17",
     "service": "Amazon RDS",
     "cost_usd": 11.1771,
     "is_anomaly": false
   },
   {
-    "date": "2026-03-12",
+    "date": "2026-03-17",
     "service": "Amazon S3",
     "cost_usd": 3.7712,
     "is_anomaly": false
   },
   {
-    "date": "2026-03-13",
+    "date": "2026-03-18",
     "service": "AWS Data Transfer",
     "cost_usd": 4.1695,
     "is_anomaly": false
   },
   {
-    "date": "2026-03-13",
+    "date": "2026-03-18",
     "service": "AWS Lambda",
     "cost_usd": 0.8744,
     "is_anomaly": false
   },
   {
-    "date": "2026-03-13",
+    "date": "2026-03-18",
     "service": "Amazon CloudFront",
     "cost_usd": 2.1809,
     "is_anomaly": false
   },
   {
-    "date": "2026-03-13",
+    "date": "2026-03-18",
     "service": "Amazon DynamoDB",
     "cost_usd": 1.3817,
     "is_anomaly": false
   },
   {
-    "date": "2026-03-13",
+    "date": "2026-03-18",
     "service": "Amazon EC2",
     "cost_usd": 18.9327,
     "is_anomaly": false
   },
   {
-    "date": "2026-03-13",
+    "date": "2026-03-18",
     "service": "Amazon RDS",
     "cost_usd": 10.9719,
     "is_anomaly": false
   },
   {
-    "date": "2026-03-13",
+    "date": "2026-03-18",
     "service": "Amazon S3",
     "cost_usd": 3.3034,
     "is_anomaly": false
   },
   {
-    "date": "2026-03-14",
+    "date": "2026-03-19",
     "service": "AWS Data Transfer",
-    "cost_usd": 3.7921,
+    "cost_usd": 4.4613,
     "is_anomaly": false
   },
   {
-    "date": "2026-03-14",
+    "date": "2026-03-19",
     "service": "AWS Lambda",
-    "cost_usd": 0.6806,
+    "cost_usd": 0.8007,
     "is_anomaly": false
   },
   {
-    "date": "2026-03-14",
+    "date": "2026-03-19",
     "service": "Amazon CloudFront",
-    "cost_usd": 1.9301,
+    "cost_usd": 2.2707,
     "is_anomaly": false
   },
   {
-    "date": "2026-03-14",
+    "date": "2026-03-19",
     "service": "Amazon DynamoDB",
-    "cost_usd": 1.3264,
+    "cost_usd": 1.5605,
     "is_anomaly": false
   },
   {
-    "date": "2026-03-14",
+    "date": "2026-03-19",
     "service": "Amazon EC2",
-    "cost_usd": 17.1642,
+    "cost_usd": 20.1932,
     "is_anomaly": false
   },
   {
-    "date": "2026-03-14",
+    "date": "2026-03-19",
     "service": "Amazon RDS",
-    "cost_usd": 10.5937,
+    "cost_usd": 12.4632,
     "is_anomaly": false
   },
   {
-    "date": "2026-03-14",
+    "date": "2026-03-19",
     "service": "Amazon S3",
-    "cost_usd": 2.897,
+    "cost_usd": 3.4083,
     "is_anomaly": false
   },
   {
-    "date": "2026-03-15",
+    "date": "2026-03-20",
     "service": "AWS Data Transfer",
-    "cost_usd": 2.7277,
+    "cost_usd": 3.2091,
     "is_anomaly": false
   },
   {
-    "date": "2026-03-15",
+    "date": "2026-03-20",
     "service": "AWS Lambda",
-    "cost_usd": 0.6266,
+    "cost_usd": 0.7372,
     "is_anomaly": false
   },
   {
-    "date": "2026-03-15",
+    "date": "2026-03-20",
     "service": "Amazon CloudFront",
-    "cost_usd": 1.9732,
+    "cost_usd": 2.3215,
     "is_anomaly": false
   },
   {
-    "date": "2026-03-15",
+    "date": "2026-03-20",
     "service": "Amazon DynamoDB",
-    "cost_usd": 1.2209,
+    "cost_usd": 1.4364,
     "is_anomaly": false
   },
   {
-    "date": "2026-03-15",
-    "service": "Amazon EC2",
-    "cost_usd": 15.0134,
-    "is_anomaly": false
-  },
-  {
-    "date": "2026-03-15",
-    "service": "Amazon RDS",
-    "cost_usd": 10.0177,
-    "is_anomaly": false
-  },
-  {
-    "date": "2026-03-15",
-    "service": "Amazon S3",
-    "cost_usd": 2.8817,
-    "is_anomaly": false
-  },
-  {
-    "date": "2026-03-16",
-    "service": "AWS Data Transfer",
-    "cost_usd": 3.745,
-    "is_anomaly": false
-  },
-  {
-    "date": "2026-03-16",
-    "service": "AWS Lambda",
-    "cost_usd": 0.8296,
-    "is_anomaly": false
-  },
-  {
-    "date": "2026-03-16",
-    "service": "Amazon CloudFront",
-    "cost_usd": 2.1294,
-    "is_anomaly": false
-  },
-  {
-    "date": "2026-03-16",
-    "service": "Amazon DynamoDB",
-    "cost_usd": 1.4049,
-    "is_anomaly": false
-  },
-  {
-    "date": "2026-03-16",
+    "date": "2026-03-20",
     "service": "Amazon EC2",
     "cost_usd": 17.6628,
     "is_anomaly": false
   },
   {
-    "date": "2026-03-16",
+    "date": "2026-03-20",
     "service": "Amazon RDS",
-    "cost_usd": 12.6854,
+    "cost_usd": 11.7855,
     "is_anomaly": false
   },
   {
-    "date": "2026-03-16",
+    "date": "2026-03-20",
     "service": "Amazon S3",
-    "cost_usd": 3.0902,
+    "cost_usd": 3.3902,
     "is_anomaly": false
   },
   {
-    "date": "2026-03-17",
+    "date": "2026-03-21",
     "service": "AWS Data Transfer",
-    "cost_usd": 4.1847,
+    "cost_usd": 3.1832,
     "is_anomaly": false
   },
   {
-    "date": "2026-03-17",
+    "date": "2026-03-21",
     "service": "AWS Lambda",
-    "cost_usd": 0.8127,
+    "cost_usd": 0.7051,
     "is_anomaly": false
   },
   {
-    "date": "2026-03-17",
+    "date": "2026-03-21",
     "service": "Amazon CloudFront",
-    "cost_usd": 2.2394,
+    "cost_usd": 1.81,
     "is_anomaly": false
   },
   {
-    "date": "2026-03-17",
+    "date": "2026-03-21",
     "service": "Amazon DynamoDB",
-    "cost_usd": 1.4872,
+    "cost_usd": 1.1941,
     "is_anomaly": false
   },
   {
-    "date": "2026-03-17",
+    "date": "2026-03-21",
     "service": "Amazon EC2",
-    "cost_usd": 20.2741,
+    "cost_usd": 15.0134,
     "is_anomaly": false
   },
   {
-    "date": "2026-03-17",
+    "date": "2026-03-21",
     "service": "Amazon RDS",
-    "cost_usd": 12.4543,
+    "cost_usd": 10.7826,
     "is_anomaly": false
   },
   {
-    "date": "2026-03-17",
+    "date": "2026-03-21",
     "service": "Amazon S3",
-    "cost_usd": 3.5829,
+    "cost_usd": 2.6267,
     "is_anomaly": false
   },
   {
-    "date": "2026-03-18",
+    "date": "2026-03-22",
+    "service": "AWS Data Transfer",
+    "cost_usd": 3.557,
+    "is_anomaly": false
+  },
+  {
+    "date": "2026-03-22",
+    "service": "AWS Lambda",
+    "cost_usd": 0.6908,
+    "is_anomaly": false
+  },
+  {
+    "date": "2026-03-22",
+    "service": "Amazon CloudFront",
+    "cost_usd": 1.9035,
+    "is_anomaly": false
+  },
+  {
+    "date": "2026-03-22",
+    "service": "Amazon DynamoDB",
+    "cost_usd": 1.2641,
+    "is_anomaly": false
+  },
+  {
+    "date": "2026-03-22",
+    "service": "Amazon EC2",
+    "cost_usd": 17.233,
+    "is_anomaly": false
+  },
+  {
+    "date": "2026-03-22",
+    "service": "Amazon RDS",
+    "cost_usd": 10.5862,
+    "is_anomaly": false
+  },
+  {
+    "date": "2026-03-22",
+    "service": "Amazon S3",
+    "cost_usd": 3.0455,
+    "is_anomaly": false
+  },
+  {
+    "date": "2026-03-23",
     "service": "AWS Data Transfer",
     "cost_usd": 3.935,
     "is_anomaly": false
   },
   {
-    "date": "2026-03-18",
+    "date": "2026-03-23",
     "service": "AWS Lambda",
     "cost_usd": 0.7616,
     "is_anomaly": false
   },
   {
-    "date": "2026-03-18",
+    "date": "2026-03-23",
     "service": "Amazon CloudFront",
     "cost_usd": 2.2022,
     "is_anomaly": false
   },
   {
-    "date": "2026-03-18",
+    "date": "2026-03-23",
     "service": "Amazon DynamoDB",
     "cost_usd": 1.3758,
     "is_anomaly": false
   },
   {
-    "date": "2026-03-18",
+    "date": "2026-03-23",
     "service": "Amazon EC2",
     "cost_usd": 19.1051,
     "is_anomaly": false
   },
   {
-    "date": "2026-03-18",
+    "date": "2026-03-23",
     "service": "Amazon RDS",
     "cost_usd": 11.9301,
     "is_anomaly": false
   },
   {
-    "date": "2026-03-18",
+    "date": "2026-03-23",
     "service": "Amazon S3",
     "cost_usd": 3.5731,
     "is_anomaly": false
   },
   {
-    "date": "2026-03-19",
+    "date": "2026-03-24",
     "service": "AWS Data Transfer",
     "cost_usd": 4.1188,
     "is_anomaly": false
   },
   {
-    "date": "2026-03-19",
+    "date": "2026-03-24",
     "service": "AWS Lambda",
     "cost_usd": 0.8045,
     "is_anomaly": false
   },
   {
-    "date": "2026-03-19",
+    "date": "2026-03-24",
     "service": "Amazon CloudFront",
     "cost_usd": 2.2172,
     "is_anomaly": false
   },
   {
-    "date": "2026-03-19",
+    "date": "2026-03-24",
     "service": "Amazon DynamoDB",
     "cost_usd": 1.4336,
     "is_anomaly": false
   },
   {
-    "date": "2026-03-19",
+    "date": "2026-03-24",
     "service": "Amazon EC2",
     "cost_usd": 17.324,
     "is_anomaly": false
   },
   {
-    "date": "2026-03-19",
+    "date": "2026-03-24",
     "service": "Amazon RDS",
     "cost_usd": 11.1871,
     "is_anomaly": false
   },
   {
-    "date": "2026-03-19",
+    "date": "2026-03-24",
     "service": "Amazon S3",
     "cost_usd": 3.5014,
     "is_anomaly": false
   },
   {
-    "date": "2026-03-20",
+    "date": "2026-03-25",
     "service": "AWS Data Transfer",
     "cost_usd": 3.8067,
     "is_anomaly": false
   },
   {
-    "date": "2026-03-20",
+    "date": "2026-03-25",
     "service": "AWS Lambda",
     "cost_usd": 0.7753,
     "is_anomaly": false
   },
   {
-    "date": "2026-03-20",
+    "date": "2026-03-25",
     "service": "Amazon CloudFront",
     "cost_usd": 2.064,
     "is_anomaly": false
   },
   {
-    "date": "2026-03-20",
+    "date": "2026-03-25",
     "service": "Amazon DynamoDB",
     "cost_usd": 1.3563,
     "is_anomaly": false
   },
   {
-    "date": "2026-03-20",
+    "date": "2026-03-25",
     "service": "Amazon EC2",
     "cost_usd": 18.7813,
     "is_anomaly": false
   },
   {
-    "date": "2026-03-20",
+    "date": "2026-03-25",
     "service": "Amazon RDS",
     "cost_usd": 10.5457,
     "is_anomaly": false
   },
   {
-    "date": "2026-03-20",
+    "date": "2026-03-25",
     "service": "Amazon S3",
     "cost_usd": 3.4343,
     "is_anomaly": false
   },
   {
-    "date": "2026-03-21",
+    "date": "2026-03-26",
     "service": "AWS Data Transfer",
-    "cost_usd": 3.4236,
+    "cost_usd": 4.0277,
     "is_anomaly": false
   },
   {
-    "date": "2026-03-21",
+    "date": "2026-03-26",
     "service": "AWS Lambda",
-    "cost_usd": 0.6862,
+    "cost_usd": 0.8073,
     "is_anomaly": false
   },
   {
-    "date": "2026-03-21",
+    "date": "2026-03-26",
     "service": "Amazon CloudFront",
-    "cost_usd": 1.8737,
+    "cost_usd": 2.2043,
     "is_anomaly": false
   },
   {
-    "date": "2026-03-21",
+    "date": "2026-03-26",
     "service": "Amazon DynamoDB",
-    "cost_usd": 1.4754,
+    "cost_usd": 1.7358,
     "is_anomaly": false
   },
   {
-    "date": "2026-03-21",
+    "date": "2026-03-26",
     "service": "Amazon EC2",
-    "cost_usd": 14.7328,
+    "cost_usd": 17.3327,
     "is_anomaly": false
   },
   {
-    "date": "2026-03-21",
+    "date": "2026-03-26",
     "service": "Amazon RDS",
-    "cost_usd": 9.8356,
+    "cost_usd": 11.5713,
     "is_anomaly": false
   },
   {
-    "date": "2026-03-21",
+    "date": "2026-03-26",
     "service": "Amazon S3",
-    "cost_usd": 2.6381,
+    "cost_usd": 3.1037,
     "is_anomaly": false
   },
   {
-    "date": "2026-03-22",
+    "date": "2026-03-27",
     "service": "AWS Data Transfer",
-    "cost_usd": 3.3577,
+    "cost_usd": 3.9502,
     "is_anomaly": false
   },
   {
-    "date": "2026-03-22",
+    "date": "2026-03-27",
     "service": "AWS Lambda",
-    "cost_usd": 0.716,
+    "cost_usd": 0.8424,
     "is_anomaly": false
   },
   {
-    "date": "2026-03-22",
+    "date": "2026-03-27",
     "service": "Amazon CloudFront",
-    "cost_usd": 1.9445,
+    "cost_usd": 2.2876,
     "is_anomaly": false
   },
   {
-    "date": "2026-03-22",
+    "date": "2026-03-27",
     "service": "Amazon DynamoDB",
-    "cost_usd": 1.2786,
+    "cost_usd": 1.5042,
     "is_anomaly": false
   },
   {
-    "date": "2026-03-22",
+    "date": "2026-03-27",
     "service": "Amazon EC2",
-    "cost_usd": 14.7299,
+    "cost_usd": 17.3293,
     "is_anomaly": false
   },
   {
-    "date": "2026-03-22",
+    "date": "2026-03-27",
     "service": "Amazon RDS",
-    "cost_usd": 10.8988,
+    "cost_usd": 12.8221,
     "is_anomaly": false
   },
   {
-    "date": "2026-03-22",
+    "date": "2026-03-27",
     "service": "Amazon S3",
-    "cost_usd": 2.8749,
+    "cost_usd": 3.3822,
     "is_anomaly": false
   },
   {
-    "date": "2026-03-23",
+    "date": "2026-03-28",
     "service": "AWS Data Transfer",
-    "cost_usd": 4.3737,
+    "cost_usd": 3.7176,
     "is_anomaly": false
   },
   {
-    "date": "2026-03-23",
+    "date": "2026-03-28",
     "service": "AWS Lambda",
-    "cost_usd": 0.9015,
+    "cost_usd": 0.7663,
     "is_anomaly": false
   },
   {
-    "date": "2026-03-23",
+    "date": "2026-03-28",
     "service": "Amazon CloudFront",
-    "cost_usd": 2.4554,
+    "cost_usd": 2.0871,
     "is_anomaly": false
   },
   {
-    "date": "2026-03-23",
+    "date": "2026-03-28",
     "service": "Amazon DynamoDB",
-    "cost_usd": 1.416,
+    "cost_usd": 1.2036,
     "is_anomaly": false
   },
   {
-    "date": "2026-03-23",
+    "date": "2026-03-28",
     "service": "Amazon EC2",
-    "cost_usd": 18.3484,
+    "cost_usd": 15.5962,
     "is_anomaly": false
   },
   {
-    "date": "2026-03-23",
+    "date": "2026-03-28",
     "service": "Amazon RDS",
-    "cost_usd": 12.2055,
+    "cost_usd": 10.3747,
     "is_anomaly": false
   },
   {
-    "date": "2026-03-23",
+    "date": "2026-03-28",
     "service": "Amazon S3",
-    "cost_usd": 3.404,
+    "cost_usd": 2.8934,
     "is_anomaly": false
   },
   {
-    "date": "2026-03-24",
+    "date": "2026-03-29",
     "service": "AWS Data Transfer",
-    "cost_usd": 4.0814,
+    "cost_usd": 3.4692,
     "is_anomaly": false
   },
   {
-    "date": "2026-03-24",
+    "date": "2026-03-29",
     "service": "AWS Lambda",
-    "cost_usd": 0.7208,
+    "cost_usd": 0.6127,
     "is_anomaly": false
   },
   {
-    "date": "2026-03-24",
+    "date": "2026-03-29",
     "service": "Amazon CloudFront",
-    "cost_usd": 2.3688,
+    "cost_usd": 2.0135,
     "is_anomaly": false
   },
   {
-    "date": "2026-03-24",
+    "date": "2026-03-29",
     "service": "Amazon DynamoDB",
-    "cost_usd": 1.5257,
+    "cost_usd": 1.2968,
     "is_anomaly": false
   },
   {
-    "date": "2026-03-24",
+    "date": "2026-03-29",
     "service": "Amazon EC2",
-    "cost_usd": 15.2449,
+    "cost_usd": 12.9581,
     "is_anomaly": false
   },
   {
-    "date": "2026-03-24",
+    "date": "2026-03-29",
     "service": "Amazon RDS",
-    "cost_usd": 10.8041,
+    "cost_usd": 9.1835,
     "is_anomaly": false
   },
   {
-    "date": "2026-03-24",
+    "date": "2026-03-29",
     "service": "Amazon S3",
-    "cost_usd": 3.2754,
+    "cost_usd": 2.7841,
     "is_anomaly": false
   },
   {
-    "date": "2026-03-25",
+    "date": "2026-03-30",
     "service": "AWS Data Transfer",
     "cost_usd": 4.108,
     "is_anomaly": false
   },
   {
-    "date": "2026-03-25",
+    "date": "2026-03-30",
     "service": "AWS Lambda",
     "cost_usd": 0.9365,
     "is_anomaly": false
   },
   {
-    "date": "2026-03-25",
+    "date": "2026-03-30",
     "service": "Amazon CloudFront",
     "cost_usd": 2.579,
     "is_anomaly": false
   },
   {
-    "date": "2026-03-25",
+    "date": "2026-03-30",
     "service": "Amazon DynamoDB",
     "cost_usd": 1.4865,
     "is_anomaly": false
   },
   {
-    "date": "2026-03-25",
+    "date": "2026-03-30",
     "service": "Amazon EC2",
     "cost_usd": 15.5161,
     "is_anomaly": false
   },
   {
-    "date": "2026-03-25",
+    "date": "2026-03-30",
     "service": "Amazon RDS",
     "cost_usd": 12.1663,
     "is_anomaly": false
   },
   {
-    "date": "2026-03-25",
+    "date": "2026-03-30",
     "service": "Amazon S3",
     "cost_usd": 3.4548,
     "is_anomaly": false
   },
   {
-    "date": "2026-03-26",
+    "date": "2026-03-31",
     "service": "AWS Data Transfer",
     "cost_usd": 3.8682,
     "is_anomaly": false
   },
   {
-    "date": "2026-03-26",
+    "date": "2026-03-31",
     "service": "AWS Lambda",
     "cost_usd": 0.6751,
     "is_anomaly": false
   },
   {
-    "date": "2026-03-26",
+    "date": "2026-03-31",
     "service": "Amazon CloudFront",
     "cost_usd": 2.0649,
     "is_anomaly": false
   },
   {
-    "date": "2026-03-26",
+    "date": "2026-03-31",
     "service": "Amazon DynamoDB",
     "cost_usd": 1.4735,
     "is_anomaly": false
   },
   {
-    "date": "2026-03-26",
+    "date": "2026-03-31",
     "service": "Amazon EC2",
     "cost_usd": 17.1903,
     "is_anomaly": false
   },
   {
-    "date": "2026-03-26",
+    "date": "2026-03-31",
     "service": "Amazon RDS",
     "cost_usd": 12.3699,
     "is_anomaly": false
   },
   {
-    "date": "2026-03-26",
+    "date": "2026-03-31",
     "service": "Amazon S3",
     "cost_usd": 3.6131,
     "is_anomaly": false
   },
   {
-    "date": "2026-03-27",
+    "date": "2026-04-01",
     "service": "AWS Data Transfer",
     "cost_usd": 3.844,
     "is_anomaly": false
   },
   {
-    "date": "2026-03-27",
+    "date": "2026-04-01",
     "service": "AWS Lambda",
     "cost_usd": 0.7903,
     "is_anomaly": false
   },
   {
-    "date": "2026-03-27",
+    "date": "2026-04-01",
     "service": "Amazon CloudFront",
     "cost_usd": 2.3535,
     "is_anomaly": false
   },
   {
-    "date": "2026-03-27",
+    "date": "2026-04-01",
     "service": "Amazon DynamoDB",
     "cost_usd": 1.5737,
     "is_anomaly": false
   },
   {
-    "date": "2026-03-27",
+    "date": "2026-04-01",
     "service": "Amazon EC2",
     "cost_usd": 16.5415,
     "is_anomaly": false
   },
   {
-    "date": "2026-03-27",
+    "date": "2026-04-01",
     "service": "Amazon RDS",
     "cost_usd": 11.1515,
     "is_anomaly": false
   },
   {
-    "date": "2026-03-27",
+    "date": "2026-04-01",
     "service": "Amazon S3",
     "cost_usd": 4.0281,
     "is_anomaly": false
   },
   {
-    "date": "2026-03-28",
+    "date": "2026-04-02",
     "service": "AWS Data Transfer",
-    "cost_usd": 3.2823,
+    "cost_usd": 3.8616,
     "is_anomaly": false
   },
   {
-    "date": "2026-03-28",
+    "date": "2026-04-02",
     "service": "AWS Lambda",
-    "cost_usd": 0.712,
+    "cost_usd": 0.8377,
     "is_anomaly": false
   },
   {
-    "date": "2026-03-28",
+    "date": "2026-04-02",
     "service": "Amazon CloudFront",
-    "cost_usd": 1.8974,
+    "cost_usd": 2.2323,
     "is_anomaly": false
   },
   {
-    "date": "2026-03-28",
+    "date": "2026-04-02",
     "service": "Amazon DynamoDB",
-    "cost_usd": 1.3523,
+    "cost_usd": 1.5909,
     "is_anomaly": false
   },
   {
-    "date": "2026-03-28",
+    "date": "2026-04-02",
     "service": "Amazon EC2",
-    "cost_usd": 15.6846,
+    "cost_usd": 18.4525,
     "is_anomaly": false
   },
   {
-    "date": "2026-03-28",
+    "date": "2026-04-02",
     "service": "Amazon RDS",
-    "cost_usd": 10.3254,
+    "cost_usd": 12.1476,
     "is_anomaly": false
   },
   {
-    "date": "2026-03-28",
+    "date": "2026-04-02",
     "service": "Amazon S3",
-    "cost_usd": 3.0165,
+    "cost_usd": 3.5489,
     "is_anomaly": false
   },
   {
-    "date": "2026-03-29",
+    "date": "2026-04-03",
     "service": "AWS Data Transfer",
-    "cost_usd": 3.5073,
+    "cost_usd": 4.1262,
     "is_anomaly": false
   },
   {
-    "date": "2026-03-29",
+    "date": "2026-04-03",
     "service": "AWS Lambda",
-    "cost_usd": 0.6953,
+    "cost_usd": 0.818,
     "is_anomaly": false
   },
   {
-    "date": "2026-03-29",
+    "date": "2026-04-03",
     "service": "Amazon CloudFront",
-    "cost_usd": 2.1976,
+    "cost_usd": 2.5854,
     "is_anomaly": false
   },
   {
-    "date": "2026-03-29",
+    "date": "2026-04-03",
     "service": "Amazon DynamoDB",
-    "cost_usd": 1.2209,
+    "cost_usd": 1.4363,
     "is_anomaly": false
   },
   {
-    "date": "2026-03-29",
+    "date": "2026-04-03",
     "service": "Amazon EC2",
-    "cost_usd": 14.1886,
+    "cost_usd": 16.6924,
     "is_anomaly": false
   },
   {
-    "date": "2026-03-29",
+    "date": "2026-04-03",
     "service": "Amazon RDS",
-    "cost_usd": 10.2475,
+    "cost_usd": 12.0559,
     "is_anomaly": false
   },
   {
-    "date": "2026-03-29",
+    "date": "2026-04-03",
     "service": "Amazon S3",
-    "cost_usd": 3.0363,
+    "cost_usd": 3.5721,
     "is_anomaly": false
   },
   {
-    "date": "2026-03-30",
+    "date": "2026-04-04",
     "service": "AWS Data Transfer",
-    "cost_usd": 3.8653,
+    "cost_usd": 3.2855,
     "is_anomaly": false
   },
   {
-    "date": "2026-03-30",
+    "date": "2026-04-04",
     "service": "AWS Lambda",
-    "cost_usd": 0.7601,
+    "cost_usd": 0.6461,
     "is_anomaly": false
   },
   {
-    "date": "2026-03-30",
+    "date": "2026-04-04",
     "service": "Amazon CloudFront",
-    "cost_usd": 2.0577,
+    "cost_usd": 1.7491,
     "is_anomaly": false
   },
   {
-    "date": "2026-03-30",
+    "date": "2026-04-04",
     "service": "Amazon DynamoDB",
-    "cost_usd": 1.4309,
+    "cost_usd": 1.2163,
     "is_anomaly": false
   },
   {
-    "date": "2026-03-30",
+    "date": "2026-04-04",
     "service": "Amazon EC2",
-    "cost_usd": 15.9663,
+    "cost_usd": 13.5713,
     "is_anomaly": false
   },
   {
-    "date": "2026-03-30",
+    "date": "2026-04-04",
     "service": "Amazon RDS",
-    "cost_usd": 10.9027,
+    "cost_usd": 9.2673,
     "is_anomaly": false
   },
   {
-    "date": "2026-03-30",
+    "date": "2026-04-04",
     "service": "Amazon S3",
-    "cost_usd": 3.4792,
+    "cost_usd": 2.9573,
     "is_anomaly": false
   },
   {
-    "date": "2026-03-31",
+    "date": "2026-04-05",
     "service": "AWS Data Transfer",
-    "cost_usd": 4.0927,
+    "cost_usd": 3.4788,
     "is_anomaly": false
   },
   {
-    "date": "2026-03-31",
+    "date": "2026-04-05",
     "service": "AWS Lambda",
-    "cost_usd": 0.7867,
+    "cost_usd": 0.6687,
     "is_anomaly": false
   },
   {
-    "date": "2026-03-31",
+    "date": "2026-04-05",
     "service": "Amazon CloudFront",
-    "cost_usd": 2.0522,
+    "cost_usd": 1.7444,
     "is_anomaly": false
   },
   {
-    "date": "2026-03-31",
+    "date": "2026-04-05",
     "service": "Amazon DynamoDB",
-    "cost_usd": 1.467,
+    "cost_usd": 1.2469,
     "is_anomaly": false
   },
   {
-    "date": "2026-03-31",
+    "date": "2026-04-05",
     "service": "Amazon EC2",
-    "cost_usd": 20.1105,
+    "cost_usd": 17.094,
     "is_anomaly": false
   },
   {
-    "date": "2026-03-31",
+    "date": "2026-04-05",
     "service": "Amazon RDS",
-    "cost_usd": 12.3435,
+    "cost_usd": 10.492,
     "is_anomaly": false
   },
   {
-    "date": "2026-03-31",
+    "date": "2026-04-05",
     "service": "Amazon S3",
-    "cost_usd": 10.0733,
+    "cost_usd": 8.5623,
     "is_anomaly": true
   },
   {
-    "date": "2026-04-01",
+    "date": "2026-04-06",
     "service": "AWS Data Transfer",
     "cost_usd": 4.6641,
     "is_anomaly": false
   },
   {
-    "date": "2026-04-01",
+    "date": "2026-04-06",
     "service": "AWS Lambda",
     "cost_usd": 0.7684,
     "is_anomaly": false
   },
   {
-    "date": "2026-04-01",
+    "date": "2026-04-06",
     "service": "Amazon CloudFront",
     "cost_usd": 2.0945,
     "is_anomaly": false
   },
   {
-    "date": "2026-04-01",
+    "date": "2026-04-06",
     "service": "Amazon DynamoDB",
     "cost_usd": 1.2238,
     "is_anomaly": false
   },
   {
-    "date": "2026-04-01",
+    "date": "2026-04-06",
     "service": "Amazon EC2",
     "cost_usd": 17.6749,
     "is_anomaly": false
   },
   {
-    "date": "2026-04-01",
+    "date": "2026-04-06",
     "service": "Amazon RDS",
     "cost_usd": 12.5384,
     "is_anomaly": false
   },
   {
-    "date": "2026-04-01",
+    "date": "2026-04-06",
     "service": "Amazon S3",
     "cost_usd": 3.4926,
     "is_anomaly": false
   },
   {
-    "date": "2026-04-02",
+    "date": "2026-04-07",
     "service": "AWS Data Transfer",
     "cost_usd": 4.2788,
     "is_anomaly": false
   },
   {
-    "date": "2026-04-02",
+    "date": "2026-04-07",
     "service": "AWS Lambda",
     "cost_usd": 0.7623,
     "is_anomaly": false
   },
   {
-    "date": "2026-04-02",
+    "date": "2026-04-07",
     "service": "Amazon CloudFront",
     "cost_usd": 1.8262,
     "is_anomaly": false
   },
   {
-    "date": "2026-04-02",
+    "date": "2026-04-07",
     "service": "Amazon DynamoDB",
     "cost_usd": 1.3182,
     "is_anomaly": false
   },
   {
-    "date": "2026-04-02",
+    "date": "2026-04-07",
     "service": "Amazon EC2",
     "cost_usd": 18.0972,
     "is_anomaly": false
   },
   {
-    "date": "2026-04-02",
+    "date": "2026-04-07",
     "service": "Amazon RDS",
     "cost_usd": 13.0397,
     "is_anomaly": false
   },
   {
-    "date": "2026-04-02",
+    "date": "2026-04-07",
     "service": "Amazon S3",
     "cost_usd": 3.5169,
     "is_anomaly": false
   },
   {
-    "date": "2026-04-03",
+    "date": "2026-04-08",
     "service": "AWS Data Transfer",
     "cost_usd": 3.8957,
     "is_anomaly": false
   },
   {
-    "date": "2026-04-03",
+    "date": "2026-04-08",
     "service": "AWS Lambda",
     "cost_usd": 0.8544,
     "is_anomaly": false
   },
   {
-    "date": "2026-04-03",
+    "date": "2026-04-08",
     "service": "Amazon CloudFront",
     "cost_usd": 2.1075,
     "is_anomaly": false
   },
   {
-    "date": "2026-04-03",
+    "date": "2026-04-08",
     "service": "Amazon DynamoDB",
     "cost_usd": 1.664,
     "is_anomaly": false
   },
   {
-    "date": "2026-04-03",
+    "date": "2026-04-08",
     "service": "Amazon EC2",
     "cost_usd": 15.9484,
     "is_anomaly": false
   },
   {
-    "date": "2026-04-03",
+    "date": "2026-04-08",
     "service": "Amazon RDS",
     "cost_usd": 13.0116,
     "is_anomaly": false
   },
   {
-    "date": "2026-04-03",
+    "date": "2026-04-08",
     "service": "Amazon S3",
     "cost_usd": 4.1897,
     "is_anomaly": false
   },
   {
-    "date": "2026-04-04",
+    "date": "2026-04-09",
     "service": "AWS Data Transfer",
-    "cost_usd": 3.7267,
+    "cost_usd": 4.3844,
     "is_anomaly": false
   },
   {
-    "date": "2026-04-04",
+    "date": "2026-04-09",
     "service": "AWS Lambda",
-    "cost_usd": 0.6994,
+    "cost_usd": 0.8228,
     "is_anomaly": false
   },
   {
-    "date": "2026-04-04",
+    "date": "2026-04-09",
     "service": "Amazon CloudFront",
-    "cost_usd": 1.7564,
+    "cost_usd": 2.0664,
     "is_anomaly": false
   },
   {
-    "date": "2026-04-04",
+    "date": "2026-04-09",
     "service": "Amazon DynamoDB",
-    "cost_usd": 1.4428,
+    "cost_usd": 1.6974,
     "is_anomaly": false
   },
   {
-    "date": "2026-04-04",
+    "date": "2026-04-09",
     "service": "Amazon EC2",
-    "cost_usd": 14.6337,
+    "cost_usd": 17.2161,
     "is_anomaly": false
   },
   {
-    "date": "2026-04-04",
+    "date": "2026-04-09",
     "service": "Amazon RDS",
-    "cost_usd": 9.0758,
+    "cost_usd": 10.6774,
     "is_anomaly": false
   },
   {
-    "date": "2026-04-04",
+    "date": "2026-04-09",
     "service": "Amazon S3",
-    "cost_usd": 2.9292,
+    "cost_usd": 3.4461,
     "is_anomaly": false
   },
   {
-    "date": "2026-04-05",
+    "date": "2026-04-10",
     "service": "AWS Data Transfer",
-    "cost_usd": 3.289,
+    "cost_usd": 3.8694,
     "is_anomaly": false
   },
   {
-    "date": "2026-04-05",
+    "date": "2026-04-10",
     "service": "AWS Lambda",
-    "cost_usd": 0.6423,
+    "cost_usd": 0.7557,
     "is_anomaly": false
   },
   {
-    "date": "2026-04-05",
+    "date": "2026-04-10",
     "service": "Amazon CloudFront",
-    "cost_usd": 1.8925,
+    "cost_usd": 2.2265,
     "is_anomaly": false
   },
   {
-    "date": "2026-04-05",
+    "date": "2026-04-10",
     "service": "Amazon DynamoDB",
-    "cost_usd": 1.2496,
+    "cost_usd": 1.4701,
     "is_anomaly": false
   },
   {
-    "date": "2026-04-05",
+    "date": "2026-04-10",
     "service": "Amazon EC2",
-    "cost_usd": 15.4358,
+    "cost_usd": 18.1597,
     "is_anomaly": false
   },
   {
-    "date": "2026-04-05",
+    "date": "2026-04-10",
     "service": "Amazon RDS",
-    "cost_usd": 9.4347,
+    "cost_usd": 11.0997,
     "is_anomaly": false
   },
   {
-    "date": "2026-04-05",
+    "date": "2026-04-10",
     "service": "Amazon S3",
-    "cost_usd": 3.0468,
+    "cost_usd": 3.5844,
     "is_anomaly": false
   },
   {
-    "date": "2026-04-06",
+    "date": "2026-04-11",
     "service": "AWS Data Transfer",
-    "cost_usd": 3.3478,
+    "cost_usd": 2.8456,
     "is_anomaly": false
   },
   {
-    "date": "2026-04-06",
+    "date": "2026-04-11",
     "service": "AWS Lambda",
-    "cost_usd": 0.8576,
+    "cost_usd": 0.7289,
     "is_anomaly": false
   },
   {
-    "date": "2026-04-06",
+    "date": "2026-04-11",
     "service": "Amazon CloudFront",
-    "cost_usd": 2.2601,
+    "cost_usd": 1.9211,
     "is_anomaly": false
   },
   {
-    "date": "2026-04-06",
+    "date": "2026-04-11",
     "service": "Amazon DynamoDB",
-    "cost_usd": 1.5692,
+    "cost_usd": 1.3338,
     "is_anomaly": false
   },
   {
-    "date": "2026-04-06",
+    "date": "2026-04-11",
     "service": "Amazon EC2",
-    "cost_usd": 16.3426,
+    "cost_usd": 13.8912,
     "is_anomaly": false
   },
   {
-    "date": "2026-04-06",
+    "date": "2026-04-11",
     "service": "Amazon RDS",
-    "cost_usd": 12.4944,
+    "cost_usd": 10.6203,
     "is_anomaly": false
   },
   {
-    "date": "2026-04-06",
+    "date": "2026-04-11",
     "service": "Amazon S3",
-    "cost_usd": 3.4903,
+    "cost_usd": 2.9667,
     "is_anomaly": false
   },
   {
-    "date": "2026-04-07",
+    "date": "2026-04-12",
     "service": "AWS Data Transfer",
-    "cost_usd": 3.6774,
+    "cost_usd": 3.1258,
     "is_anomaly": false
   },
   {
-    "date": "2026-04-07",
+    "date": "2026-04-12",
     "service": "AWS Lambda",
-    "cost_usd": 0.8197,
+    "cost_usd": 0.6967,
     "is_anomaly": false
   },
   {
-    "date": "2026-04-07",
+    "date": "2026-04-12",
     "service": "Amazon CloudFront",
-    "cost_usd": 2.5302,
+    "cost_usd": 2.1507,
     "is_anomaly": false
   },
   {
-    "date": "2026-04-07",
+    "date": "2026-04-12",
     "service": "Amazon DynamoDB",
-    "cost_usd": 1.5374,
+    "cost_usd": 1.3067,
     "is_anomaly": false
   },
   {
-    "date": "2026-04-07",
+    "date": "2026-04-12",
     "service": "Amazon EC2",
-    "cost_usd": 18.541,
+    "cost_usd": 15.7599,
     "is_anomaly": false
   },
   {
-    "date": "2026-04-07",
+    "date": "2026-04-12",
     "service": "Amazon RDS",
-    "cost_usd": 12.4932,
+    "cost_usd": 10.6192,
     "is_anomaly": false
   },
   {
-    "date": "2026-04-07",
+    "date": "2026-04-12",
     "service": "Amazon S3",
-    "cost_usd": 3.1728,
+    "cost_usd": 2.6969,
     "is_anomaly": false
   },
   {
-    "date": "2026-04-08",
+    "date": "2026-04-13",
     "service": "AWS Data Transfer",
     "cost_usd": 3.4013,
     "is_anomaly": false
   },
   {
-    "date": "2026-04-08",
+    "date": "2026-04-13",
     "service": "AWS Lambda",
     "cost_usd": 0.852,
     "is_anomaly": false
   },
   {
-    "date": "2026-04-08",
+    "date": "2026-04-13",
     "service": "Amazon CloudFront",
     "cost_usd": 2.3673,
     "is_anomaly": false
   },
   {
-    "date": "2026-04-08",
+    "date": "2026-04-13",
     "service": "Amazon DynamoDB",
     "cost_usd": 1.8695,
     "is_anomaly": false
   },
   {
-    "date": "2026-04-08",
+    "date": "2026-04-13",
     "service": "Amazon EC2",
     "cost_usd": 17.1351,
     "is_anomaly": false
   },
   {
-    "date": "2026-04-08",
+    "date": "2026-04-13",
     "service": "Amazon RDS",
     "cost_usd": 12.4944,
     "is_anomaly": false
   },
   {
-    "date": "2026-04-08",
+    "date": "2026-04-13",
     "service": "Amazon S3",
     "cost_usd": 3.82,
     "is_anomaly": false
   },
   {
-    "date": "2026-04-09",
+    "date": "2026-04-14",
     "service": "AWS Data Transfer",
     "cost_usd": 3.8875,
     "is_anomaly": false
   },
   {
-    "date": "2026-04-09",
+    "date": "2026-04-14",
     "service": "AWS Lambda",
     "cost_usd": 0.8403,
     "is_anomaly": false
   },
   {
-    "date": "2026-04-09",
+    "date": "2026-04-14",
     "service": "Amazon CloudFront",
     "cost_usd": 2.0985,
     "is_anomaly": false
   },
   {
-    "date": "2026-04-09",
+    "date": "2026-04-14",
     "service": "Amazon DynamoDB",
     "cost_usd": 1.6343,
     "is_anomaly": false
   },
   {
-    "date": "2026-04-09",
+    "date": "2026-04-14",
     "service": "Amazon EC2",
     "cost_usd": 17.58,
     "is_anomaly": false
   },
   {
-    "date": "2026-04-09",
+    "date": "2026-04-14",
     "service": "Amazon RDS",
     "cost_usd": 15.6986,
     "is_anomaly": false
   },
   {
-    "date": "2026-04-09",
+    "date": "2026-04-14",
     "service": "Amazon S3",
     "cost_usd": 3.7105,
     "is_anomaly": false
   },
   {
-    "date": "2026-04-10",
+    "date": "2026-04-15",
     "service": "AWS Data Transfer",
     "cost_usd": 4.0059,
     "is_anomaly": false
   },
   {
-    "date": "2026-04-10",
+    "date": "2026-04-15",
     "service": "AWS Lambda",
     "cost_usd": 0.7469,
     "is_anomaly": false
   },
   {
-    "date": "2026-04-10",
+    "date": "2026-04-15",
     "service": "Amazon CloudFront",
     "cost_usd": 2.0419,
     "is_anomaly": false
   },
   {
-    "date": "2026-04-10",
+    "date": "2026-04-15",
     "service": "Amazon DynamoDB",
     "cost_usd": 1.4846,
     "is_anomaly": false
   },
   {
-    "date": "2026-04-10",
+    "date": "2026-04-15",
     "service": "Amazon EC2",
     "cost_usd": 17.1335,
     "is_anomaly": false
   },
   {
-    "date": "2026-04-10",
+    "date": "2026-04-15",
     "service": "Amazon RDS",
     "cost_usd": 12.5481,
     "is_anomaly": false
   },
   {
-    "date": "2026-04-10",
+    "date": "2026-04-15",
     "service": "Amazon S3",
     "cost_usd": 3.7215,
     "is_anomaly": false
   },
   {
-    "date": "2026-04-11",
+    "date": "2026-04-16",
     "service": "AWS Data Transfer",
-    "cost_usd": 3.856,
+    "cost_usd": 4.5365,
     "is_anomaly": false
   },
   {
-    "date": "2026-04-11",
+    "date": "2026-04-16",
     "service": "AWS Lambda",
-    "cost_usd": 0.6495,
+    "cost_usd": 0.7641,
     "is_anomaly": false
   },
   {
-    "date": "2026-04-11",
+    "date": "2026-04-16",
     "service": "Amazon CloudFront",
-    "cost_usd": 1.9436,
+    "cost_usd": 2.2866,
     "is_anomaly": false
   },
   {
-    "date": "2026-04-11",
+    "date": "2026-04-16",
     "service": "Amazon DynamoDB",
-    "cost_usd": 1.1775,
+    "cost_usd": 1.3853,
     "is_anomaly": false
   },
   {
-    "date": "2026-04-11",
+    "date": "2026-04-16",
     "service": "Amazon EC2",
-    "cost_usd": 17.5672,
+    "cost_usd": 20.6673,
     "is_anomaly": false
   },
   {
-    "date": "2026-04-11",
+    "date": "2026-04-16",
     "service": "Amazon RDS",
-    "cost_usd": 11.1266,
+    "cost_usd": 13.0901,
     "is_anomaly": false
   },
   {
-    "date": "2026-04-11",
+    "date": "2026-04-16",
     "service": "Amazon S3",
-    "cost_usd": 2.7586,
+    "cost_usd": 3.2454,
     "is_anomaly": false
   },
   {
-    "date": "2026-04-12",
+    "date": "2026-04-17",
     "service": "AWS Data Transfer",
-    "cost_usd": 3.4889,
+    "cost_usd": 4.1046,
     "is_anomaly": false
   },
   {
-    "date": "2026-04-12",
+    "date": "2026-04-17",
     "service": "AWS Lambda",
-    "cost_usd": 0.7207,
+    "cost_usd": 0.8478,
     "is_anomaly": false
   },
   {
-    "date": "2026-04-12",
+    "date": "2026-04-17",
     "service": "Amazon CloudFront",
-    "cost_usd": 1.6725,
+    "cost_usd": 1.9676,
     "is_anomaly": false
   },
   {
-    "date": "2026-04-12",
+    "date": "2026-04-17",
     "service": "Amazon DynamoDB",
-    "cost_usd": 1.1111,
+    "cost_usd": 1.3072,
     "is_anomaly": false
   },
   {
-    "date": "2026-04-12",
+    "date": "2026-04-17",
     "service": "Amazon EC2",
-    "cost_usd": 15.2835,
+    "cost_usd": 17.9806,
     "is_anomaly": false
   },
   {
-    "date": "2026-04-12",
+    "date": "2026-04-17",
     "service": "Amazon RDS",
-    "cost_usd": 10.9785,
+    "cost_usd": 12.9158,
     "is_anomaly": false
   },
   {
-    "date": "2026-04-12",
+    "date": "2026-04-17",
     "service": "Amazon S3",
-    "cost_usd": 3.3089,
+    "cost_usd": 3.8928,
     "is_anomaly": false
   },
   {
-    "date": "2026-04-13",
+    "date": "2026-04-18",
     "service": "AWS Data Transfer",
-    "cost_usd": 3.9299,
+    "cost_usd": 3.3404,
     "is_anomaly": false
   },
   {
-    "date": "2026-04-13",
+    "date": "2026-04-18",
     "service": "AWS Lambda",
-    "cost_usd": 0.8391,
+    "cost_usd": 0.7132,
     "is_anomaly": false
   },
   {
-    "date": "2026-04-13",
+    "date": "2026-04-18",
     "service": "Amazon CloudFront",
-    "cost_usd": 2.5223,
+    "cost_usd": 2.144,
     "is_anomaly": false
   },
   {
-    "date": "2026-04-13",
+    "date": "2026-04-18",
     "service": "Amazon DynamoDB",
-    "cost_usd": 1.5244,
+    "cost_usd": 1.2958,
     "is_anomaly": false
   },
   {
-    "date": "2026-04-13",
+    "date": "2026-04-18",
     "service": "Amazon EC2",
-    "cost_usd": 16.4769,
+    "cost_usd": 14.0054,
     "is_anomaly": false
   },
   {
-    "date": "2026-04-13",
+    "date": "2026-04-18",
     "service": "Amazon RDS",
-    "cost_usd": 12.6253,
+    "cost_usd": 10.7315,
     "is_anomaly": false
   },
   {
-    "date": "2026-04-13",
+    "date": "2026-04-18",
     "service": "Amazon S3",
-    "cost_usd": 3.1075,
+    "cost_usd": 2.6414,
     "is_anomaly": false
   },
   {
-    "date": "2026-04-14",
+    "date": "2026-04-19",
     "service": "AWS Data Transfer",
-    "cost_usd": 4.2654,
+    "cost_usd": 3.6256,
     "is_anomaly": false
   },
   {
-    "date": "2026-04-14",
+    "date": "2026-04-19",
     "service": "AWS Lambda",
-    "cost_usd": 0.7987,
+    "cost_usd": 0.6789,
     "is_anomaly": false
   },
   {
-    "date": "2026-04-14",
+    "date": "2026-04-19",
     "service": "Amazon CloudFront",
-    "cost_usd": 2.4076,
+    "cost_usd": 2.0464,
     "is_anomaly": false
   },
   {
-    "date": "2026-04-14",
+    "date": "2026-04-19",
     "service": "Amazon DynamoDB",
-    "cost_usd": 1.4092,
+    "cost_usd": 1.1979,
     "is_anomaly": false
   },
   {
-    "date": "2026-04-14",
+    "date": "2026-04-19",
     "service": "Amazon EC2",
-    "cost_usd": 19.1845,
+    "cost_usd": 16.3068,
     "is_anomaly": false
   },
   {
-    "date": "2026-04-14",
+    "date": "2026-04-19",
     "service": "Amazon RDS",
-    "cost_usd": 11.6973,
+    "cost_usd": 9.9427,
     "is_anomaly": false
   },
   {
-    "date": "2026-04-14",
+    "date": "2026-04-19",
     "service": "Amazon S3",
-    "cost_usd": 3.6643,
+    "cost_usd": 3.1147,
     "is_anomaly": false
   },
   {
-    "date": "2026-04-15",
+    "date": "2026-04-20",
     "service": "AWS Data Transfer",
     "cost_usd": 3.2924,
     "is_anomaly": false
   },
   {
-    "date": "2026-04-15",
+    "date": "2026-04-20",
     "service": "AWS Lambda",
     "cost_usd": 0.8075,
     "is_anomaly": false
   },
   {
-    "date": "2026-04-15",
+    "date": "2026-04-20",
     "service": "Amazon CloudFront",
     "cost_usd": 2.1174,
     "is_anomaly": false
   },
   {
-    "date": "2026-04-15",
+    "date": "2026-04-20",
     "service": "Amazon DynamoDB",
     "cost_usd": 1.3293,
     "is_anomaly": false
   },
   {
-    "date": "2026-04-15",
+    "date": "2026-04-20",
     "service": "Amazon EC2",
     "cost_usd": 16.242,
     "is_anomaly": false
   },
   {
-    "date": "2026-04-15",
+    "date": "2026-04-20",
     "service": "Amazon RDS",
     "cost_usd": 12.7286,
     "is_anomaly": false
   },
   {
-    "date": "2026-04-15",
+    "date": "2026-04-20",
     "service": "Amazon S3",
     "cost_usd": 4.1133,
     "is_anomaly": false
   },
   {
-    "date": "2026-04-16",
+    "date": "2026-04-21",
     "service": "AWS Data Transfer",
     "cost_usd": 4.0754,
     "is_anomaly": false
   },
   {
-    "date": "2026-04-16",
+    "date": "2026-04-21",
     "service": "AWS Lambda",
     "cost_usd": 0.8818,
     "is_anomaly": false
   },
   {
-    "date": "2026-04-16",
+    "date": "2026-04-21",
     "service": "Amazon CloudFront",
     "cost_usd": 1.8985,
     "is_anomaly": false
   },
   {
-    "date": "2026-04-16",
+    "date": "2026-04-21",
     "service": "Amazon DynamoDB",
     "cost_usd": 1.4224,
     "is_anomaly": false
   },
   {
-    "date": "2026-04-16",
+    "date": "2026-04-21",
     "service": "Amazon EC2",
     "cost_usd": 18.3008,
     "is_anomaly": false
   },
   {
-    "date": "2026-04-16",
+    "date": "2026-04-21",
     "service": "Amazon RDS",
     "cost_usd": 11.2581,
     "is_anomaly": false
   },
   {
-    "date": "2026-04-16",
+    "date": "2026-04-21",
     "service": "Amazon S3",
     "cost_usd": 3.2226,
     "is_anomaly": false
   },
   {
-    "date": "2026-04-17",
+    "date": "2026-04-22",
     "service": "AWS Data Transfer",
     "cost_usd": 4.2467,
     "is_anomaly": false
   },
   {
-    "date": "2026-04-17",
+    "date": "2026-04-22",
     "service": "AWS Lambda",
     "cost_usd": 0.7621,
     "is_anomaly": false
   },
   {
-    "date": "2026-04-17",
+    "date": "2026-04-22",
     "service": "Amazon CloudFront",
     "cost_usd": 2.4383,
     "is_anomaly": false
   },
   {
-    "date": "2026-04-17",
+    "date": "2026-04-22",
     "service": "Amazon DynamoDB",
     "cost_usd": 1.3702,
     "is_anomaly": false
   },
   {
-    "date": "2026-04-17",
+    "date": "2026-04-22",
     "service": "Amazon EC2",
     "cost_usd": 15.1781,
     "is_anomaly": false
   },
   {
-    "date": "2026-04-17",
+    "date": "2026-04-22",
     "service": "Amazon RDS",
     "cost_usd": 11.7727,
     "is_anomaly": false
   },
   {
-    "date": "2026-04-17",
+    "date": "2026-04-22",
     "service": "Amazon S3",
     "cost_usd": 3.3414,
     "is_anomaly": false
   },
   {
-    "date": "2026-04-18",
+    "date": "2026-04-23",
     "service": "AWS Data Transfer",
-    "cost_usd": 2.9978,
+    "cost_usd": 3.5269,
     "is_anomaly": false
   },
   {
-    "date": "2026-04-18",
+    "date": "2026-04-23",
     "service": "AWS Lambda",
-    "cost_usd": 0.7098,
+    "cost_usd": 0.835,
     "is_anomaly": false
   },
   {
-    "date": "2026-04-18",
+    "date": "2026-04-23",
     "service": "Amazon CloudFront",
-    "cost_usd": 1.8529,
+    "cost_usd": 2.1798,
     "is_anomaly": false
   },
   {
-    "date": "2026-04-18",
+    "date": "2026-04-23",
     "service": "Amazon DynamoDB",
-    "cost_usd": 1.4471,
+    "cost_usd": 1.7025,
     "is_anomaly": false
   },
   {
-    "date": "2026-04-18",
+    "date": "2026-04-23",
     "service": "Amazon EC2",
-    "cost_usd": 13.6743,
+    "cost_usd": 16.0874,
     "is_anomaly": false
   },
   {
-    "date": "2026-04-18",
+    "date": "2026-04-23",
     "service": "Amazon RDS",
-    "cost_usd": 9.8039,
+    "cost_usd": 11.5341,
     "is_anomaly": false
   },
   {
-    "date": "2026-04-18",
+    "date": "2026-04-23",
     "service": "Amazon S3",
-    "cost_usd": 2.9987,
+    "cost_usd": 3.5279,
     "is_anomaly": false
   },
   {
-    "date": "2026-04-19",
+    "date": "2026-04-24",
     "service": "AWS Data Transfer",
-    "cost_usd": 3.7111,
+    "cost_usd": 4.366,
     "is_anomaly": false
   },
   {
-    "date": "2026-04-19",
+    "date": "2026-04-24",
     "service": "AWS Lambda",
-    "cost_usd": 0.669,
+    "cost_usd": 0.7871,
     "is_anomaly": false
   },
   {
-    "date": "2026-04-19",
+    "date": "2026-04-24",
     "service": "Amazon CloudFront",
-    "cost_usd": 2.0552,
+    "cost_usd": 2.4179,
     "is_anomaly": false
   },
   {
-    "date": "2026-04-19",
+    "date": "2026-04-24",
     "service": "Amazon DynamoDB",
-    "cost_usd": 1.3649,
+    "cost_usd": 1.6058,
     "is_anomaly": false
   },
   {
-    "date": "2026-04-19",
+    "date": "2026-04-24",
     "service": "Amazon EC2",
-    "cost_usd": 15.541,
+    "cost_usd": 18.2835,
     "is_anomaly": false
   },
   {
-    "date": "2026-04-19",
+    "date": "2026-04-24",
     "service": "Amazon RDS",
-    "cost_usd": 10.2668,
+    "cost_usd": 12.0786,
     "is_anomaly": false
   },
   {
-    "date": "2026-04-19",
+    "date": "2026-04-24",
     "service": "Amazon S3",
-    "cost_usd": 2.8552,
+    "cost_usd": 3.359,
     "is_anomaly": false
   },
   {
-    "date": "2026-04-20",
+    "date": "2026-04-25",
     "service": "AWS Data Transfer",
-    "cost_usd": 4.1083,
+    "cost_usd": 3.4921,
     "is_anomaly": false
   },
   {
-    "date": "2026-04-20",
+    "date": "2026-04-25",
     "service": "AWS Lambda",
-    "cost_usd": 0.7861,
+    "cost_usd": 0.6682,
     "is_anomaly": false
   },
   {
-    "date": "2026-04-20",
+    "date": "2026-04-25",
     "service": "Amazon CloudFront",
-    "cost_usd": 1.9194,
+    "cost_usd": 1.6315,
     "is_anomaly": false
   },
   {
-    "date": "2026-04-20",
+    "date": "2026-04-25",
     "service": "Amazon DynamoDB",
-    "cost_usd": 1.499,
+    "cost_usd": 1.2742,
     "is_anomaly": false
   },
   {
-    "date": "2026-04-20",
+    "date": "2026-04-25",
     "service": "Amazon EC2",
-    "cost_usd": 19.0634,
+    "cost_usd": 16.2039,
     "is_anomaly": false
   },
   {
-    "date": "2026-04-20",
+    "date": "2026-04-25",
     "service": "Amazon RDS",
-    "cost_usd": 14.2221,
+    "cost_usd": 12.0888,
     "is_anomaly": false
   },
   {
-    "date": "2026-04-20",
+    "date": "2026-04-25",
     "service": "Amazon S3",
-    "cost_usd": 3.0658,
+    "cost_usd": 2.6059,
     "is_anomaly": false
   },
   {
-    "date": "2026-04-21",
+    "date": "2026-04-26",
     "service": "AWS Data Transfer",
-    "cost_usd": 3.8671,
+    "cost_usd": 3.287,
     "is_anomaly": false
   },
   {
-    "date": "2026-04-21",
+    "date": "2026-04-26",
     "service": "AWS Lambda",
-    "cost_usd": 0.8703,
+    "cost_usd": 0.7398,
     "is_anomaly": false
   },
   {
-    "date": "2026-04-21",
+    "date": "2026-04-26",
     "service": "Amazon CloudFront",
-    "cost_usd": 2.0945,
+    "cost_usd": 1.7803,
     "is_anomaly": false
   },
   {
-    "date": "2026-04-21",
+    "date": "2026-04-26",
     "service": "Amazon DynamoDB",
-    "cost_usd": 1.6776,
+    "cost_usd": 1.426,
     "is_anomaly": false
   },
   {
-    "date": "2026-04-21",
+    "date": "2026-04-26",
     "service": "Amazon EC2",
-    "cost_usd": 18.2468,
+    "cost_usd": 15.5098,
     "is_anomaly": false
   },
   {
-    "date": "2026-04-21",
+    "date": "2026-04-26",
     "service": "Amazon RDS",
-    "cost_usd": 10.2074,
+    "cost_usd": 8.6763,
     "is_anomaly": false
   },
   {
-    "date": "2026-04-21",
+    "date": "2026-04-26",
     "service": "Amazon S3",
-    "cost_usd": 3.5192,
+    "cost_usd": 2.9913,
     "is_anomaly": false
   },
   {
-    "date": "2026-04-22",
+    "date": "2026-04-27",
     "service": "AWS Data Transfer",
     "cost_usd": 4.2025,
     "is_anomaly": false
   },
   {
-    "date": "2026-04-22",
+    "date": "2026-04-27",
     "service": "AWS Lambda",
     "cost_usd": 0.8528,
     "is_anomaly": false
   },
   {
-    "date": "2026-04-22",
+    "date": "2026-04-27",
     "service": "Amazon CloudFront",
     "cost_usd": 2.2009,
     "is_anomaly": false
   },
   {
-    "date": "2026-04-22",
+    "date": "2026-04-27",
     "service": "Amazon DynamoDB",
     "cost_usd": 1.5093,
     "is_anomaly": false
   },
   {
-    "date": "2026-04-22",
+    "date": "2026-04-27",
     "service": "Amazon EC2",
     "cost_usd": 17.8335,
     "is_anomaly": false
   },
   {
-    "date": "2026-04-22",
+    "date": "2026-04-27",
     "service": "Amazon RDS",
     "cost_usd": 12.6588,
     "is_anomaly": false
   },
   {
-    "date": "2026-04-22",
+    "date": "2026-04-27",
     "service": "Amazon S3",
     "cost_usd": 3.2026,
     "is_anomaly": false
   },
   {
-    "date": "2026-04-23",
+    "date": "2026-04-28",
     "service": "AWS Data Transfer",
     "cost_usd": 4.7266,
     "is_anomaly": false
   },
   {
-    "date": "2026-04-23",
+    "date": "2026-04-28",
     "service": "AWS Lambda",
     "cost_usd": 0.8521,
     "is_anomaly": false
   },
   {
-    "date": "2026-04-23",
+    "date": "2026-04-28",
     "service": "Amazon CloudFront",
     "cost_usd": 2.2083,
     "is_anomaly": false
   },
   {
-    "date": "2026-04-23",
+    "date": "2026-04-28",
     "service": "Amazon DynamoDB",
     "cost_usd": 1.3966,
     "is_anomaly": false
   },
   {
-    "date": "2026-04-23",
+    "date": "2026-04-28",
     "service": "Amazon EC2",
     "cost_usd": 17.5664,
     "is_anomaly": false
   },
   {
-    "date": "2026-04-23",
+    "date": "2026-04-28",
     "service": "Amazon RDS",
     "cost_usd": 10.4518,
     "is_anomaly": false
   },
   {
-    "date": "2026-04-23",
+    "date": "2026-04-28",
     "service": "Amazon S3",
     "cost_usd": 3.6326,
     "is_anomaly": false
   },
   {
-    "date": "2026-04-24",
+    "date": "2026-04-29",
     "service": "AWS Data Transfer",
     "cost_usd": 4.0582,
     "is_anomaly": false
   },
   {
-    "date": "2026-04-24",
+    "date": "2026-04-29",
     "service": "AWS Lambda",
     "cost_usd": 0.8836,
     "is_anomaly": false
   },
   {
-    "date": "2026-04-24",
+    "date": "2026-04-29",
     "service": "Amazon CloudFront",
     "cost_usd": 2.1208,
     "is_anomaly": false
   },
   {
-    "date": "2026-04-24",
+    "date": "2026-04-29",
     "service": "Amazon DynamoDB",
     "cost_usd": 1.6828,
     "is_anomaly": false
   },
   {
-    "date": "2026-04-24",
+    "date": "2026-04-29",
     "service": "Amazon EC2",
     "cost_usd": 15.8709,
     "is_anomaly": false
   },
   {
-    "date": "2026-04-24",
+    "date": "2026-04-29",
     "service": "Amazon RDS",
     "cost_usd": 11.5469,
     "is_anomaly": false
   },
   {
-    "date": "2026-04-24",
+    "date": "2026-04-29",
     "service": "Amazon S3",
     "cost_usd": 3.2426,
     "is_anomaly": false
   },
   {
-    "date": "2026-04-25",
-    "service": "AWS Data Transfer",
-    "cost_usd": 3.4675,
-    "is_anomaly": false
-  },
-  {
-    "date": "2026-04-25",
-    "service": "AWS Lambda",
-    "cost_usd": 0.6811,
-    "is_anomaly": false
-  },
-  {
-    "date": "2026-04-25",
-    "service": "Amazon CloudFront",
-    "cost_usd": 1.9632,
-    "is_anomaly": false
-  },
-  {
-    "date": "2026-04-25",
-    "service": "Amazon DynamoDB",
-    "cost_usd": 1.33,
-    "is_anomaly": false
-  },
-  {
-    "date": "2026-04-25",
-    "service": "Amazon EC2",
-    "cost_usd": 14.4189,
-    "is_anomaly": false
-  },
-  {
-    "date": "2026-04-25",
-    "service": "Amazon RDS",
-    "cost_usd": 11.0886,
-    "is_anomaly": false
-  },
-  {
-    "date": "2026-04-25",
-    "service": "Amazon S3",
-    "cost_usd": 3.3439,
-    "is_anomaly": false
-  },
-  {
-    "date": "2026-04-26",
-    "service": "AWS Data Transfer",
-    "cost_usd": 3.2751,
-    "is_anomaly": false
-  },
-  {
-    "date": "2026-04-26",
-    "service": "AWS Lambda",
-    "cost_usd": 0.7171,
-    "is_anomaly": false
-  },
-  {
-    "date": "2026-04-26",
-    "service": "Amazon CloudFront",
-    "cost_usd": 1.7103,
-    "is_anomaly": false
-  },
-  {
-    "date": "2026-04-26",
-    "service": "Amazon DynamoDB",
-    "cost_usd": 1.1692,
-    "is_anomaly": false
-  },
-  {
-    "date": "2026-04-26",
-    "service": "Amazon EC2",
-    "cost_usd": 14.7362,
-    "is_anomaly": false
-  },
-  {
-    "date": "2026-04-26",
-    "service": "Amazon RDS",
-    "cost_usd": 10.2525,
-    "is_anomaly": false
-  },
-  {
-    "date": "2026-04-26",
-    "service": "Amazon S3",
-    "cost_usd": 2.7886,
-    "is_anomaly": false
-  },
-  {
-    "date": "2026-04-27",
-    "service": "AWS Data Transfer",
-    "cost_usd": 3.728,
-    "is_anomaly": false
-  },
-  {
-    "date": "2026-04-27",
-    "service": "AWS Lambda",
-    "cost_usd": 0.7801,
-    "is_anomaly": false
-  },
-  {
-    "date": "2026-04-27",
-    "service": "Amazon CloudFront",
-    "cost_usd": 2.1749,
-    "is_anomaly": false
-  },
-  {
-    "date": "2026-04-27",
-    "service": "Amazon DynamoDB",
-    "cost_usd": 1.4772,
-    "is_anomaly": false
-  },
-  {
-    "date": "2026-04-27",
-    "service": "Amazon EC2",
-    "cost_usd": 19.5223,
-    "is_anomaly": false
-  },
-  {
-    "date": "2026-04-27",
-    "service": "Amazon RDS",
-    "cost_usd": 10.9654,
-    "is_anomaly": false
-  },
-  {
-    "date": "2026-04-27",
-    "service": "Amazon S3",
-    "cost_usd": 3.4098,
-    "is_anomaly": false
-  },
-  {
-    "date": "2026-04-28",
-    "service": "AWS Data Transfer",
-    "cost_usd": 4.2657,
-    "is_anomaly": false
-  },
-  {
-    "date": "2026-04-28",
-    "service": "AWS Lambda",
-    "cost_usd": 0.8207,
-    "is_anomaly": false
-  },
-  {
-    "date": "2026-04-28",
-    "service": "Amazon CloudFront",
-    "cost_usd": 2.2212,
-    "is_anomaly": false
-  },
-  {
-    "date": "2026-04-28",
-    "service": "Amazon DynamoDB",
-    "cost_usd": 1.3949,
-    "is_anomaly": false
-  },
-  {
-    "date": "2026-04-28",
-    "service": "Amazon EC2",
-    "cost_usd": 18.4948,
-    "is_anomaly": false
-  },
-  {
-    "date": "2026-04-28",
-    "service": "Amazon RDS",
-    "cost_usd": 11.3133,
-    "is_anomaly": false
-  },
-  {
-    "date": "2026-04-28",
-    "service": "Amazon S3",
-    "cost_usd": 3.7278,
-    "is_anomaly": false
-  },
-  {
-    "date": "2026-04-29",
-    "service": "AWS Data Transfer",
-    "cost_usd": 3.7261,
-    "is_anomaly": false
-  },
-  {
-    "date": "2026-04-29",
-    "service": "AWS Lambda",
-    "cost_usd": 0.7917,
-    "is_anomaly": false
-  },
-  {
-    "date": "2026-04-29",
-    "service": "Amazon CloudFront",
-    "cost_usd": 2.2905,
-    "is_anomaly": false
-  },
-  {
-    "date": "2026-04-29",
-    "service": "Amazon DynamoDB",
-    "cost_usd": 1.3341,
-    "is_anomaly": false
-  },
-  {
-    "date": "2026-04-29",
-    "service": "Amazon EC2",
-    "cost_usd": 15.4612,
-    "is_anomaly": false
-  },
-  {
-    "date": "2026-04-29",
-    "service": "Amazon RDS",
-    "cost_usd": 12.6524,
-    "is_anomaly": false
-  },
-  {
-    "date": "2026-04-29",
-    "service": "Amazon S3",
-    "cost_usd": 3.1554,
-    "is_anomaly": false
-  },
-  {
     "date": "2026-04-30",
     "service": "AWS Data Transfer",
-    "cost_usd": 4.0229,
+    "cost_usd": 4.0794,
     "is_anomaly": false
   },
   {
     "date": "2026-04-30",
     "service": "AWS Lambda",
-    "cost_usd": 0.8062,
+    "cost_usd": 0.8013,
     "is_anomaly": false
   },
   {
     "date": "2026-04-30",
     "service": "Amazon CloudFront",
-    "cost_usd": 2.3252,
+    "cost_usd": 2.3096,
     "is_anomaly": false
   },
   {
     "date": "2026-04-30",
     "service": "Amazon DynamoDB",
-    "cost_usd": 1.6111,
+    "cost_usd": 1.5647,
     "is_anomaly": false
   },
   {
     "date": "2026-04-30",
     "service": "Amazon EC2",
-    "cost_usd": 18.4667,
+    "cost_usd": 16.9634,
     "is_anomaly": false
   },
   {
     "date": "2026-04-30",
     "service": "Amazon RDS",
-    "cost_usd": 11.2988,
+    "cost_usd": 13.0454,
     "is_anomaly": false
   },
   {
     "date": "2026-04-30",
     "service": "Amazon S3",
-    "cost_usd": 3.5637,
+    "cost_usd": 3.934,
     "is_anomaly": false
   },
   {
     "date": "2026-05-01",
     "service": "AWS Data Transfer",
-    "cost_usd": 3.8471,
+    "cost_usd": 3.853,
     "is_anomaly": false
   },
   {
     "date": "2026-05-01",
     "service": "AWS Lambda",
-    "cost_usd": 0.8381,
+    "cost_usd": 0.8436,
     "is_anomaly": false
   },
   {
     "date": "2026-05-01",
     "service": "Amazon CloudFront",
-    "cost_usd": 2.0021,
+    "cost_usd": 2.0121,
     "is_anomaly": false
   },
   {
     "date": "2026-05-01",
     "service": "Amazon DynamoDB",
-    "cost_usd": 1.7291,
+    "cost_usd": 1.3755,
     "is_anomaly": false
   },
   {
     "date": "2026-05-01",
     "service": "Amazon EC2",
-    "cost_usd": 17.4455,
+    "cost_usd": 17.3367,
     "is_anomaly": false
   },
   {
     "date": "2026-05-01",
     "service": "Amazon RDS",
-    "cost_usd": 12.2078,
+    "cost_usd": 12.0617,
     "is_anomaly": false
   },
   {
     "date": "2026-05-01",
     "service": "Amazon S3",
-    "cost_usd": 3.866,
+    "cost_usd": 3.2807,
     "is_anomaly": false
   },
   {
     "date": "2026-05-02",
     "service": "AWS Data Transfer",
-    "cost_usd": 3.5303,
+    "cost_usd": 3.1688,
     "is_anomaly": false
   },
   {
     "date": "2026-05-02",
     "service": "AWS Lambda",
-    "cost_usd": 0.6355,
+    "cost_usd": 0.6631,
     "is_anomaly": false
   },
   {
     "date": "2026-05-02",
     "service": "Amazon CloudFront",
-    "cost_usd": 1.6405,
+    "cost_usd": 1.8487,
     "is_anomaly": false
   },
   {
     "date": "2026-05-02",
     "service": "Amazon DynamoDB",
-    "cost_usd": 1.1323,
+    "cost_usd": 1.2556,
     "is_anomaly": false
   },
   {
     "date": "2026-05-02",
     "service": "Amazon EC2",
-    "cost_usd": 14.4714,
+    "cost_usd": 16.5939,
     "is_anomaly": false
   },
   {
     "date": "2026-05-02",
     "service": "Amazon RDS",
-    "cost_usd": 10.2372,
+    "cost_usd": 9.3206,
     "is_anomaly": false
   },
   {
     "date": "2026-05-02",
     "service": "Amazon S3",
-    "cost_usd": 2.5924,
+    "cost_usd": 2.8983,
     "is_anomaly": false
   },
   {
     "date": "2026-05-03",
     "service": "AWS Data Transfer",
-    "cost_usd": 3.4908,
+    "cost_usd": 3.6259,
     "is_anomaly": false
   },
   {
     "date": "2026-05-03",
-    "service": "AWS Lambda",
-    "cost_usd": 0.7938,
-    "is_anomaly": false
-  },
-  {
-    "date": "2026-05-03",
-    "service": "Amazon CloudFront",
-    "cost_usd": 2.0611,
-    "is_anomaly": false
-  },
-  {
-    "date": "2026-05-03",
-    "service": "Amazon DynamoDB",
-    "cost_usd": 1.3324,
-    "is_anomaly": false
-  },
-  {
-    "date": "2026-05-03",
-    "service": "Amazon EC2",
-    "cost_usd": 16.0487,
-    "is_anomaly": false
-  },
-  {
-    "date": "2026-05-03",
-    "service": "Amazon RDS",
-    "cost_usd": 9.6683,
-    "is_anomaly": false
-  },
-  {
-    "date": "2026-05-03",
-    "service": "Amazon S3",
-    "cost_usd": 3.0189,
-    "is_anomaly": false
-  },
-  {
-    "date": "2026-05-04",
-    "service": "AWS Data Transfer",
-    "cost_usd": 4.332,
-    "is_anomaly": false
-  },
-  {
-    "date": "2026-05-04",
-    "service": "AWS Lambda",
-    "cost_usd": 0.7356,
-    "is_anomaly": false
-  },
-  {
-    "date": "2026-05-04",
-    "service": "Amazon CloudFront",
-    "cost_usd": 2.2585,
-    "is_anomaly": false
-  },
-  {
-    "date": "2026-05-04",
-    "service": "Amazon DynamoDB",
-    "cost_usd": 1.4219,
-    "is_anomaly": false
-  },
-  {
-    "date": "2026-05-04",
-    "service": "Amazon EC2",
-    "cost_usd": 19.4846,
-    "is_anomaly": false
-  },
-  {
-    "date": "2026-05-04",
-    "service": "Amazon RDS",
-    "cost_usd": 14.0582,
-    "is_anomaly": false
-  },
-  {
-    "date": "2026-05-04",
-    "service": "Amazon S3",
-    "cost_usd": 3.5728,
-    "is_anomaly": false
-  },
-  {
-    "date": "2026-05-05",
-    "service": "AWS Data Transfer",
-    "cost_usd": 3.8368,
-    "is_anomaly": false
-  },
-  {
-    "date": "2026-05-05",
-    "service": "AWS Lambda",
-    "cost_usd": 0.7223,
-    "is_anomaly": false
-  },
-  {
-    "date": "2026-05-05",
-    "service": "Amazon CloudFront",
-    "cost_usd": 2.0683,
-    "is_anomaly": false
-  },
-  {
-    "date": "2026-05-05",
-    "service": "Amazon DynamoDB",
-    "cost_usd": 1.4415,
-    "is_anomaly": false
-  },
-  {
-    "date": "2026-05-05",
-    "service": "Amazon EC2",
-    "cost_usd": 40.6162,
-    "is_anomaly": true
-  },
-  {
-    "date": "2026-05-05",
-    "service": "Amazon RDS",
-    "cost_usd": 12.6086,
-    "is_anomaly": false
-  },
-  {
-    "date": "2026-05-05",
-    "service": "Amazon S3",
-    "cost_usd": 3.7189,
-    "is_anomaly": false
-  },
-  {
-    "date": "2026-05-06",
-    "service": "AWS Data Transfer",
-    "cost_usd": 3.9136,
-    "is_anomaly": false
-  },
-  {
-    "date": "2026-05-06",
-    "service": "AWS Lambda",
-    "cost_usd": 0.8741,
-    "is_anomaly": false
-  },
-  {
-    "date": "2026-05-06",
-    "service": "Amazon CloudFront",
-    "cost_usd": 2.473,
-    "is_anomaly": false
-  },
-  {
-    "date": "2026-05-06",
-    "service": "Amazon DynamoDB",
-    "cost_usd": 1.4289,
-    "is_anomaly": false
-  },
-  {
-    "date": "2026-05-06",
-    "service": "Amazon EC2",
-    "cost_usd": 16.7915,
-    "is_anomaly": false
-  },
-  {
-    "date": "2026-05-06",
-    "service": "Amazon RDS",
-    "cost_usd": 10.0559,
-    "is_anomaly": false
-  },
-  {
-    "date": "2026-05-06",
-    "service": "Amazon S3",
-    "cost_usd": 3.1537,
-    "is_anomaly": false
-  },
-  {
-    "date": "2026-05-07",
-    "service": "AWS Data Transfer",
-    "cost_usd": 3.6868,
-    "is_anomaly": false
-  },
-  {
-    "date": "2026-05-07",
-    "service": "AWS Lambda",
-    "cost_usd": 0.8507,
-    "is_anomaly": false
-  },
-  {
-    "date": "2026-05-07",
-    "service": "Amazon CloudFront",
-    "cost_usd": 2.2204,
-    "is_anomaly": false
-  },
-  {
-    "date": "2026-05-07",
-    "service": "Amazon DynamoDB",
-    "cost_usd": 1.3963,
-    "is_anomaly": false
-  },
-  {
-    "date": "2026-05-07",
-    "service": "Amazon EC2",
-    "cost_usd": 17.5547,
-    "is_anomaly": false
-  },
-  {
-    "date": "2026-05-07",
-    "service": "Amazon RDS",
-    "cost_usd": 12.179,
-    "is_anomaly": false
-  },
-  {
-    "date": "2026-05-07",
-    "service": "Amazon S3",
-    "cost_usd": 3.1303,
-    "is_anomaly": false
-  },
-  {
-    "date": "2026-05-08",
-    "service": "AWS Data Transfer",
-    "cost_usd": 3.8578,
-    "is_anomaly": false
-  },
-  {
-    "date": "2026-05-08",
-    "service": "AWS Lambda",
-    "cost_usd": 0.8399,
-    "is_anomaly": false
-  },
-  {
-    "date": "2026-05-08",
-    "service": "Amazon CloudFront",
-    "cost_usd": 2.4076,
-    "is_anomaly": false
-  },
-  {
-    "date": "2026-05-08",
-    "service": "Amazon DynamoDB",
-    "cost_usd": 1.5058,
-    "is_anomaly": false
-  },
-  {
-    "date": "2026-05-08",
-    "service": "Amazon EC2",
-    "cost_usd": 18.477,
-    "is_anomaly": false
-  },
-  {
-    "date": "2026-05-08",
-    "service": "Amazon RDS",
-    "cost_usd": 11.3647,
-    "is_anomaly": false
-  },
-  {
-    "date": "2026-05-08",
-    "service": "Amazon S3",
-    "cost_usd": 3.6461,
-    "is_anomaly": false
-  },
-  {
-    "date": "2026-05-09",
-    "service": "AWS Data Transfer",
-    "cost_usd": 3.5026,
-    "is_anomaly": false
-  },
-  {
-    "date": "2026-05-09",
-    "service": "AWS Lambda",
-    "cost_usd": 0.7142,
-    "is_anomaly": false
-  },
-  {
-    "date": "2026-05-09",
-    "service": "Amazon CloudFront",
-    "cost_usd": 1.8801,
-    "is_anomaly": false
-  },
-  {
-    "date": "2026-05-09",
-    "service": "Amazon DynamoDB",
-    "cost_usd": 1.1902,
-    "is_anomaly": false
-  },
-  {
-    "date": "2026-05-09",
-    "service": "Amazon EC2",
-    "cost_usd": 16.4941,
-    "is_anomaly": false
-  },
-  {
-    "date": "2026-05-09",
-    "service": "Amazon RDS",
-    "cost_usd": 10.8956,
-    "is_anomaly": false
-  },
-  {
-    "date": "2026-05-09",
-    "service": "Amazon S3",
-    "cost_usd": 3.0457,
-    "is_anomaly": false
-  },
-  {
-    "date": "2026-05-10",
-    "service": "AWS Data Transfer",
-    "cost_usd": 3.6059,
-    "is_anomaly": false
-  },
-  {
-    "date": "2026-05-10",
-    "service": "AWS Lambda",
-    "cost_usd": 0.6793,
-    "is_anomaly": false
-  },
-  {
-    "date": "2026-05-10",
-    "service": "Amazon CloudFront",
-    "cost_usd": 2.1783,
-    "is_anomaly": false
-  },
-  {
-    "date": "2026-05-10",
-    "service": "Amazon DynamoDB",
-    "cost_usd": 1.3026,
-    "is_anomaly": false
-  },
-  {
-    "date": "2026-05-10",
-    "service": "Amazon EC2",
-    "cost_usd": 14.7135,
-    "is_anomaly": false
-  },
-  {
-    "date": "2026-05-10",
-    "service": "Amazon RDS",
-    "cost_usd": 9.5533,
-    "is_anomaly": false
-  },
-  {
-    "date": "2026-05-10",
-    "service": "Amazon S3",
-    "cost_usd": 3.0346,
-    "is_anomaly": false
-  },
-  {
-    "date": "2026-05-11",
-    "service": "AWS Data Transfer",
-    "cost_usd": 3.7049,
-    "is_anomaly": false
-  },
-  {
-    "date": "2026-05-11",
-    "service": "AWS Lambda",
-    "cost_usd": 0.7426,
-    "is_anomaly": false
-  },
-  {
-    "date": "2026-05-11",
-    "service": "Amazon CloudFront",
-    "cost_usd": 2.5089,
-    "is_anomaly": false
-  },
-  {
-    "date": "2026-05-11",
-    "service": "Amazon DynamoDB",
-    "cost_usd": 1.494,
-    "is_anomaly": false
-  },
-  {
-    "date": "2026-05-11",
-    "service": "Amazon EC2",
-    "cost_usd": 17.7327,
-    "is_anomaly": false
-  },
-  {
-    "date": "2026-05-11",
-    "service": "Amazon RDS",
-    "cost_usd": 11.8899,
-    "is_anomaly": false
-  },
-  {
-    "date": "2026-05-11",
-    "service": "Amazon S3",
-    "cost_usd": 3.597,
-    "is_anomaly": false
-  },
-  {
-    "date": "2026-05-12",
-    "service": "AWS Data Transfer",
-    "cost_usd": 4.2783,
-    "is_anomaly": false
-  },
-  {
-    "date": "2026-05-12",
-    "service": "AWS Lambda",
-    "cost_usd": 0.8049,
-    "is_anomaly": false
-  },
-  {
-    "date": "2026-05-12",
-    "service": "Amazon CloudFront",
-    "cost_usd": 2.1562,
-    "is_anomaly": false
-  },
-  {
-    "date": "2026-05-12",
-    "service": "Amazon DynamoDB",
-    "cost_usd": 1.4713,
-    "is_anomaly": false
-  },
-  {
-    "date": "2026-05-12",
-    "service": "Amazon EC2",
-    "cost_usd": 16.4069,
-    "is_anomaly": false
-  },
-  {
-    "date": "2026-05-12",
-    "service": "Amazon RDS",
-    "cost_usd": 12.4848,
-    "is_anomaly": false
-  },
-  {
-    "date": "2026-05-12",
-    "service": "Amazon S3",
-    "cost_usd": 3.3096,
-    "is_anomaly": false
-  },
-  {
-    "date": "2026-05-13",
-    "service": "AWS Data Transfer",
-    "cost_usd": 4.4338,
-    "is_anomaly": false
-  },
-  {
-    "date": "2026-05-13",
-    "service": "AWS Lambda",
-    "cost_usd": 0.7567,
-    "is_anomaly": false
-  },
-  {
-    "date": "2026-05-13",
-    "service": "Amazon CloudFront",
-    "cost_usd": 2.371,
-    "is_anomaly": false
-  },
-  {
-    "date": "2026-05-13",
-    "service": "Amazon DynamoDB",
-    "cost_usd": 1.3911,
-    "is_anomaly": false
-  },
-  {
-    "date": "2026-05-13",
-    "service": "Amazon EC2",
-    "cost_usd": 16.2775,
-    "is_anomaly": false
-  },
-  {
-    "date": "2026-05-13",
-    "service": "Amazon RDS",
-    "cost_usd": 12.8311,
-    "is_anomaly": false
-  },
-  {
-    "date": "2026-05-13",
-    "service": "Amazon S3",
-    "cost_usd": 3.565,
-    "is_anomaly": false
-  },
-  {
-    "date": "2026-05-14",
-    "service": "AWS Data Transfer",
-    "cost_usd": 4.1323,
-    "is_anomaly": false
-  },
-  {
-    "date": "2026-05-14",
-    "service": "AWS Lambda",
-    "cost_usd": 0.8624,
-    "is_anomaly": false
-  },
-  {
-    "date": "2026-05-14",
-    "service": "Amazon CloudFront",
-    "cost_usd": 2.3136,
-    "is_anomaly": false
-  },
-  {
-    "date": "2026-05-14",
-    "service": "Amazon DynamoDB",
-    "cost_usd": 1.4308,
-    "is_anomaly": false
-  },
-  {
-    "date": "2026-05-14",
-    "service": "Amazon EC2",
-    "cost_usd": 19.17,
-    "is_anomaly": false
-  },
-  {
-    "date": "2026-05-14",
-    "service": "Amazon RDS",
-    "cost_usd": 10.8477,
-    "is_anomaly": false
-  },
-  {
-    "date": "2026-05-14",
-    "service": "Amazon S3",
-    "cost_usd": 3.5821,
-    "is_anomaly": false
-  },
-  {
-    "date": "2026-05-15",
-    "service": "AWS Data Transfer",
-    "cost_usd": 4.6006,
-    "is_anomaly": false
-  },
-  {
-    "date": "2026-05-15",
-    "service": "AWS Lambda",
-    "cost_usd": 0.7906,
-    "is_anomaly": false
-  },
-  {
-    "date": "2026-05-15",
-    "service": "Amazon CloudFront",
-    "cost_usd": 2.4409,
-    "is_anomaly": false
-  },
-  {
-    "date": "2026-05-15",
-    "service": "Amazon DynamoDB",
-    "cost_usd": 1.5906,
-    "is_anomaly": false
-  },
-  {
-    "date": "2026-05-15",
-    "service": "Amazon EC2",
-    "cost_usd": 19.953,
-    "is_anomaly": false
-  },
-  {
-    "date": "2026-05-15",
-    "service": "Amazon RDS",
-    "cost_usd": 11.6789,
-    "is_anomaly": false
-  },
-  {
-    "date": "2026-05-15",
-    "service": "Amazon S3",
-    "cost_usd": 3.3,
-    "is_anomaly": false
-  },
-  {
-    "date": "2026-05-16",
-    "service": "AWS Data Transfer",
-    "cost_usd": 3.1895,
-    "is_anomaly": false
-  },
-  {
-    "date": "2026-05-16",
-    "service": "AWS Lambda",
-    "cost_usd": 0.6351,
-    "is_anomaly": false
-  },
-  {
-    "date": "2026-05-16",
-    "service": "Amazon CloudFront",
-    "cost_usd": 1.7256,
-    "is_anomaly": false
-  },
-  {
-    "date": "2026-05-16",
-    "service": "Amazon DynamoDB",
-    "cost_usd": 1.3261,
-    "is_anomaly": false
-  },
-  {
-    "date": "2026-05-16",
-    "service": "Amazon EC2",
-    "cost_usd": 15.2119,
-    "is_anomaly": false
-  },
-  {
-    "date": "2026-05-16",
-    "service": "Amazon RDS",
-    "cost_usd": 9.8124,
-    "is_anomaly": false
-  },
-  {
-    "date": "2026-05-16",
-    "service": "Amazon S3",
-    "cost_usd": 3.4191,
-    "is_anomaly": false
-  },
-  {
-    "date": "2026-05-17",
-    "service": "AWS Data Transfer",
-    "cost_usd": 3.0615,
-    "is_anomaly": false
-  },
-  {
-    "date": "2026-05-17",
-    "service": "AWS Lambda",
-    "cost_usd": 0.6625,
-    "is_anomaly": false
-  },
-  {
-    "date": "2026-05-17",
-    "service": "Amazon CloudFront",
-    "cost_usd": 1.9726,
-    "is_anomaly": false
-  },
-  {
-    "date": "2026-05-17",
-    "service": "Amazon DynamoDB",
-    "cost_usd": 1.1753,
-    "is_anomaly": false
-  },
-  {
-    "date": "2026-05-17",
-    "service": "Amazon EC2",
-    "cost_usd": 16.5283,
-    "is_anomaly": false
-  },
-  {
-    "date": "2026-05-17",
-    "service": "Amazon RDS",
-    "cost_usd": 9.6669,
-    "is_anomaly": false
-  },
-  {
-    "date": "2026-05-17",
-    "service": "Amazon S3",
-    "cost_usd": 3.0878,
-    "is_anomaly": false
-  },
-  {
-    "date": "2026-05-18",
-    "service": "AWS Data Transfer",
-    "cost_usd": 3.4308,
-    "is_anomaly": false
-  },
-  {
-    "date": "2026-05-18",
-    "service": "AWS Lambda",
-    "cost_usd": 0.8264,
-    "is_anomaly": false
-  },
-  {
-    "date": "2026-05-18",
-    "service": "Amazon CloudFront",
-    "cost_usd": 2.3863,
-    "is_anomaly": false
-  },
-  {
-    "date": "2026-05-18",
-    "service": "Amazon DynamoDB",
-    "cost_usd": 1.5119,
-    "is_anomaly": false
-  },
-  {
-    "date": "2026-05-18",
-    "service": "Amazon EC2",
-    "cost_usd": 18.5208,
-    "is_anomaly": false
-  },
-  {
-    "date": "2026-05-18",
-    "service": "Amazon RDS",
-    "cost_usd": 13.6948,
-    "is_anomaly": false
-  },
-  {
-    "date": "2026-05-18",
-    "service": "Amazon S3",
-    "cost_usd": 3.1664,
-    "is_anomaly": false
-  },
-  {
-    "date": "2026-05-19",
-    "service": "AWS Data Transfer",
-    "cost_usd": 4.4787,
-    "is_anomaly": false
-  },
-  {
-    "date": "2026-05-19",
-    "service": "AWS Lambda",
-    "cost_usd": 0.7639,
-    "is_anomaly": false
-  },
-  {
-    "date": "2026-05-19",
-    "service": "Amazon CloudFront",
-    "cost_usd": 1.8905,
-    "is_anomaly": false
-  },
-  {
-    "date": "2026-05-19",
-    "service": "Amazon DynamoDB",
-    "cost_usd": 1.5902,
-    "is_anomaly": false
-  },
-  {
-    "date": "2026-05-19",
-    "service": "Amazon EC2",
-    "cost_usd": 17.071,
-    "is_anomaly": false
-  },
-  {
-    "date": "2026-05-19",
-    "service": "Amazon RDS",
-    "cost_usd": 12.3888,
-    "is_anomaly": false
-  },
-  {
-    "date": "2026-05-19",
-    "service": "Amazon S3",
-    "cost_usd": 3.6838,
-    "is_anomaly": false
-  },
-  {
-    "date": "2026-05-20",
-    "service": "AWS Data Transfer",
-    "cost_usd": 4.2094,
-    "is_anomaly": false
-  },
-  {
-    "date": "2026-05-20",
-    "service": "AWS Lambda",
-    "cost_usd": 0.7474,
-    "is_anomaly": false
-  },
-  {
-    "date": "2026-05-20",
-    "service": "Amazon CloudFront",
-    "cost_usd": 1.9917,
-    "is_anomaly": false
-  },
-  {
-    "date": "2026-05-20",
-    "service": "Amazon DynamoDB",
-    "cost_usd": 1.2997,
-    "is_anomaly": false
-  },
-  {
-    "date": "2026-05-20",
-    "service": "Amazon EC2",
-    "cost_usd": 18.5204,
-    "is_anomaly": false
-  },
-  {
-    "date": "2026-05-20",
-    "service": "Amazon RDS",
-    "cost_usd": 10.7896,
-    "is_anomaly": false
-  },
-  {
-    "date": "2026-05-20",
-    "service": "Amazon S3",
-    "cost_usd": 3.2271,
-    "is_anomaly": false
-  },
-  {
-    "date": "2026-05-21",
-    "service": "AWS Data Transfer",
-    "cost_usd": 3.9822,
-    "is_anomaly": false
-  },
-  {
-    "date": "2026-05-21",
-    "service": "AWS Lambda",
-    "cost_usd": 0.8156,
-    "is_anomaly": false
-  },
-  {
-    "date": "2026-05-21",
-    "service": "Amazon CloudFront",
-    "cost_usd": 1.8411,
-    "is_anomaly": false
-  },
-  {
-    "date": "2026-05-21",
-    "service": "Amazon DynamoDB",
-    "cost_usd": 1.5652,
-    "is_anomaly": false
-  },
-  {
-    "date": "2026-05-21",
-    "service": "Amazon EC2",
-    "cost_usd": 20.2148,
-    "is_anomaly": false
-  },
-  {
-    "date": "2026-05-21",
-    "service": "Amazon RDS",
-    "cost_usd": 12.8811,
-    "is_anomaly": false
-  },
-  {
-    "date": "2026-05-21",
-    "service": "Amazon S3",
-    "cost_usd": 3.7204,
-    "is_anomaly": false
-  },
-  {
-    "date": "2026-05-22",
-    "service": "AWS Data Transfer",
-    "cost_usd": 4.0896,
-    "is_anomaly": false
-  },
-  {
-    "date": "2026-05-22",
-    "service": "AWS Lambda",
-    "cost_usd": 0.8157,
-    "is_anomaly": false
-  },
-  {
-    "date": "2026-05-22",
-    "service": "Amazon CloudFront",
-    "cost_usd": 2.1526,
-    "is_anomaly": false
-  },
-  {
-    "date": "2026-05-22",
-    "service": "Amazon DynamoDB",
-    "cost_usd": 1.4205,
-    "is_anomaly": false
-  },
-  {
-    "date": "2026-05-22",
-    "service": "Amazon EC2",
-    "cost_usd": 17.9484,
-    "is_anomaly": false
-  },
-  {
-    "date": "2026-05-22",
-    "service": "Amazon RDS",
-    "cost_usd": 14.0373,
-    "is_anomaly": false
-  },
-  {
-    "date": "2026-05-22",
-    "service": "Amazon S3",
-    "cost_usd": 3.8244,
-    "is_anomaly": false
-  },
-  {
-    "date": "2026-05-23",
-    "service": "AWS Data Transfer",
-    "cost_usd": 3.0939,
-    "is_anomaly": false
-  },
-  {
-    "date": "2026-05-23",
-    "service": "AWS Lambda",
-    "cost_usd": 0.6524,
-    "is_anomaly": false
-  },
-  {
-    "date": "2026-05-23",
-    "service": "Amazon CloudFront",
-    "cost_usd": 1.9773,
-    "is_anomaly": false
-  },
-  {
-    "date": "2026-05-23",
-    "service": "Amazon DynamoDB",
-    "cost_usd": 1.3332,
-    "is_anomaly": false
-  },
-  {
-    "date": "2026-05-23",
-    "service": "Amazon EC2",
-    "cost_usd": 17.2151,
-    "is_anomaly": false
-  },
-  {
-    "date": "2026-05-23",
-    "service": "Amazon RDS",
-    "cost_usd": 11.0425,
-    "is_anomaly": false
-  },
-  {
-    "date": "2026-05-23",
-    "service": "Amazon S3",
-    "cost_usd": 2.7797,
-    "is_anomaly": false
-  },
-  {
-    "date": "2026-05-24",
-    "service": "AWS Data Transfer",
-    "cost_usd": 4.0652,
-    "is_anomaly": false
-  },
-  {
-    "date": "2026-05-24",
-    "service": "AWS Lambda",
-    "cost_usd": 0.6544,
-    "is_anomaly": false
-  },
-  {
-    "date": "2026-05-24",
-    "service": "Amazon CloudFront",
-    "cost_usd": 2.0948,
-    "is_anomaly": false
-  },
-  {
-    "date": "2026-05-24",
-    "service": "Amazon DynamoDB",
-    "cost_usd": 1.1971,
-    "is_anomaly": false
-  },
-  {
-    "date": "2026-05-24",
-    "service": "Amazon EC2",
-    "cost_usd": 12.0934,
-    "is_anomaly": false
-  },
-  {
-    "date": "2026-05-24",
-    "service": "Amazon RDS",
-    "cost_usd": 8.9602,
-    "is_anomaly": false
-  },
-  {
-    "date": "2026-05-24",
-    "service": "Amazon S3",
-    "cost_usd": 3.2043,
-    "is_anomaly": false
-  },
-  {
-    "date": "2026-05-25",
-    "service": "AWS Data Transfer",
-    "cost_usd": 4.0414,
-    "is_anomaly": false
-  },
-  {
-    "date": "2026-05-25",
-    "service": "AWS Lambda",
-    "cost_usd": 0.8149,
-    "is_anomaly": false
-  },
-  {
-    "date": "2026-05-25",
-    "service": "Amazon CloudFront",
-    "cost_usd": 2.213,
-    "is_anomaly": false
-  },
-  {
-    "date": "2026-05-25",
-    "service": "Amazon DynamoDB",
-    "cost_usd": 1.2834,
-    "is_anomaly": false
-  },
-  {
-    "date": "2026-05-25",
-    "service": "Amazon EC2",
-    "cost_usd": 19.1835,
-    "is_anomaly": false
-  },
-  {
-    "date": "2026-05-25",
-    "service": "Amazon RDS",
-    "cost_usd": 32.2984,
-    "is_anomaly": true
-  },
-  {
-    "date": "2026-05-25",
-    "service": "Amazon S3",
-    "cost_usd": 3.6156,
-    "is_anomaly": false
-  },
-  {
-    "date": "2026-05-26",
-    "service": "AWS Data Transfer",
-    "cost_usd": 4.035,
-    "is_anomaly": false
-  },
-  {
-    "date": "2026-05-26",
-    "service": "AWS Lambda",
-    "cost_usd": 0.7073,
-    "is_anomaly": false
-  },
-  {
-    "date": "2026-05-26",
-    "service": "Amazon CloudFront",
-    "cost_usd": 2.4866,
-    "is_anomaly": false
-  },
-  {
-    "date": "2026-05-26",
-    "service": "Amazon DynamoDB",
-    "cost_usd": 1.3047,
-    "is_anomaly": false
-  },
-  {
-    "date": "2026-05-26",
-    "service": "Amazon EC2",
-    "cost_usd": 18.1253,
-    "is_anomaly": false
-  },
-  {
-    "date": "2026-05-26",
-    "service": "Amazon RDS",
-    "cost_usd": 13.2162,
-    "is_anomaly": false
-  },
-  {
-    "date": "2026-05-26",
-    "service": "Amazon S3",
-    "cost_usd": 3.7302,
-    "is_anomaly": false
-  },
-  {
-    "date": "2026-05-27",
-    "service": "AWS Data Transfer",
-    "cost_usd": 4.2322,
-    "is_anomaly": false
-  },
-  {
-    "date": "2026-05-27",
-    "service": "AWS Lambda",
-    "cost_usd": 0.7099,
-    "is_anomaly": false
-  },
-  {
-    "date": "2026-05-27",
-    "service": "Amazon CloudFront",
-    "cost_usd": 1.9571,
-    "is_anomaly": false
-  },
-  {
-    "date": "2026-05-27",
-    "service": "Amazon DynamoDB",
-    "cost_usd": 1.5058,
-    "is_anomaly": false
-  },
-  {
-    "date": "2026-05-27",
-    "service": "Amazon EC2",
-    "cost_usd": 17.5694,
-    "is_anomaly": false
-  },
-  {
-    "date": "2026-05-27",
-    "service": "Amazon RDS",
-    "cost_usd": 11.3206,
-    "is_anomaly": false
-  },
-  {
-    "date": "2026-05-27",
-    "service": "Amazon S3",
-    "cost_usd": 4.0311,
-    "is_anomaly": false
-  },
-  {
-    "date": "2026-05-28",
-    "service": "AWS Data Transfer",
-    "cost_usd": 4.1539,
-    "is_anomaly": false
-  },
-  {
-    "date": "2026-05-28",
-    "service": "AWS Lambda",
-    "cost_usd": 0.754,
-    "is_anomaly": false
-  },
-  {
-    "date": "2026-05-28",
-    "service": "Amazon CloudFront",
-    "cost_usd": 1.9002,
-    "is_anomaly": false
-  },
-  {
-    "date": "2026-05-28",
-    "service": "Amazon DynamoDB",
-    "cost_usd": 1.5312,
-    "is_anomaly": false
-  },
-  {
-    "date": "2026-05-28",
-    "service": "Amazon EC2",
-    "cost_usd": 18.1321,
-    "is_anomaly": false
-  },
-  {
-    "date": "2026-05-28",
-    "service": "Amazon RDS",
-    "cost_usd": 12.4261,
-    "is_anomaly": false
-  },
-  {
-    "date": "2026-05-28",
-    "service": "Amazon S3",
-    "cost_usd": 3.4313,
-    "is_anomaly": false
-  },
-  {
-    "date": "2026-05-29",
-    "service": "AWS Data Transfer",
-    "cost_usd": 4.0716,
-    "is_anomaly": false
-  },
-  {
-    "date": "2026-05-29",
-    "service": "AWS Lambda",
-    "cost_usd": 0.7863,
-    "is_anomaly": false
-  },
-  {
-    "date": "2026-05-29",
-    "service": "Amazon CloudFront",
-    "cost_usd": 2.1902,
-    "is_anomaly": false
-  },
-  {
-    "date": "2026-05-29",
-    "service": "Amazon DynamoDB",
-    "cost_usd": 1.3915,
-    "is_anomaly": false
-  },
-  {
-    "date": "2026-05-29",
-    "service": "Amazon EC2",
-    "cost_usd": 15.1379,
-    "is_anomaly": false
-  },
-  {
-    "date": "2026-05-29",
-    "service": "Amazon RDS",
-    "cost_usd": 12.7436,
-    "is_anomaly": false
-  },
-  {
-    "date": "2026-05-29",
-    "service": "Amazon S3",
-    "cost_usd": 3.289,
-    "is_anomaly": false
-  },
-  {
-    "date": "2026-05-30",
-    "service": "AWS Data Transfer",
-    "cost_usd": 3.185,
-    "is_anomaly": false
-  },
-  {
-    "date": "2026-05-30",
-    "service": "AWS Lambda",
-    "cost_usd": 0.6969,
-    "is_anomaly": false
-  },
-  {
-    "date": "2026-05-30",
-    "service": "Amazon CloudFront",
-    "cost_usd": 1.9275,
-    "is_anomaly": false
-  },
-  {
-    "date": "2026-05-30",
-    "service": "Amazon DynamoDB",
-    "cost_usd": 1.3401,
-    "is_anomaly": false
-  },
-  {
-    "date": "2026-05-30",
-    "service": "Amazon EC2",
-    "cost_usd": 15.0311,
-    "is_anomaly": false
-  },
-  {
-    "date": "2026-05-30",
-    "service": "Amazon RDS",
-    "cost_usd": 9.4436,
-    "is_anomaly": false
-  },
-  {
-    "date": "2026-05-30",
-    "service": "Amazon S3",
-    "cost_usd": 2.7633,
-    "is_anomaly": false
-  },
-  {
-    "date": "2026-05-31",
-    "service": "AWS Data Transfer",
-    "cost_usd": 3.5282,
-    "is_anomaly": false
-  },
-  {
-    "date": "2026-05-31",
-    "service": "AWS Lambda",
-    "cost_usd": 0.7603,
-    "is_anomaly": false
-  },
-  {
-    "date": "2026-05-31",
-    "service": "Amazon CloudFront",
-    "cost_usd": 1.8651,
-    "is_anomaly": false
-  },
-  {
-    "date": "2026-05-31",
-    "service": "Amazon DynamoDB",
-    "cost_usd": 1.1055,
-    "is_anomaly": false
-  },
-  {
-    "date": "2026-05-31",
-    "service": "Amazon EC2",
-    "cost_usd": 15.7371,
-    "is_anomaly": false
-  },
-  {
-    "date": "2026-05-31",
-    "service": "Amazon RDS",
-    "cost_usd": 10.1514,
-    "is_anomaly": false
-  },
-  {
-    "date": "2026-05-31",
-    "service": "Amazon S3",
-    "cost_usd": 2.7808,
-    "is_anomaly": false
-  },
-  {
-    "date": "2026-06-01",
-    "service": "AWS Data Transfer",
-    "cost_usd": 4.6022,
-    "is_anomaly": false
-  },
-  {
-    "date": "2026-06-01",
-    "service": "AWS Lambda",
-    "cost_usd": 0.8549,
-    "is_anomaly": false
-  },
-  {
-    "date": "2026-06-01",
-    "service": "Amazon CloudFront",
-    "cost_usd": 1.8361,
-    "is_anomaly": false
-  },
-  {
-    "date": "2026-06-01",
-    "service": "Amazon DynamoDB",
-    "cost_usd": 1.4921,
-    "is_anomaly": false
-  },
-  {
-    "date": "2026-06-01",
-    "service": "Amazon EC2",
-    "cost_usd": 20.1282,
-    "is_anomaly": false
-  },
-  {
-    "date": "2026-06-01",
-    "service": "Amazon RDS",
-    "cost_usd": 8.8884,
-    "is_anomaly": false
-  },
-  {
-    "date": "2026-06-01",
-    "service": "Amazon S3",
-    "cost_usd": 3.4784,
-    "is_anomaly": false
-  },
-  {
-    "date": "2026-06-02",
-    "service": "AWS Data Transfer",
-    "cost_usd": 4.4305,
-    "is_anomaly": false
-  },
-  {
-    "date": "2026-06-02",
-    "service": "AWS Lambda",
-    "cost_usd": 0.7898,
-    "is_anomaly": false
-  },
-  {
-    "date": "2026-06-02",
-    "service": "Amazon CloudFront",
-    "cost_usd": 2.1843,
-    "is_anomaly": false
-  },
-  {
-    "date": "2026-06-02",
-    "service": "Amazon DynamoDB",
-    "cost_usd": 1.3547,
-    "is_anomaly": false
-  },
-  {
-    "date": "2026-06-02",
-    "service": "Amazon EC2",
-    "cost_usd": 17.2537,
-    "is_anomaly": false
-  },
-  {
-    "date": "2026-06-02",
-    "service": "Amazon RDS",
-    "cost_usd": 11.0166,
-    "is_anomaly": false
-  },
-  {
-    "date": "2026-06-02",
-    "service": "Amazon S3",
-    "cost_usd": 3.5955,
-    "is_anomaly": false
-  },
-  {
-    "date": "2026-06-03",
-    "service": "AWS Data Transfer",
-    "cost_usd": 4.5098,
-    "is_anomaly": false
-  },
-  {
-    "date": "2026-06-03",
-    "service": "AWS Lambda",
-    "cost_usd": 0.7988,
-    "is_anomaly": false
-  },
-  {
-    "date": "2026-06-03",
-    "service": "Amazon CloudFront",
-    "cost_usd": 1.9704,
-    "is_anomaly": false
-  },
-  {
-    "date": "2026-06-03",
-    "service": "Amazon DynamoDB",
-    "cost_usd": 1.4218,
-    "is_anomaly": false
-  },
-  {
-    "date": "2026-06-03",
-    "service": "Amazon EC2",
-    "cost_usd": 16.8358,
-    "is_anomaly": false
-  },
-  {
-    "date": "2026-06-03",
-    "service": "Amazon RDS",
-    "cost_usd": 11.7575,
-    "is_anomaly": false
-  },
-  {
-    "date": "2026-06-03",
-    "service": "Amazon S3",
-    "cost_usd": 3.5775,
-    "is_anomaly": false
-  },
-  {
-    "date": "2026-06-04",
-    "service": "AWS Data Transfer",
-    "cost_usd": 3.8364,
-    "is_anomaly": false
-  },
-  {
-    "date": "2026-06-04",
-    "service": "AWS Lambda",
-    "cost_usd": 0.7358,
-    "is_anomaly": false
-  },
-  {
-    "date": "2026-06-04",
-    "service": "Amazon CloudFront",
-    "cost_usd": 2.3179,
-    "is_anomaly": false
-  },
-  {
-    "date": "2026-06-04",
-    "service": "Amazon DynamoDB",
-    "cost_usd": 1.5057,
-    "is_anomaly": false
-  },
-  {
-    "date": "2026-06-04",
-    "service": "Amazon EC2",
-    "cost_usd": 17.2775,
-    "is_anomaly": false
-  },
-  {
-    "date": "2026-06-04",
-    "service": "Amazon RDS",
-    "cost_usd": 10.8021,
-    "is_anomaly": false
-  },
-  {
-    "date": "2026-06-04",
-    "service": "Amazon S3",
-    "cost_usd": 3.7316,
-    "is_anomaly": false
-  },
-  {
-    "date": "2026-06-05",
-    "service": "AWS Data Transfer",
-    "cost_usd": 3.6833,
-    "is_anomaly": false
-  },
-  {
-    "date": "2026-06-05",
-    "service": "AWS Lambda",
-    "cost_usd": 0.7988,
-    "is_anomaly": false
-  },
-  {
-    "date": "2026-06-05",
-    "service": "Amazon CloudFront",
-    "cost_usd": 2.2645,
-    "is_anomaly": false
-  },
-  {
-    "date": "2026-06-05",
-    "service": "Amazon DynamoDB",
-    "cost_usd": 1.3968,
-    "is_anomaly": false
-  },
-  {
-    "date": "2026-06-05",
-    "service": "Amazon EC2",
-    "cost_usd": 19.3182,
-    "is_anomaly": false
-  },
-  {
-    "date": "2026-06-05",
-    "service": "Amazon RDS",
-    "cost_usd": 13.5671,
-    "is_anomaly": false
-  },
-  {
-    "date": "2026-06-05",
-    "service": "Amazon S3",
-    "cost_usd": 3.5036,
-    "is_anomaly": false
-  },
-  {
-    "date": "2026-06-06",
-    "service": "AWS Data Transfer",
-    "cost_usd": 3.3658,
-    "is_anomaly": false
-  },
-  {
-    "date": "2026-06-06",
-    "service": "AWS Lambda",
-    "cost_usd": 0.6643,
-    "is_anomaly": false
-  },
-  {
-    "date": "2026-06-06",
-    "service": "Amazon CloudFront",
-    "cost_usd": 1.7294,
-    "is_anomaly": false
-  },
-  {
-    "date": "2026-06-06",
-    "service": "Amazon DynamoDB",
-    "cost_usd": 1.2358,
-    "is_anomaly": false
-  },
-  {
-    "date": "2026-06-06",
-    "service": "Amazon EC2",
-    "cost_usd": 15.7024,
-    "is_anomaly": false
-  },
-  {
-    "date": "2026-06-06",
-    "service": "Amazon RDS",
-    "cost_usd": 9.033,
-    "is_anomaly": false
-  },
-  {
-    "date": "2026-06-06",
-    "service": "Amazon S3",
-    "cost_usd": 3.3209,
-    "is_anomaly": false
-  },
-  {
-    "date": "2026-06-07",
-    "service": "AWS Data Transfer",
-    "cost_usd": 3.4152,
-    "is_anomaly": false
-  },
-  {
-    "date": "2026-06-07",
     "service": "AWS Lambda",
     "cost_usd": 0.6976,
     "is_anomaly": false
   },
   {
-    "date": "2026-06-07",
+    "date": "2026-05-03",
     "service": "Amazon CloudFront",
-    "cost_usd": 1.7931,
+    "cost_usd": 1.888,
     "is_anomaly": false
   },
   {
-    "date": "2026-06-07",
+    "date": "2026-05-03",
     "service": "Amazon DynamoDB",
-    "cost_usd": 1.3776,
+    "cost_usd": 1.1857,
     "is_anomaly": false
   },
   {
-    "date": "2026-06-07",
+    "date": "2026-05-03",
     "service": "Amazon EC2",
-    "cost_usd": 14.6516,
+    "cost_usd": 15.7206,
     "is_anomaly": false
   },
   {
-    "date": "2026-06-07",
+    "date": "2026-05-03",
     "service": "Amazon RDS",
-    "cost_usd": 9.8409,
+    "cost_usd": 9.6163,
     "is_anomaly": false
   },
   {
-    "date": "2026-06-07",
+    "date": "2026-05-03",
     "service": "Amazon S3",
-    "cost_usd": 2.912,
+    "cost_usd": 3.1686,
     "is_anomaly": false
   },
   {
-    "date": "2026-06-08",
+    "date": "2026-05-04",
     "service": "AWS Data Transfer",
-    "cost_usd": 4.3501,
+    "cost_usd": 3.7261,
     "is_anomaly": false
   },
   {
-    "date": "2026-06-08",
+    "date": "2026-05-04",
     "service": "AWS Lambda",
-    "cost_usd": 0.7471,
+    "cost_usd": 0.7917,
     "is_anomaly": false
   },
   {
-    "date": "2026-06-08",
+    "date": "2026-05-04",
     "service": "Amazon CloudFront",
-    "cost_usd": 2.0136,
+    "cost_usd": 2.2905,
     "is_anomaly": false
   },
   {
-    "date": "2026-06-08",
+    "date": "2026-05-04",
+    "service": "Amazon DynamoDB",
+    "cost_usd": 1.3341,
+    "is_anomaly": false
+  },
+  {
+    "date": "2026-05-04",
+    "service": "Amazon EC2",
+    "cost_usd": 15.4612,
+    "is_anomaly": false
+  },
+  {
+    "date": "2026-05-04",
+    "service": "Amazon RDS",
+    "cost_usd": 12.6524,
+    "is_anomaly": false
+  },
+  {
+    "date": "2026-05-04",
+    "service": "Amazon S3",
+    "cost_usd": 3.1554,
+    "is_anomaly": false
+  },
+  {
+    "date": "2026-05-05",
+    "service": "AWS Data Transfer",
+    "cost_usd": 4.0229,
+    "is_anomaly": false
+  },
+  {
+    "date": "2026-05-05",
+    "service": "AWS Lambda",
+    "cost_usd": 0.8062,
+    "is_anomaly": false
+  },
+  {
+    "date": "2026-05-05",
+    "service": "Amazon CloudFront",
+    "cost_usd": 2.3252,
+    "is_anomaly": false
+  },
+  {
+    "date": "2026-05-05",
+    "service": "Amazon DynamoDB",
+    "cost_usd": 1.6111,
+    "is_anomaly": false
+  },
+  {
+    "date": "2026-05-05",
+    "service": "Amazon EC2",
+    "cost_usd": 18.4667,
+    "is_anomaly": false
+  },
+  {
+    "date": "2026-05-05",
+    "service": "Amazon RDS",
+    "cost_usd": 11.2988,
+    "is_anomaly": false
+  },
+  {
+    "date": "2026-05-05",
+    "service": "Amazon S3",
+    "cost_usd": 3.5637,
+    "is_anomaly": false
+  },
+  {
+    "date": "2026-05-06",
+    "service": "AWS Data Transfer",
+    "cost_usd": 3.8471,
+    "is_anomaly": false
+  },
+  {
+    "date": "2026-05-06",
+    "service": "AWS Lambda",
+    "cost_usd": 0.8381,
+    "is_anomaly": false
+  },
+  {
+    "date": "2026-05-06",
+    "service": "Amazon CloudFront",
+    "cost_usd": 2.0021,
+    "is_anomaly": false
+  },
+  {
+    "date": "2026-05-06",
+    "service": "Amazon DynamoDB",
+    "cost_usd": 1.7291,
+    "is_anomaly": false
+  },
+  {
+    "date": "2026-05-06",
+    "service": "Amazon EC2",
+    "cost_usd": 17.4455,
+    "is_anomaly": false
+  },
+  {
+    "date": "2026-05-06",
+    "service": "Amazon RDS",
+    "cost_usd": 12.2078,
+    "is_anomaly": false
+  },
+  {
+    "date": "2026-05-06",
+    "service": "Amazon S3",
+    "cost_usd": 3.866,
+    "is_anomaly": false
+  },
+  {
+    "date": "2026-05-07",
+    "service": "AWS Data Transfer",
+    "cost_usd": 4.1533,
+    "is_anomaly": false
+  },
+  {
+    "date": "2026-05-07",
+    "service": "AWS Lambda",
+    "cost_usd": 0.7476,
+    "is_anomaly": false
+  },
+  {
+    "date": "2026-05-07",
+    "service": "Amazon CloudFront",
+    "cost_usd": 1.93,
+    "is_anomaly": false
+  },
+  {
+    "date": "2026-05-07",
+    "service": "Amazon DynamoDB",
+    "cost_usd": 1.3322,
+    "is_anomaly": false
+  },
+  {
+    "date": "2026-05-07",
+    "service": "Amazon EC2",
+    "cost_usd": 17.0252,
+    "is_anomaly": false
+  },
+  {
+    "date": "2026-05-07",
+    "service": "Amazon RDS",
+    "cost_usd": 12.0437,
+    "is_anomaly": false
+  },
+  {
+    "date": "2026-05-07",
+    "service": "Amazon S3",
+    "cost_usd": 3.0499,
+    "is_anomaly": false
+  },
+  {
+    "date": "2026-05-08",
+    "service": "AWS Data Transfer",
+    "cost_usd": 4.1068,
+    "is_anomaly": false
+  },
+  {
+    "date": "2026-05-08",
+    "service": "AWS Lambda",
+    "cost_usd": 0.9339,
+    "is_anomaly": false
+  },
+  {
+    "date": "2026-05-08",
+    "service": "Amazon CloudFront",
+    "cost_usd": 2.4249,
+    "is_anomaly": false
+  },
+  {
+    "date": "2026-05-08",
+    "service": "Amazon DynamoDB",
+    "cost_usd": 1.5676,
+    "is_anomaly": false
+  },
+  {
+    "date": "2026-05-08",
+    "service": "Amazon EC2",
+    "cost_usd": 18.8808,
+    "is_anomaly": false
+  },
+  {
+    "date": "2026-05-08",
+    "service": "Amazon RDS",
+    "cost_usd": 11.3745,
+    "is_anomaly": false
+  },
+  {
+    "date": "2026-05-08",
+    "service": "Amazon S3",
+    "cost_usd": 3.5517,
+    "is_anomaly": false
+  },
+  {
+    "date": "2026-05-09",
+    "service": "AWS Data Transfer",
+    "cost_usd": 3.6822,
+    "is_anomaly": false
+  },
+  {
+    "date": "2026-05-09",
+    "service": "AWS Lambda",
+    "cost_usd": 0.6253,
+    "is_anomaly": false
+  },
+  {
+    "date": "2026-05-09",
+    "service": "Amazon CloudFront",
+    "cost_usd": 1.9197,
+    "is_anomaly": false
+  },
+  {
+    "date": "2026-05-09",
+    "service": "Amazon DynamoDB",
+    "cost_usd": 1.2086,
+    "is_anomaly": false
+  },
+  {
+    "date": "2026-05-09",
+    "service": "Amazon EC2",
+    "cost_usd": 16.5619,
+    "is_anomaly": false
+  },
+  {
+    "date": "2026-05-09",
+    "service": "Amazon RDS",
+    "cost_usd": 11.9495,
+    "is_anomaly": false
+  },
+  {
+    "date": "2026-05-09",
+    "service": "Amazon S3",
+    "cost_usd": 3.0369,
+    "is_anomaly": false
+  },
+  {
+    "date": "2026-05-10",
+    "service": "AWS Data Transfer",
+    "cost_usd": 3.2613,
+    "is_anomaly": false
+  },
+  {
+    "date": "2026-05-10",
+    "service": "AWS Lambda",
+    "cost_usd": 0.6139,
+    "is_anomaly": false
+  },
+  {
+    "date": "2026-05-10",
+    "service": "Amazon CloudFront",
+    "cost_usd": 1.758,
+    "is_anomaly": false
+  },
+  {
+    "date": "2026-05-10",
+    "service": "Amazon DynamoDB",
+    "cost_usd": 1.2253,
+    "is_anomaly": false
+  },
+  {
+    "date": "2026-05-10",
+    "service": "Amazon EC2",
+    "cost_usd": 34.5238,
+    "is_anomaly": true
+  },
+  {
+    "date": "2026-05-10",
+    "service": "Amazon RDS",
+    "cost_usd": 10.7173,
+    "is_anomaly": false
+  },
+  {
+    "date": "2026-05-10",
+    "service": "Amazon S3",
+    "cost_usd": 3.1611,
+    "is_anomaly": false
+  },
+  {
+    "date": "2026-05-11",
+    "service": "AWS Data Transfer",
+    "cost_usd": 3.9136,
+    "is_anomaly": false
+  },
+  {
+    "date": "2026-05-11",
+    "service": "AWS Lambda",
+    "cost_usd": 0.8741,
+    "is_anomaly": false
+  },
+  {
+    "date": "2026-05-11",
+    "service": "Amazon CloudFront",
+    "cost_usd": 2.473,
+    "is_anomaly": false
+  },
+  {
+    "date": "2026-05-11",
+    "service": "Amazon DynamoDB",
+    "cost_usd": 1.4289,
+    "is_anomaly": false
+  },
+  {
+    "date": "2026-05-11",
+    "service": "Amazon EC2",
+    "cost_usd": 16.7915,
+    "is_anomaly": false
+  },
+  {
+    "date": "2026-05-11",
+    "service": "Amazon RDS",
+    "cost_usd": 10.0559,
+    "is_anomaly": false
+  },
+  {
+    "date": "2026-05-11",
+    "service": "Amazon S3",
+    "cost_usd": 3.1537,
+    "is_anomaly": false
+  },
+  {
+    "date": "2026-05-12",
+    "service": "AWS Data Transfer",
+    "cost_usd": 3.6868,
+    "is_anomaly": false
+  },
+  {
+    "date": "2026-05-12",
+    "service": "AWS Lambda",
+    "cost_usd": 0.8507,
+    "is_anomaly": false
+  },
+  {
+    "date": "2026-05-12",
+    "service": "Amazon CloudFront",
+    "cost_usd": 2.2204,
+    "is_anomaly": false
+  },
+  {
+    "date": "2026-05-12",
+    "service": "Amazon DynamoDB",
+    "cost_usd": 1.3963,
+    "is_anomaly": false
+  },
+  {
+    "date": "2026-05-12",
+    "service": "Amazon EC2",
+    "cost_usd": 17.5547,
+    "is_anomaly": false
+  },
+  {
+    "date": "2026-05-12",
+    "service": "Amazon RDS",
+    "cost_usd": 12.179,
+    "is_anomaly": false
+  },
+  {
+    "date": "2026-05-12",
+    "service": "Amazon S3",
+    "cost_usd": 3.1303,
+    "is_anomaly": false
+  },
+  {
+    "date": "2026-05-13",
+    "service": "AWS Data Transfer",
+    "cost_usd": 3.8578,
+    "is_anomaly": false
+  },
+  {
+    "date": "2026-05-13",
+    "service": "AWS Lambda",
+    "cost_usd": 0.8399,
+    "is_anomaly": false
+  },
+  {
+    "date": "2026-05-13",
+    "service": "Amazon CloudFront",
+    "cost_usd": 2.4076,
+    "is_anomaly": false
+  },
+  {
+    "date": "2026-05-13",
+    "service": "Amazon DynamoDB",
+    "cost_usd": 1.5058,
+    "is_anomaly": false
+  },
+  {
+    "date": "2026-05-13",
+    "service": "Amazon EC2",
+    "cost_usd": 18.477,
+    "is_anomaly": false
+  },
+  {
+    "date": "2026-05-13",
+    "service": "Amazon RDS",
+    "cost_usd": 11.3647,
+    "is_anomaly": false
+  },
+  {
+    "date": "2026-05-13",
+    "service": "Amazon S3",
+    "cost_usd": 3.6461,
+    "is_anomaly": false
+  },
+  {
+    "date": "2026-05-14",
+    "service": "AWS Data Transfer",
+    "cost_usd": 4.1207,
+    "is_anomaly": false
+  },
+  {
+    "date": "2026-05-14",
+    "service": "AWS Lambda",
+    "cost_usd": 0.8402,
+    "is_anomaly": false
+  },
+  {
+    "date": "2026-05-14",
+    "service": "Amazon CloudFront",
+    "cost_usd": 2.2119,
+    "is_anomaly": false
+  },
+  {
+    "date": "2026-05-14",
+    "service": "Amazon DynamoDB",
+    "cost_usd": 1.4003,
+    "is_anomaly": false
+  },
+  {
+    "date": "2026-05-14",
+    "service": "Amazon EC2",
+    "cost_usd": 19.4048,
+    "is_anomaly": false
+  },
+  {
+    "date": "2026-05-14",
+    "service": "Amazon RDS",
+    "cost_usd": 12.8183,
+    "is_anomaly": false
+  },
+  {
+    "date": "2026-05-14",
+    "service": "Amazon S3",
+    "cost_usd": 3.5832,
+    "is_anomaly": false
+  },
+  {
+    "date": "2026-05-15",
+    "service": "AWS Data Transfer",
+    "cost_usd": 4.2422,
+    "is_anomaly": false
+  },
+  {
+    "date": "2026-05-15",
+    "service": "AWS Lambda",
+    "cost_usd": 0.7992,
+    "is_anomaly": false
+  },
+  {
+    "date": "2026-05-15",
+    "service": "Amazon CloudFront",
+    "cost_usd": 2.5627,
+    "is_anomaly": false
+  },
+  {
+    "date": "2026-05-15",
+    "service": "Amazon DynamoDB",
+    "cost_usd": 1.5325,
+    "is_anomaly": false
+  },
+  {
+    "date": "2026-05-15",
+    "service": "Amazon EC2",
+    "cost_usd": 17.31,
+    "is_anomaly": false
+  },
+  {
+    "date": "2026-05-15",
+    "service": "Amazon RDS",
+    "cost_usd": 11.2392,
+    "is_anomaly": false
+  },
+  {
+    "date": "2026-05-15",
+    "service": "Amazon S3",
+    "cost_usd": 3.5701,
+    "is_anomaly": false
+  },
+  {
+    "date": "2026-05-16",
+    "service": "AWS Data Transfer",
+    "cost_usd": 3.1492,
+    "is_anomaly": false
+  },
+  {
+    "date": "2026-05-16",
+    "service": "AWS Lambda",
+    "cost_usd": 0.6312,
+    "is_anomaly": false
+  },
+  {
+    "date": "2026-05-16",
+    "service": "Amazon CloudFront",
+    "cost_usd": 2.1326,
+    "is_anomaly": false
+  },
+  {
+    "date": "2026-05-16",
+    "service": "Amazon DynamoDB",
+    "cost_usd": 1.2699,
+    "is_anomaly": false
+  },
+  {
+    "date": "2026-05-16",
+    "service": "Amazon EC2",
+    "cost_usd": 15.0728,
+    "is_anomaly": false
+  },
+  {
+    "date": "2026-05-16",
+    "service": "Amazon RDS",
+    "cost_usd": 10.1064,
+    "is_anomaly": false
+  },
+  {
+    "date": "2026-05-16",
+    "service": "Amazon S3",
+    "cost_usd": 3.0575,
+    "is_anomaly": false
+  },
+  {
+    "date": "2026-05-17",
+    "service": "AWS Data Transfer",
+    "cost_usd": 3.6365,
+    "is_anomaly": false
+  },
+  {
+    "date": "2026-05-17",
+    "service": "AWS Lambda",
+    "cost_usd": 0.6841,
+    "is_anomaly": false
+  },
+  {
+    "date": "2026-05-17",
+    "service": "Amazon CloudFront",
+    "cost_usd": 1.8328,
+    "is_anomaly": false
+  },
+  {
+    "date": "2026-05-17",
+    "service": "Amazon DynamoDB",
+    "cost_usd": 1.2506,
+    "is_anomaly": false
+  },
+  {
+    "date": "2026-05-17",
+    "service": "Amazon EC2",
+    "cost_usd": 13.9458,
+    "is_anomaly": false
+  },
+  {
+    "date": "2026-05-17",
+    "service": "Amazon RDS",
+    "cost_usd": 10.6121,
+    "is_anomaly": false
+  },
+  {
+    "date": "2026-05-17",
+    "service": "Amazon S3",
+    "cost_usd": 2.8132,
+    "is_anomaly": false
+  },
+  {
+    "date": "2026-05-18",
+    "service": "AWS Data Transfer",
+    "cost_usd": 4.4338,
+    "is_anomaly": false
+  },
+  {
+    "date": "2026-05-18",
+    "service": "AWS Lambda",
+    "cost_usd": 0.7567,
+    "is_anomaly": false
+  },
+  {
+    "date": "2026-05-18",
+    "service": "Amazon CloudFront",
+    "cost_usd": 2.371,
+    "is_anomaly": false
+  },
+  {
+    "date": "2026-05-18",
+    "service": "Amazon DynamoDB",
+    "cost_usd": 1.3911,
+    "is_anomaly": false
+  },
+  {
+    "date": "2026-05-18",
+    "service": "Amazon EC2",
+    "cost_usd": 16.2775,
+    "is_anomaly": false
+  },
+  {
+    "date": "2026-05-18",
+    "service": "Amazon RDS",
+    "cost_usd": 12.8311,
+    "is_anomaly": false
+  },
+  {
+    "date": "2026-05-18",
+    "service": "Amazon S3",
+    "cost_usd": 3.565,
+    "is_anomaly": false
+  },
+  {
+    "date": "2026-05-19",
+    "service": "AWS Data Transfer",
+    "cost_usd": 4.1323,
+    "is_anomaly": false
+  },
+  {
+    "date": "2026-05-19",
+    "service": "AWS Lambda",
+    "cost_usd": 0.8624,
+    "is_anomaly": false
+  },
+  {
+    "date": "2026-05-19",
+    "service": "Amazon CloudFront",
+    "cost_usd": 2.3136,
+    "is_anomaly": false
+  },
+  {
+    "date": "2026-05-19",
     "service": "Amazon DynamoDB",
     "cost_usd": 1.4308,
     "is_anomaly": false
   },
   {
+    "date": "2026-05-19",
+    "service": "Amazon EC2",
+    "cost_usd": 19.17,
+    "is_anomaly": false
+  },
+  {
+    "date": "2026-05-19",
+    "service": "Amazon RDS",
+    "cost_usd": 10.8477,
+    "is_anomaly": false
+  },
+  {
+    "date": "2026-05-19",
+    "service": "Amazon S3",
+    "cost_usd": 3.5821,
+    "is_anomaly": false
+  },
+  {
+    "date": "2026-05-20",
+    "service": "AWS Data Transfer",
+    "cost_usd": 4.6006,
+    "is_anomaly": false
+  },
+  {
+    "date": "2026-05-20",
+    "service": "AWS Lambda",
+    "cost_usd": 0.7906,
+    "is_anomaly": false
+  },
+  {
+    "date": "2026-05-20",
+    "service": "Amazon CloudFront",
+    "cost_usd": 2.4409,
+    "is_anomaly": false
+  },
+  {
+    "date": "2026-05-20",
+    "service": "Amazon DynamoDB",
+    "cost_usd": 1.5906,
+    "is_anomaly": false
+  },
+  {
+    "date": "2026-05-20",
+    "service": "Amazon EC2",
+    "cost_usd": 19.953,
+    "is_anomaly": false
+  },
+  {
+    "date": "2026-05-20",
+    "service": "Amazon RDS",
+    "cost_usd": 11.6789,
+    "is_anomaly": false
+  },
+  {
+    "date": "2026-05-20",
+    "service": "Amazon S3",
+    "cost_usd": 3.3,
+    "is_anomaly": false
+  },
+  {
+    "date": "2026-05-21",
+    "service": "AWS Data Transfer",
+    "cost_usd": 3.7524,
+    "is_anomaly": false
+  },
+  {
+    "date": "2026-05-21",
+    "service": "AWS Lambda",
+    "cost_usd": 0.7472,
+    "is_anomaly": false
+  },
+  {
+    "date": "2026-05-21",
+    "service": "Amazon CloudFront",
+    "cost_usd": 2.0302,
+    "is_anomaly": false
+  },
+  {
+    "date": "2026-05-21",
+    "service": "Amazon DynamoDB",
+    "cost_usd": 1.5601,
+    "is_anomaly": false
+  },
+  {
+    "date": "2026-05-21",
+    "service": "Amazon EC2",
+    "cost_usd": 17.8963,
+    "is_anomaly": false
+  },
+  {
+    "date": "2026-05-21",
+    "service": "Amazon RDS",
+    "cost_usd": 11.5441,
+    "is_anomaly": false
+  },
+  {
+    "date": "2026-05-21",
+    "service": "Amazon S3",
+    "cost_usd": 4.0224,
+    "is_anomaly": false
+  },
+  {
+    "date": "2026-05-22",
+    "service": "AWS Data Transfer",
+    "cost_usd": 3.6017,
+    "is_anomaly": false
+  },
+  {
+    "date": "2026-05-22",
+    "service": "AWS Lambda",
+    "cost_usd": 0.7794,
+    "is_anomaly": false
+  },
+  {
+    "date": "2026-05-22",
+    "service": "Amazon CloudFront",
+    "cost_usd": 2.3207,
+    "is_anomaly": false
+  },
+  {
+    "date": "2026-05-22",
+    "service": "Amazon DynamoDB",
+    "cost_usd": 1.3827,
+    "is_anomaly": false
+  },
+  {
+    "date": "2026-05-22",
+    "service": "Amazon EC2",
+    "cost_usd": 19.4451,
+    "is_anomaly": false
+  },
+  {
+    "date": "2026-05-22",
+    "service": "Amazon RDS",
+    "cost_usd": 11.3728,
+    "is_anomaly": false
+  },
+  {
+    "date": "2026-05-22",
+    "service": "Amazon S3",
+    "cost_usd": 3.6327,
+    "is_anomaly": false
+  },
+  {
+    "date": "2026-05-23",
+    "service": "AWS Data Transfer",
+    "cost_usd": 2.9162,
+    "is_anomaly": false
+  },
+  {
+    "date": "2026-05-23",
+    "service": "AWS Lambda",
+    "cost_usd": 0.7025,
+    "is_anomaly": false
+  },
+  {
+    "date": "2026-05-23",
+    "service": "Amazon CloudFront",
+    "cost_usd": 2.0283,
+    "is_anomaly": false
+  },
+  {
+    "date": "2026-05-23",
+    "service": "Amazon DynamoDB",
+    "cost_usd": 1.2851,
+    "is_anomaly": false
+  },
+  {
+    "date": "2026-05-23",
+    "service": "Amazon EC2",
+    "cost_usd": 15.7426,
+    "is_anomaly": false
+  },
+  {
+    "date": "2026-05-23",
+    "service": "Amazon RDS",
+    "cost_usd": 11.6406,
+    "is_anomaly": false
+  },
+  {
+    "date": "2026-05-23",
+    "service": "Amazon S3",
+    "cost_usd": 2.6915,
+    "is_anomaly": false
+  },
+  {
+    "date": "2026-05-24",
+    "service": "AWS Data Transfer",
+    "cost_usd": 3.8069,
+    "is_anomaly": false
+  },
+  {
+    "date": "2026-05-24",
+    "service": "AWS Lambda",
+    "cost_usd": 0.6493,
+    "is_anomaly": false
+  },
+  {
+    "date": "2026-05-24",
+    "service": "Amazon CloudFront",
+    "cost_usd": 1.6069,
+    "is_anomaly": false
+  },
+  {
+    "date": "2026-05-24",
+    "service": "Amazon DynamoDB",
+    "cost_usd": 1.3516,
+    "is_anomaly": false
+  },
+  {
+    "date": "2026-05-24",
+    "service": "Amazon EC2",
+    "cost_usd": 14.5104,
+    "is_anomaly": false
+  },
+  {
+    "date": "2026-05-24",
+    "service": "Amazon RDS",
+    "cost_usd": 10.5305,
+    "is_anomaly": false
+  },
+  {
+    "date": "2026-05-24",
+    "service": "Amazon S3",
+    "cost_usd": 3.1313,
+    "is_anomaly": false
+  },
+  {
+    "date": "2026-05-25",
+    "service": "AWS Data Transfer",
+    "cost_usd": 4.2094,
+    "is_anomaly": false
+  },
+  {
+    "date": "2026-05-25",
+    "service": "AWS Lambda",
+    "cost_usd": 0.7474,
+    "is_anomaly": false
+  },
+  {
+    "date": "2026-05-25",
+    "service": "Amazon CloudFront",
+    "cost_usd": 1.9917,
+    "is_anomaly": false
+  },
+  {
+    "date": "2026-05-25",
+    "service": "Amazon DynamoDB",
+    "cost_usd": 1.2997,
+    "is_anomaly": false
+  },
+  {
+    "date": "2026-05-25",
+    "service": "Amazon EC2",
+    "cost_usd": 18.5204,
+    "is_anomaly": false
+  },
+  {
+    "date": "2026-05-25",
+    "service": "Amazon RDS",
+    "cost_usd": 10.7896,
+    "is_anomaly": false
+  },
+  {
+    "date": "2026-05-25",
+    "service": "Amazon S3",
+    "cost_usd": 3.2271,
+    "is_anomaly": false
+  },
+  {
+    "date": "2026-05-26",
+    "service": "AWS Data Transfer",
+    "cost_usd": 3.9822,
+    "is_anomaly": false
+  },
+  {
+    "date": "2026-05-26",
+    "service": "AWS Lambda",
+    "cost_usd": 0.8156,
+    "is_anomaly": false
+  },
+  {
+    "date": "2026-05-26",
+    "service": "Amazon CloudFront",
+    "cost_usd": 1.8411,
+    "is_anomaly": false
+  },
+  {
+    "date": "2026-05-26",
+    "service": "Amazon DynamoDB",
+    "cost_usd": 1.5652,
+    "is_anomaly": false
+  },
+  {
+    "date": "2026-05-26",
+    "service": "Amazon EC2",
+    "cost_usd": 20.2148,
+    "is_anomaly": false
+  },
+  {
+    "date": "2026-05-26",
+    "service": "Amazon RDS",
+    "cost_usd": 12.8811,
+    "is_anomaly": false
+  },
+  {
+    "date": "2026-05-26",
+    "service": "Amazon S3",
+    "cost_usd": 3.7204,
+    "is_anomaly": false
+  },
+  {
+    "date": "2026-05-27",
+    "service": "AWS Data Transfer",
+    "cost_usd": 4.0896,
+    "is_anomaly": false
+  },
+  {
+    "date": "2026-05-27",
+    "service": "AWS Lambda",
+    "cost_usd": 0.8157,
+    "is_anomaly": false
+  },
+  {
+    "date": "2026-05-27",
+    "service": "Amazon CloudFront",
+    "cost_usd": 2.1526,
+    "is_anomaly": false
+  },
+  {
+    "date": "2026-05-27",
+    "service": "Amazon DynamoDB",
+    "cost_usd": 1.4205,
+    "is_anomaly": false
+  },
+  {
+    "date": "2026-05-27",
+    "service": "Amazon EC2",
+    "cost_usd": 17.9484,
+    "is_anomaly": false
+  },
+  {
+    "date": "2026-05-27",
+    "service": "Amazon RDS",
+    "cost_usd": 14.0373,
+    "is_anomaly": false
+  },
+  {
+    "date": "2026-05-27",
+    "service": "Amazon S3",
+    "cost_usd": 3.8244,
+    "is_anomaly": false
+  },
+  {
+    "date": "2026-05-28",
+    "service": "AWS Data Transfer",
+    "cost_usd": 3.6398,
+    "is_anomaly": false
+  },
+  {
+    "date": "2026-05-28",
+    "service": "AWS Lambda",
+    "cost_usd": 0.7676,
+    "is_anomaly": false
+  },
+  {
+    "date": "2026-05-28",
+    "service": "Amazon CloudFront",
+    "cost_usd": 2.3263,
+    "is_anomaly": false
+  },
+  {
+    "date": "2026-05-28",
+    "service": "Amazon DynamoDB",
+    "cost_usd": 1.5685,
+    "is_anomaly": false
+  },
+  {
+    "date": "2026-05-28",
+    "service": "Amazon EC2",
+    "cost_usd": 20.2531,
+    "is_anomaly": false
+  },
+  {
+    "date": "2026-05-28",
+    "service": "Amazon RDS",
+    "cost_usd": 12.9912,
+    "is_anomaly": false
+  },
+  {
+    "date": "2026-05-28",
+    "service": "Amazon S3",
+    "cost_usd": 3.2702,
+    "is_anomaly": false
+  },
+  {
+    "date": "2026-05-29",
+    "service": "AWS Data Transfer",
+    "cost_usd": 4.7826,
+    "is_anomaly": false
+  },
+  {
+    "date": "2026-05-29",
+    "service": "AWS Lambda",
+    "cost_usd": 0.7699,
+    "is_anomaly": false
+  },
+  {
+    "date": "2026-05-29",
+    "service": "Amazon CloudFront",
+    "cost_usd": 2.4644,
+    "is_anomaly": false
+  },
+  {
+    "date": "2026-05-29",
+    "service": "Amazon DynamoDB",
+    "cost_usd": 1.4084,
+    "is_anomaly": false
+  },
+  {
+    "date": "2026-05-29",
+    "service": "Amazon EC2",
+    "cost_usd": 14.2276,
+    "is_anomaly": false
+  },
+  {
+    "date": "2026-05-29",
+    "service": "Amazon RDS",
+    "cost_usd": 10.5414,
+    "is_anomaly": false
+  },
+  {
+    "date": "2026-05-29",
+    "service": "Amazon S3",
+    "cost_usd": 3.7697,
+    "is_anomaly": false
+  },
+  {
+    "date": "2026-05-30",
+    "service": "AWS Data Transfer",
+    "cost_usd": 3.4351,
+    "is_anomaly": false
+  },
+  {
+    "date": "2026-05-30",
+    "service": "AWS Lambda",
+    "cost_usd": 0.6926,
+    "is_anomaly": false
+  },
+  {
+    "date": "2026-05-30",
+    "service": "Amazon CloudFront",
+    "cost_usd": 1.8811,
+    "is_anomaly": false
+  },
+  {
+    "date": "2026-05-30",
+    "service": "Amazon DynamoDB",
+    "cost_usd": 1.0909,
+    "is_anomaly": false
+  },
+  {
+    "date": "2026-05-30",
+    "service": "Amazon EC2",
+    "cost_usd": 16.306,
+    "is_anomaly": false
+  },
+  {
+    "date": "2026-05-30",
+    "service": "Amazon RDS",
+    "cost_usd": 27.4536,
+    "is_anomaly": true
+  },
+  {
+    "date": "2026-05-30",
+    "service": "Amazon S3",
+    "cost_usd": 3.0732,
+    "is_anomaly": false
+  },
+  {
+    "date": "2026-05-31",
+    "service": "AWS Data Transfer",
+    "cost_usd": 3.4298,
+    "is_anomaly": false
+  },
+  {
+    "date": "2026-05-31",
+    "service": "AWS Lambda",
+    "cost_usd": 0.6012,
+    "is_anomaly": false
+  },
+  {
+    "date": "2026-05-31",
+    "service": "Amazon CloudFront",
+    "cost_usd": 2.1136,
+    "is_anomaly": false
+  },
+  {
+    "date": "2026-05-31",
+    "service": "Amazon DynamoDB",
+    "cost_usd": 1.109,
+    "is_anomaly": false
+  },
+  {
+    "date": "2026-05-31",
+    "service": "Amazon EC2",
+    "cost_usd": 15.4065,
+    "is_anomaly": false
+  },
+  {
+    "date": "2026-05-31",
+    "service": "Amazon RDS",
+    "cost_usd": 11.2338,
+    "is_anomaly": false
+  },
+  {
+    "date": "2026-05-31",
+    "service": "Amazon S3",
+    "cost_usd": 3.1707,
+    "is_anomaly": false
+  },
+  {
+    "date": "2026-06-01",
+    "service": "AWS Data Transfer",
+    "cost_usd": 4.2322,
+    "is_anomaly": false
+  },
+  {
+    "date": "2026-06-01",
+    "service": "AWS Lambda",
+    "cost_usd": 0.7099,
+    "is_anomaly": false
+  },
+  {
+    "date": "2026-06-01",
+    "service": "Amazon CloudFront",
+    "cost_usd": 1.9571,
+    "is_anomaly": false
+  },
+  {
+    "date": "2026-06-01",
+    "service": "Amazon DynamoDB",
+    "cost_usd": 1.5058,
+    "is_anomaly": false
+  },
+  {
+    "date": "2026-06-01",
+    "service": "Amazon EC2",
+    "cost_usd": 17.5694,
+    "is_anomaly": false
+  },
+  {
+    "date": "2026-06-01",
+    "service": "Amazon RDS",
+    "cost_usd": 11.3206,
+    "is_anomaly": false
+  },
+  {
+    "date": "2026-06-01",
+    "service": "Amazon S3",
+    "cost_usd": 4.0311,
+    "is_anomaly": false
+  },
+  {
+    "date": "2026-06-02",
+    "service": "AWS Data Transfer",
+    "cost_usd": 4.1539,
+    "is_anomaly": false
+  },
+  {
+    "date": "2026-06-02",
+    "service": "AWS Lambda",
+    "cost_usd": 0.754,
+    "is_anomaly": false
+  },
+  {
+    "date": "2026-06-02",
+    "service": "Amazon CloudFront",
+    "cost_usd": 1.9002,
+    "is_anomaly": false
+  },
+  {
+    "date": "2026-06-02",
+    "service": "Amazon DynamoDB",
+    "cost_usd": 1.5312,
+    "is_anomaly": false
+  },
+  {
+    "date": "2026-06-02",
+    "service": "Amazon EC2",
+    "cost_usd": 18.1321,
+    "is_anomaly": false
+  },
+  {
+    "date": "2026-06-02",
+    "service": "Amazon RDS",
+    "cost_usd": 12.4261,
+    "is_anomaly": false
+  },
+  {
+    "date": "2026-06-02",
+    "service": "Amazon S3",
+    "cost_usd": 3.4313,
+    "is_anomaly": false
+  },
+  {
+    "date": "2026-06-03",
+    "service": "AWS Data Transfer",
+    "cost_usd": 4.0716,
+    "is_anomaly": false
+  },
+  {
+    "date": "2026-06-03",
+    "service": "AWS Lambda",
+    "cost_usd": 0.7863,
+    "is_anomaly": false
+  },
+  {
+    "date": "2026-06-03",
+    "service": "Amazon CloudFront",
+    "cost_usd": 2.1902,
+    "is_anomaly": false
+  },
+  {
+    "date": "2026-06-03",
+    "service": "Amazon DynamoDB",
+    "cost_usd": 1.3915,
+    "is_anomaly": false
+  },
+  {
+    "date": "2026-06-03",
+    "service": "Amazon EC2",
+    "cost_usd": 15.1379,
+    "is_anomaly": false
+  },
+  {
+    "date": "2026-06-03",
+    "service": "Amazon RDS",
+    "cost_usd": 12.7436,
+    "is_anomaly": false
+  },
+  {
+    "date": "2026-06-03",
+    "service": "Amazon S3",
+    "cost_usd": 3.289,
+    "is_anomaly": false
+  },
+  {
+    "date": "2026-06-04",
+    "service": "AWS Data Transfer",
+    "cost_usd": 3.747,
+    "is_anomaly": false
+  },
+  {
+    "date": "2026-06-04",
+    "service": "AWS Lambda",
+    "cost_usd": 0.8199,
+    "is_anomaly": false
+  },
+  {
+    "date": "2026-06-04",
+    "service": "Amazon CloudFront",
+    "cost_usd": 2.2676,
+    "is_anomaly": false
+  },
+  {
+    "date": "2026-06-04",
+    "service": "Amazon DynamoDB",
+    "cost_usd": 1.5766,
+    "is_anomaly": false
+  },
+  {
+    "date": "2026-06-04",
+    "service": "Amazon EC2",
+    "cost_usd": 17.6837,
+    "is_anomaly": false
+  },
+  {
+    "date": "2026-06-04",
+    "service": "Amazon RDS",
+    "cost_usd": 11.1101,
+    "is_anomaly": false
+  },
+  {
+    "date": "2026-06-04",
+    "service": "Amazon S3",
+    "cost_usd": 3.2509,
+    "is_anomaly": false
+  },
+  {
+    "date": "2026-06-05",
+    "service": "AWS Data Transfer",
+    "cost_usd": 4.1509,
+    "is_anomaly": false
+  },
+  {
+    "date": "2026-06-05",
+    "service": "AWS Lambda",
+    "cost_usd": 0.8944,
+    "is_anomaly": false
+  },
+  {
+    "date": "2026-06-05",
+    "service": "Amazon CloudFront",
+    "cost_usd": 2.1942,
+    "is_anomaly": false
+  },
+  {
+    "date": "2026-06-05",
+    "service": "Amazon DynamoDB",
+    "cost_usd": 1.3006,
+    "is_anomaly": false
+  },
+  {
+    "date": "2026-06-05",
+    "service": "Amazon EC2",
+    "cost_usd": 18.5142,
+    "is_anomaly": false
+  },
+  {
+    "date": "2026-06-05",
+    "service": "Amazon RDS",
+    "cost_usd": 11.9429,
+    "is_anomaly": false
+  },
+  {
+    "date": "2026-06-05",
+    "service": "Amazon S3",
+    "cost_usd": 3.2716,
+    "is_anomaly": false
+  },
+  {
+    "date": "2026-06-06",
+    "service": "AWS Data Transfer",
+    "cost_usd": 3.9119,
+    "is_anomaly": false
+  },
+  {
+    "date": "2026-06-06",
+    "service": "AWS Lambda",
+    "cost_usd": 0.7267,
+    "is_anomaly": false
+  },
+  {
+    "date": "2026-06-06",
+    "service": "Amazon CloudFront",
+    "cost_usd": 1.5607,
+    "is_anomaly": false
+  },
+  {
+    "date": "2026-06-06",
+    "service": "Amazon DynamoDB",
+    "cost_usd": 1.2683,
+    "is_anomaly": false
+  },
+  {
+    "date": "2026-06-06",
+    "service": "Amazon EC2",
+    "cost_usd": 17.1089,
+    "is_anomaly": false
+  },
+  {
+    "date": "2026-06-06",
+    "service": "Amazon RDS",
+    "cost_usd": 7.5551,
+    "is_anomaly": false
+  },
+  {
+    "date": "2026-06-06",
+    "service": "Amazon S3",
+    "cost_usd": 2.9566,
+    "is_anomaly": false
+  },
+  {
+    "date": "2026-06-07",
+    "service": "AWS Data Transfer",
+    "cost_usd": 3.766,
+    "is_anomaly": false
+  },
+  {
+    "date": "2026-06-07",
+    "service": "AWS Lambda",
+    "cost_usd": 0.6713,
+    "is_anomaly": false
+  },
+  {
+    "date": "2026-06-07",
+    "service": "Amazon CloudFront",
+    "cost_usd": 1.8567,
+    "is_anomaly": false
+  },
+  {
+    "date": "2026-06-07",
+    "service": "Amazon DynamoDB",
+    "cost_usd": 1.1515,
+    "is_anomaly": false
+  },
+  {
+    "date": "2026-06-07",
+    "service": "Amazon EC2",
+    "cost_usd": 14.6656,
+    "is_anomaly": false
+  },
+  {
+    "date": "2026-06-07",
+    "service": "Amazon RDS",
+    "cost_usd": 9.3641,
+    "is_anomaly": false
+  },
+  {
+    "date": "2026-06-07",
+    "service": "Amazon S3",
+    "cost_usd": 3.0562,
+    "is_anomaly": false
+  },
+  {
+    "date": "2026-06-08",
+    "service": "AWS Data Transfer",
+    "cost_usd": 4.5098,
+    "is_anomaly": false
+  },
+  {
+    "date": "2026-06-08",
+    "service": "AWS Lambda",
+    "cost_usd": 0.7988,
+    "is_anomaly": false
+  },
+  {
+    "date": "2026-06-08",
+    "service": "Amazon CloudFront",
+    "cost_usd": 1.9704,
+    "is_anomaly": false
+  },
+  {
+    "date": "2026-06-08",
+    "service": "Amazon DynamoDB",
+    "cost_usd": 1.4218,
+    "is_anomaly": false
+  },
+  {
     "date": "2026-06-08",
     "service": "Amazon EC2",
-    "cost_usd": 18.7391,
+    "cost_usd": 16.8358,
     "is_anomaly": false
   },
   {
     "date": "2026-06-08",
     "service": "Amazon RDS",
-    "cost_usd": 12.1255,
+    "cost_usd": 11.7575,
     "is_anomaly": false
   },
   {
     "date": "2026-06-08",
     "service": "Amazon S3",
-    "cost_usd": 4.2616,
+    "cost_usd": 3.5775,
+    "is_anomaly": false
+  },
+  {
+    "date": "2026-06-09",
+    "service": "AWS Data Transfer",
+    "cost_usd": 3.8364,
+    "is_anomaly": false
+  },
+  {
+    "date": "2026-06-09",
+    "service": "AWS Lambda",
+    "cost_usd": 0.7358,
+    "is_anomaly": false
+  },
+  {
+    "date": "2026-06-09",
+    "service": "Amazon CloudFront",
+    "cost_usd": 2.3179,
+    "is_anomaly": false
+  },
+  {
+    "date": "2026-06-09",
+    "service": "Amazon DynamoDB",
+    "cost_usd": 1.5057,
+    "is_anomaly": false
+  },
+  {
+    "date": "2026-06-09",
+    "service": "Amazon EC2",
+    "cost_usd": 17.2775,
+    "is_anomaly": false
+  },
+  {
+    "date": "2026-06-09",
+    "service": "Amazon RDS",
+    "cost_usd": 10.8021,
+    "is_anomaly": false
+  },
+  {
+    "date": "2026-06-09",
+    "service": "Amazon S3",
+    "cost_usd": 3.7316,
+    "is_anomaly": false
+  },
+  {
+    "date": "2026-06-10",
+    "service": "AWS Data Transfer",
+    "cost_usd": 3.6833,
+    "is_anomaly": false
+  },
+  {
+    "date": "2026-06-10",
+    "service": "AWS Lambda",
+    "cost_usd": 0.7988,
+    "is_anomaly": false
+  },
+  {
+    "date": "2026-06-10",
+    "service": "Amazon CloudFront",
+    "cost_usd": 2.2645,
+    "is_anomaly": false
+  },
+  {
+    "date": "2026-06-10",
+    "service": "Amazon DynamoDB",
+    "cost_usd": 1.3968,
+    "is_anomaly": false
+  },
+  {
+    "date": "2026-06-10",
+    "service": "Amazon EC2",
+    "cost_usd": 19.3182,
+    "is_anomaly": false
+  },
+  {
+    "date": "2026-06-10",
+    "service": "Amazon RDS",
+    "cost_usd": 13.5671,
+    "is_anomaly": false
+  },
+  {
+    "date": "2026-06-10",
+    "service": "Amazon S3",
+    "cost_usd": 3.5036,
+    "is_anomaly": false
+  },
+  {
+    "date": "2026-06-11",
+    "service": "AWS Data Transfer",
+    "cost_usd": 3.9597,
+    "is_anomaly": false
+  },
+  {
+    "date": "2026-06-11",
+    "service": "AWS Lambda",
+    "cost_usd": 0.7815,
+    "is_anomaly": false
+  },
+  {
+    "date": "2026-06-11",
+    "service": "Amazon CloudFront",
+    "cost_usd": 2.0346,
+    "is_anomaly": false
+  },
+  {
+    "date": "2026-06-11",
+    "service": "Amazon DynamoDB",
+    "cost_usd": 1.4539,
+    "is_anomaly": false
+  },
+  {
+    "date": "2026-06-11",
+    "service": "Amazon EC2",
+    "cost_usd": 18.4734,
+    "is_anomaly": false
+  },
+  {
+    "date": "2026-06-11",
+    "service": "Amazon RDS",
+    "cost_usd": 10.6271,
+    "is_anomaly": false
+  },
+  {
+    "date": "2026-06-11",
+    "service": "Amazon S3",
+    "cost_usd": 3.907,
+    "is_anomaly": false
+  },
+  {
+    "date": "2026-06-12",
+    "service": "AWS Data Transfer",
+    "cost_usd": 4.0178,
+    "is_anomaly": false
+  },
+  {
+    "date": "2026-06-12",
+    "service": "AWS Lambda",
+    "cost_usd": 0.8207,
+    "is_anomaly": false
+  },
+  {
+    "date": "2026-06-12",
+    "service": "Amazon CloudFront",
+    "cost_usd": 2.1096,
+    "is_anomaly": false
+  },
+  {
+    "date": "2026-06-12",
+    "service": "Amazon DynamoDB",
+    "cost_usd": 1.6208,
+    "is_anomaly": false
+  },
+  {
+    "date": "2026-06-12",
+    "service": "Amazon EC2",
+    "cost_usd": 17.2371,
+    "is_anomaly": false
+  },
+  {
+    "date": "2026-06-12",
+    "service": "Amazon RDS",
+    "cost_usd": 11.5776,
+    "is_anomaly": false
+  },
+  {
+    "date": "2026-06-12",
+    "service": "Amazon S3",
+    "cost_usd": 3.4259,
+    "is_anomaly": false
+  },
+  {
+    "date": "2026-06-13",
+    "service": "AWS Data Transfer",
+    "cost_usd": 3.6976,
+    "is_anomaly": false
+  },
+  {
+    "date": "2026-06-13",
+    "service": "AWS Lambda",
+    "cost_usd": 0.635,
+    "is_anomaly": false
+  },
+  {
+    "date": "2026-06-13",
+    "service": "Amazon CloudFront",
+    "cost_usd": 1.7115,
+    "is_anomaly": false
+  },
+  {
+    "date": "2026-06-13",
+    "service": "Amazon DynamoDB",
+    "cost_usd": 1.2162,
+    "is_anomaly": false
+  },
+  {
+    "date": "2026-06-13",
+    "service": "Amazon EC2",
+    "cost_usd": 15.9282,
+    "is_anomaly": false
+  },
+  {
+    "date": "2026-06-13",
+    "service": "Amazon RDS",
+    "cost_usd": 10.3067,
+    "is_anomaly": false
+  },
+  {
+    "date": "2026-06-13",
+    "service": "Amazon S3",
+    "cost_usd": 3.6224,
     "is_anomaly": false
   }
 ]
