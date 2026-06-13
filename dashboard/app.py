@@ -6,11 +6,11 @@ sys.path.append(
 
 import streamlit as st
 import plotly.express as px
+import plotly.graph_objects as go
 import pandas as pd
 
 from analysis.analyzer import generate_report
 from ingestion.mock_data import save_mock_data
-
 
 
 if not os.path.exists("data/raw_costs.json"):
@@ -19,78 +19,199 @@ if not os.path.exists("data/raw_costs.json"):
 # ── Page config ───────────────────────────────────────────────
 
 st.set_page_config(
-    page_title="Cloud Cost Intelligence",
-    page_icon="☁️",
+    page_title="CloudCostBot - Dashboard",
+    page_icon="▣",
     layout="wide",
     initial_sidebar_state="expanded",
 )
 
+# ── Design tokens ────────────────────────────────────────────
+BG = "#0a0c10"
+SURFACE = "#12151c"
+LINE = "#1f2430"
+TEXT = "#e6e9ef"
+MUTED = "#6b7280"
+ACCENT = "#f0b429"
+CRITICAL = "#e25555"
+WARNING = "#e0a23c"
+OK = "#3fb68b"
+SEV_COLORS = {"P1": CRITICAL, "P2": WARNING, "P3": OK}
+
 # ── Custom CSS ────────────────────────────────────────────────
 
-st.markdown("""
+st.markdown(f"""
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&
+family=JetBrains+Mono:wght@400;500;600;700&display=swap" rel="stylesheet">
+
 <style>
-    .main { background-color: #0e1117; }
-    .metric-card {
-        background: #1a1d27;
-        border: 1px solid #2d3748;
-        border-radius: 10px;
-        padding: 1rem 1.25rem;
-        margin-bottom: 0.5rem;
-    }
-    .metric-value {
-        font-size: 2rem;
+    html, body, [class*="css"] {{
+        font-family: 'Inter', sans-serif;
+    }}
+    .main, .stApp {{ background-color: {BG}; }}
+
+    /* Kill default Streamlit padding bloat */
+    .block-container {{ padding-top: 4rem; padding-bottom: 3rem; }}
+
+    /* ── Header ── */
+    .lc-title {{
+        font-family: 'JetBrains Mono', monospace;
+        font-size: 1.6rem;
+        font-weight: 700;
+        color: {TEXT};
+        letter-spacing: -0.02em;
+        margin-bottom: 0;
+        text-align: center;
+    }}
+    .lc-subtitle {{
+        font-family: 'JetBrains Mono', monospace;
+        font-size: 0.78rem;
+        color: {MUTED};
+        margin-top: 0.25rem;
+        letter-spacing: 0.02em;
+        text-align: center;
+    }}
+
+    /* ── Section labels ── */
+    .lc-section {{
+        font-family: 'JetBrains Mono', monospace;
+        font-size: 0.72rem;
         font-weight: 600;
-        color: #ffffff;
-        margin: 0;
-    }
-    .metric-label {
-        font-size: 0.8rem;
-        color: #718096;
+        color: {MUTED};
         text-transform: uppercase;
+        letter-spacing: 0.18em;
+        margin: 2.25rem 0 0.9rem 0;
+        padding-bottom: 0.5rem;
+        border-bottom: 1px solid {LINE};
+    }}
+
+    /* ── Ledger row (KPI / recommendations) ── */
+    .lc-row {{
+        display: flex;
+        justify-content: space-between;
+        align-items: baseline;
+        padding: 0.85rem 0;
+        border-bottom: 1px solid {LINE};
+    }}
+    .lc-row:first-child {{ border-top: 1px solid {LINE}; }}
+    .lc-row-label {{
+        font-size: 0.85rem;
+        color: {MUTED};
+        font-weight: 500;
+    }}
+    .lc-row-value {{
+        font-family: 'JetBrains Mono', monospace;
+        font-size: 1.05rem;
+        font-weight: 600;
+        color: {TEXT};
+        text-align: right;
+    }}
+    .lc-row-delta {{
+        font-family: 'JetBrains Mono', monospace;
+        font-size: 0.78rem;
+        color: {MUTED};
+        margin-left: 0.6rem;
+    }}
+    .lc-delta-up {{ color: {CRITICAL}; }}
+    .lc-delta-down {{ color: {OK}; }}
+
+    /* ── Anomaly entries ── */
+    .lc-anomaly {{
+        display: flex;
+        gap: 0.75rem;
+        padding: 0.6rem 0;
+        border-bottom: 1px solid {LINE};
+        font-size: 0.85rem;
+        align-items: flex-start;
+    }}
+    .lc-anomaly:first-child {{ border-top: 1px solid {LINE}; }}
+    .lc-tag {{
+        font-family: 'JetBrains Mono', monospace;
+        font-size: 0.68rem;
+        font-weight: 700;
+        padding: 0.15rem 0.45rem;
+        border: 1px solid currentColor;
+        border-radius: 2px;
+        white-space: nowrap;
         letter-spacing: 0.05em;
-        margin: 0;
-    }
-    .anomaly-p1 {
-        background: #2d1515;
-        border-left: 3px solid #e53e3e;
-        padding: 0.5rem 0.75rem;
-        border-radius: 0 6px 6px 0;
-        margin-bottom: 0.4rem;
-        font-size: 0.85rem;
-    }
-    .anomaly-p2 {
-        background: #2d2415;
-        border-left: 3px solid #dd6b20;
-        padding: 0.5rem 0.75rem;
-        border-radius: 0 6px 6px 0;
-        margin-bottom: 0.4rem;
-        font-size: 0.85rem;
-    }
-    .anomaly-p3 {
-        background: #1a2d1a;
-        border-left: 3px solid #38a169;
-        padding: 0.5rem 0.75rem;
-        border-radius: 0 6px 6px 0;
-        margin-bottom: 0.4rem;
-        font-size: 0.85rem;
-    }
-    .section-header {
-        font-size: 1rem;
+        flex-shrink: 0;
+        margin-top: 0.05rem;
+    }}
+    .lc-anomaly-text {{ color: {TEXT}; line-height: 1.5; }}
+
+    /* ── Recommendation rows ── */
+    .lc-rec {{
+        border: 1px solid {LINE};
+        padding: 1rem 1.1rem;
+        height: 100%;
+    }}
+    .lc-rec-service {{
+        font-family: 'JetBrains Mono', monospace;
+        font-size: 0.72rem;
         font-weight: 600;
-        color: #a0aec0;
+        color: {ACCENT};
         text-transform: uppercase;
-        letter-spacing: 0.08em;
+        letter-spacing: 0.12em;
+        margin-bottom: 0.6rem;
+    }}
+    .lc-rec-tip {{
+        font-size: 0.85rem;
+        color: {TEXT};
+        line-height: 1.55;
         margin-bottom: 0.75rem;
-        margin-top: 1.5rem;
-    }
-    div[data-testid="stMetric"] {
-        background: #1a1d27;
-        border: 1px solid #2d3748;
-        border-radius: 10px;
-        padding: 1rem;
-    }
+    }}
+    .lc-rec-saving {{
+        font-family: 'JetBrains Mono', monospace;
+        font-size: 0.8rem;
+        color: {OK};
+        border-top: 1px solid {LINE};
+        padding-top: 0.6rem;
+    }}
+
+    /* ── Sidebar ── */
+    section[data-testid="stSidebar"] {{
+        background-color: {SURFACE};
+        border-right: 1px solid {LINE};
+    }}
+    section[data-testid="stSidebar"] * {{ color: {TEXT}; }}
+    .lc-sidebar-title {{
+        font-family: 'JetBrains Mono', monospace;
+        font-weight: 700;
+        font-size: 1rem;
+        letter-spacing: -0.01em;
+    }}
+    .lc-sidebar-meta {{
+        font-family: 'JetBrains Mono', monospace;
+        font-size: 0.7rem;
+        color: {MUTED};
+        line-height: 1.7;
+    }}
+
+    /* ── Footer ── */
+    .lc-footer {{
+        font-family: 'JetBrains Mono', monospace;
+        font-size: 0.7rem;
+        color: {MUTED};
+        text-align: center;
+        letter-spacing: 0.05em;
+        padding-top: 1.5rem;
+    }}
+
+    hr {{ border-color: {LINE}; }}
 </style>
 """, unsafe_allow_html=True)
+
+
+# ── Plotly base template ───────────────────────────────────────
+PLOTLY_LAYOUT = dict(
+    paper_bgcolor=BG,
+    plot_bgcolor=BG,
+    font=dict(family="Inter, sans-serif", color=MUTED, size=12),
+    margin=dict(l=0, r=0, t=10, b=0),
+    xaxis=dict(showgrid=False, linecolor=LINE, tickfont=dict(color=MUTED)),
+    yaxis=dict(showgrid=True, gridcolor=LINE, zeroline=False,
+               tickfont=dict(color=MUTED)),
+)
 
 
 # ── Data loading with caching ─────────────────────────────────
@@ -102,10 +223,6 @@ def load_report():
 
 @st.cache_data(ttl=300)
 def load_weekly_df(report):
-    """
-    Convert the weekly_data list from the report into a DataFrame.
-    Cached separately so chart filters don't re-run the full pipeline.
-    """
     df = pd.DataFrame(report["weekly_data"])
     df["week_start"] = pd.to_datetime(df["week_start"])
     df["weekly_cost"] = df["weekly_cost"].astype(float)
@@ -121,84 +238,105 @@ all_services = sorted(weekly_df["service"].unique().tolist())
 # ── Sidebar ───────────────────────────────────────────────────
 
 with st.sidebar:
-    st.markdown("## ☁️ Cloud Cost Intelligence")
+    st.markdown(
+        '<div class="lc-sidebar-title">CloudCostBot</div>',
+        unsafe_allow_html=True,
+    )
+    st.markdown(
+        '<div class="lc-sidebar-meta">v1.0 · AWS Cost Explorer</div>',
+        unsafe_allow_html=True,
+    )
     st.markdown("---")
 
-    st.markdown("### Filters")
+    st.markdown(
+        '<div class="lc-section" style="margin-top:0">Filters</div>',
+        unsafe_allow_html=True,
+    )
     selected_services = st.multiselect(
         "Services",
         options=all_services,
         default=all_services,
-        help="Select which AWS services to display"
+        label_visibility="collapsed",
     )
 
-    st.markdown("---")
-    st.markdown("### About")
+    st.markdown(
+        '<div class="lc-section">Detection</div>',
+        unsafe_allow_html=True,
+    )
     st.markdown("""
-    **Stack**
-    - Python 3.11
-    - AWS Cost Explorer API
-    - Pandas anomaly detection
-    - Plotly + Streamlit
+    <div class="lc-sidebar-meta">
+    METHODS<br>
+    &nbsp;&nbsp;daily z-score (14d rolling)<br>
+    &nbsp;&nbsp;weekly WoW % delta<br><br>
+    SEVERITY<br>
+    &nbsp;&nbsp;P1 — critical spike<br>
+    &nbsp;&nbsp;P2 — elevated spend<br>
+    &nbsp;&nbsp;P3 — minor anomaly
+    </div>
+    """, unsafe_allow_html=True)
 
-    **Detection methods**
-    - Daily z-score (rolling 14d)
-    - Weekly WoW % delta
-
-    **Severity levels**
-    - 🔴 P1 — Critical spike
-    - 🟡 P2 — Elevated spend
-    - 🟢 P3 — Minor anomaly
-    """)
+    st.markdown(
+        '<div class="lc-section">Stack</div>',
+        unsafe_allow_html=True,
+    )
+    st.markdown("""
+    <div class="lc-sidebar-meta">
+    Python 3.11 · Pandas<br>
+    AWS Cost Explorer API<br>
+    Plotly · Streamlit
+    </div>
+    """, unsafe_allow_html=True)
 
     st.markdown("---")
-    if st.button("🔄 Refresh Data"):
+    if st.button("Refresh data", use_container_width=True):
         st.cache_data.clear()
         st.rerun()
 
 
 # ── Header ────────────────────────────────────────────────────
-st.markdown("# ☁️ Cloud Cost Intelligence Dashboard")
+st.markdown('<div class="lc-title">CloudCostBot - Dashboard</div>',
+            unsafe_allow_html=True)
 st.markdown(
-    f"*Last updated: {report['generated_at'][:19]} · "
-    f"Covering last 90 days · "
-    f"{len(all_services)} AWS services monitored*"
+    f'<div class="lc-subtitle">'
+    f'LAST UPDATED {report["generated_at"][:19]}  ·  '
+    f'90-DAY WINDOW  ·  '
+    f'{len(all_services)} SERVICES MONITORED'
+    f'</div>',
+    unsafe_allow_html=True,
 )
-st.markdown("---")
 
 
-# ── KPI metric row ────────────────────────────────────────────
+# ── KPI ledger row ────────────────────────────────────────────
 
-col1, col2, col3, col4 = st.columns(4)
+top_service, top_cost = report["top_3_cost_drivers"][0]
+avg_daily = report["total_spend_usd"] / 90
+top_short = top_service.replace("Amazon ", "").replace("AWS ", "")
 
-with col1:
-    st.metric(
-        label="💰 Total Spend (90d)",
-        value=f"${report['total_spend_usd']:,.2f}",
-    )
-with col2:
-    st.metric(
-        label="🚨 Daily Spikes Detected",
-        value=report["daily_spike_count"],
-        delta=f"{report['daily_spike_count']} anomalies",
-        delta_color="inverse",
-    )
-with col3:
-    top_service, top_cost = report["top_3_cost_drivers"][0]
-    st.metric(
-        label="📈 Top Cost Driver",
-        value=top_service.replace("Amazon ", "").replace("AWS ", ""),
-        delta=f"${top_cost:,.2f}",
-        delta_color="off",
-    )
-with col4:
-    avg_daily = report["total_spend_usd"] / 90
-    st.metric(
-        label="📅 Avg Daily Spend",
-        value=f"${avg_daily:,.2f}",
-    )
+st.markdown('<div class="lc-section">Overview</div>', unsafe_allow_html=True)
 
-st.markdown("---")
+kpi_rows = f"""
+<div class="lc-row">
+    <span class="lc-row-label">Total spend (90d)</span>
+    <span class="lc-row-value">${report['total_spend_usd']:,.2f}</span>
+</div>
+<div class="lc-row">
+    <span class="lc-row-label">Average daily spend</span>
+    <span class="lc-row-value">${avg_daily:,.2f}</span>
+</div>
+<div class="lc-row">
+    <span class="lc-row-label">Top cost driver</span>
+    <span class="lc-row-value">{top_short}
+        <span class="lc-row-delta">${top_cost:,.2f}</span>
+    </span>
+</div>
+<div class="lc-row">
+    <span class="lc-row-label">Daily spikes detected</span>
+    <span class="lc-row-value">{report['daily_spike_count']}
+        <span class="lc-row-delta lc-delta-up">anomalies</span>
+    </span>
+</div>
+"""
+st.markdown(kpi_rows, unsafe_allow_html=True)
 
 
 # ── Filter weekly data ────────────────────────────────────────
@@ -207,7 +345,7 @@ filtered_df = weekly_df[weekly_df["service"].isin(selected_services)]
 
 # ── Chart 1: Total spend trend over time ─────────────────────
 
-st.markdown('<p class="section-header">📈 Weekly Spend Trend</p>',
+st.markdown('<div class="lc-section">Weekly Spend Trend</div>',
             unsafe_allow_html=True)
 
 trend_df = (
@@ -217,78 +355,74 @@ trend_df = (
     .rename(columns={"weekly_cost": "total_weekly_cost"})
 )
 
-fig_trend = px.area(
-    trend_df,
-    x="week_start",
-    y="total_weekly_cost",
-    labels={"week_start": "Week", "total_weekly_cost": "Total Cost (USD)"},
-    color_discrete_sequence=["#4299e1"],
-    template="plotly_dark",
-)
+fig_trend = go.Figure()
+fig_trend.add_trace(go.Scatter(
+    x=trend_df["week_start"],
+    y=trend_df["total_weekly_cost"],
+    mode="lines",
+    line=dict(width=2, color=ACCENT),
+    fill="tozeroy",
+    fillcolor="rgba(240, 180, 41, 0.08)",
+    hovertemplate="%{x|%b %d}<br>$%{y:,.2f}<extra></extra>",
+))
 fig_trend.update_layout(
-    paper_bgcolor="#0e1117",
-    plot_bgcolor="#0e1117",
-    margin=dict(l=0, r=0, t=10, b=0),
-    height=300,
+    **PLOTLY_LAYOUT,
+    height=280,
     hovermode="x unified",
     showlegend=False,
-)
-fig_trend.update_traces(
-    fill="tozeroy",
-    fillcolor="rgba(66, 153, 225, 0.15)",
-    line=dict(width=2),
+    yaxis_title=None,
+    xaxis_title=None,
 )
 st.plotly_chart(fig_trend, use_container_width=True)
 
 
 # ── Chart 2: Per-service breakdown ───────────────────────────
 
-st.markdown('<p class="section-header">📊 Spend by Service (Weekly)</p>',
+st.markdown('<div class="lc-section">Spend by Service (Weekly)</div>',
             unsafe_allow_html=True)
+
+SERVICE_PALETTE = [
+    "#f0b429", "#3fb68b", "#5b8def", "#e25555",
+    "#9b7ede", "#4dd0e1", "#e08e3e",
+]
 
 fig_bar = px.bar(
     filtered_df,
     x="week_start",
     y="weekly_cost",
     color="service",
-    labels={
-        "week_start": "Week", "weekly_cost": "Cost (USD)", "service": "Service"
-        },
-    template="plotly_dark",
-    color_discrete_sequence=px.colors.qualitative.Set2,
+    labels={"week_start": "", "weekly_cost": "", "service": "Service"},
+    color_discrete_sequence=SERVICE_PALETTE,
 )
 fig_bar.update_layout(
-    paper_bgcolor="#0e1117",
-    plot_bgcolor="#0e1117",
-    margin=dict(l=0, r=0, t=10, b=0),
-    height=350,
+    **PLOTLY_LAYOUT,
+    height=320,
     hovermode="x unified",
+    barmode="stack",
     legend=dict(
         orientation="h",
         yanchor="bottom",
         y=1.02,
         xanchor="right",
         x=1,
+        font=dict(color=MUTED, size=11),
+        title=None,
     ),
 )
 st.plotly_chart(fig_bar, use_container_width=True)
 
 
-# ── Two column layout: Anomalies + Service breakdown ─────────
+# ── Two column layout: Anomalies + Cost distribution ─────────
 col_left, col_right = st.columns([1.2, 0.8])
 
 with col_left:
-    # ── Chart 3: Anomaly timeline ─────────────────────────────
-
-    st.markdown('<p class="section-header">🔍 Anomaly Timeline</p>',
+    st.markdown('<div class="lc-section">Anomaly Timeline</div>',
                 unsafe_allow_html=True)
 
     if report["daily_spikes"]:
         spikes_df = pd.DataFrame(report["daily_spikes"])
         spikes_df["date"] = pd.to_datetime(spikes_df["date"])
         spikes_df = spikes_df[spikes_df["service"].isin(selected_services)]
-
-        color_map = {"P1": "#e53e3e", "P2": "#dd6b20", "P3": "#38a169"}
 
         fig_scatter = px.scatter(
             spikes_df,
@@ -297,26 +431,25 @@ with col_left:
             size="cost_usd",
             color="severity",
             hover_data=["cost_usd", "daily_zscore", "summary"],
-            color_discrete_map=color_map,
-            template="plotly_dark",
-            labels={"date": "Date", "service": "Service",
-                    "cost_usd": "Cost (USD)"},
+            color_discrete_map=SEV_COLORS,
+            labels={"date": "", "service": ""},
         )
         fig_scatter.update_layout(
-            paper_bgcolor="#0e1117",
-            plot_bgcolor="#0e1117",
-            margin=dict(l=0, r=0, t=10, b=0),
+            **PLOTLY_LAYOUT,
             height=300,
-            legend=dict(title="Severity"),
+            legend=dict(title=None, font=dict(color=MUTED, size=11)),
         )
         st.plotly_chart(fig_scatter, use_container_width=True)
     else:
-        st.success("✅ No anomalies detected in the selected period.")
+        st.markdown(
+            f'<div style="color:{OK};font-family:JetBrains Mono,monospace;'
+            f'font-size:0.85rem;padding:1rem 0;">'
+            f'No anomalies detected in the selected period.</div>',
+            unsafe_allow_html=True,
+        )
 
 with col_right:
-    # ── Chart 4: Service cost share pie ──────────────────────
-
-    st.markdown('<p class="section-header">🥧 Cost Distribution</p>',
+    st.markdown('<div class="lc-section">Cost Distribution</div>',
                 unsafe_allow_html=True)
 
     service_costs = {
@@ -334,90 +467,83 @@ with col_right:
         pie_df,
         values="cost",
         names="service_short",
-        template="plotly_dark",
-        color_discrete_sequence=px.colors.qualitative.Set2,
-        hole=0.4,
+        color_discrete_sequence=SERVICE_PALETTE,
+        hole=0.55,
     )
     fig_pie.update_layout(
-        paper_bgcolor="#0e1117",
-        plot_bgcolor="#0e1117",
-        margin=dict(l=0, r=0, t=10, b=0),
+        **PLOTLY_LAYOUT,
         height=300,
         showlegend=True,
-        legend=dict(font=dict(size=10)),
+        legend=dict(font=dict(color=MUTED, size=10), title=None),
     )
-    fig_pie.update_traces(textposition="inside", textinfo="percent")
+    fig_pie.update_traces(
+        textposition="inside",
+        textinfo="percent",
+        marker=dict(line=dict(color=BG, width=2)),
+    )
     st.plotly_chart(fig_pie, use_container_width=True)
 
 
-st.markdown("---")
+# ── Anomaly detail entries ────────────────────────────────────
 
-
-# ── Anomaly detail cards ──────────────────────────────────────
-
-st.markdown('<p class="section-header">🚨 Anomaly Detail</p>',
+st.markdown('<div class="lc-section">Anomaly Detail</div>',
             unsafe_allow_html=True)
 
 all_anomalies = report["daily_spikes"]
-if all_anomalies:
-    p1 = [a for a in all_anomalies if a["severity"] == "P1"
-          and a["service"] in selected_services]
-    p2 = [a for a in all_anomalies if a["severity"] == "P2"
-          and a["service"] in selected_services]
-    p3 = [a for a in all_anomalies if a["severity"] == "P3"
-          and a["service"] in selected_services]
-    for anomaly in p1:
-        st.markdown(
-            f'<div class="anomaly-p1">🔴 <strong>P1</strong> — '
-            f'{anomaly["summary"]}</div>',
-            unsafe_allow_html=True,
-        )
-    for anomaly in p2:
-        st.markdown(
-            f'<div class="anomaly-p2">🟡 <strong>P2</strong> — '
-            f'{anomaly["summary"]}</div>',
-            unsafe_allow_html=True,
-        )
-    for anomaly in p3:
-        st.markdown(
-            f'<div class="anomaly-p3">🟢 <strong>P3</strong> — '
-            f'{anomaly["summary"]}</div>',
-            unsafe_allow_html=True,
-        )
-else:
-    st.success("✅ No anomalies detected.")
+relevant = [a for a in all_anomalies if a["service"] in selected_services]
 
-st.markdown("---")
+if relevant:
+    order = {"P1": 0, "P2": 1, "P3": 2}
+    relevant.sort(key=lambda a: order.get(a["severity"], 3))
+    rows = ""
+    for a in relevant:
+        sev = a["severity"]
+        color = SEV_COLORS.get(sev, MUTED)
+        rows += (
+            f'<div class="lc-anomaly">'
+            f'<span class="lc-tag" style="color:{color}">{sev}</span>'
+            f'<span class="lc-anomaly-text">{a["summary"]}</span>'
+            f'</div>'
+        )
+    st.markdown(rows, unsafe_allow_html=True)
+else:
+    st.markdown(
+        f'<div style="color:{OK};font-family:JetBrains Mono,monospace;'
+        f'font-size:0.85rem;padding:1rem 0;">'
+        f'No anomalies detected.</div>',
+        unsafe_allow_html=True,
+    )
 
 
 # ── Savings recommendations ───────────────────────────────────
-st.markdown('<p class="section-header">💡 Savings Recommendations</p>',
+
+st.markdown('<div class="lc-section">Savings Recommendations</div>',
             unsafe_allow_html=True)
 
 service_tips = {
     "Amazon EC2":
         ("Review EC2 instance sizes — Reserved Instances for steady "
-         "workloads save up to 72%.", "$200–400/mo potential saving"),
+         "workloads save up to 72%.", "$200-400/mo potential saving"),
     "Amazon RDS":
         ("Consider Aurora Serverless for variable workloads or "
          "right-size your RDS instance class.",
-         "$100–250/mo potential saving"),
+         "$100-250/mo potential saving"),
     "Amazon S3":
         ("Enable S3 Intelligent-Tiering for infrequently accessed "
-         "data.", "$20–80/mo potential saving"),
+         "data.", "$20-80/mo potential saving"),
     "AWS Data Transfer":
         ("Use VPC endpoints to reduce cross-region egress costs.",
-         "$30–100/mo potential saving"),
+         "$30-100/mo potential saving"),
     "Amazon CloudFront":
         ("Audit unused distributions and optimize cache TTLs.",
-         "$10–50/mo potential saving"),
+         "$10-50/mo potential saving"),
     "Amazon DynamoDB":
         ("Switch to on-demand pricing if traffic is unpredictable.",
-         "$15–60/mo potential saving"),
+         "$15-60/mo potential saving"),
     "AWS Lambda":
         ("Right-size Lambda memory allocation — less memory often "
          "means lower cost and similar duration.",
-         "$5–30/mo potential saving"),
+         "$5-30/mo potential saving"),
 }
 
 rec_cols = st.columns(3)
@@ -429,20 +555,18 @@ for i, svc in enumerate(top_services[:3]):
     short = svc.replace("Amazon ", "").replace("AWS ", "")
     with rec_cols[i]:
         st.markdown(f"""
-<div class="metric-card">
-  <p class="metric-label">{short}</p>
-  <p style="font-size:0.85rem;color:#cbd5e0;margin:0.5rem 0">{tip}</p>
-  <p style="font-size:0.8rem;color:#48bb78;margin:0">💚 {saving}</p>
+<div class="lc-rec">
+  <div class="lc-rec-service">{short}</div>
+  <div class="lc-rec-tip">{tip}</div>
+  <div class="lc-rec-saving">{saving}</div>
 </div>
 """, unsafe_allow_html=True)
 
 
 # ── Footer ────────────────────────────────────────────────────
-st.markdown("---")
 st.markdown(
-    "<p style='text-align:center;color:#4a5568;font-size:0.8rem'>"
-    "☁️ Cloud Cost Intelligence Dashboard · "
-    "Built with Python, AWS, Pandas, Plotly & Streamlit · "
-    "Mihir Srivastava</p>",
+    '<div class="lc-footer">CloudCostBot · '
+    'PYTHON · AWS · PANDAS · PLOTLY · STREAMLIT · '
+    'MIHIR SRIVASTAVA</div>',
     unsafe_allow_html=True,
 )
